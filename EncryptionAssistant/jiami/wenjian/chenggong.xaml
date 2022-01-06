@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="EncryptionAssistant.jiami.wenjian.chenggong"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.jiami.wenjian"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00000000">
+
+    <ScrollViewer>
+
+        <RelativePanel>
+            <TextBlock x:Name="textblock1" Text="加密成功"
+                       x:Uid="/jia_chenggong/textblock1"
+                       FontSize="25" FontWeight="Bold" TextAlignment="Center"
+                       RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock x:Name="tubiao" Text="&#xED56;"
+                   FontSize="200" FontFamily="Segoe MDL2 Assets"
+                   RelativePanel.Below="reInfor" Margin="0,60,0,0"
+                   RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <RelativePanel RelativePanel.Below="textblock1" RelativePanel.AlignHorizontalCenterWith="textblock1"
+                       Margin="0,60,0,0" x:Name="reInfor">
+                <TextBlock x:Name="textblock2" Text="加密文件总数："                       
+                           x:Uid="/jia_chenggong/textblock2"
+                           Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock3" Text="3620"
+                    RelativePanel.RightOf="textblock2"
+                   Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock4" Text="加密文件总共大小："
+                           RelativePanel.Below="textblock2" RelativePanel.AlignLeftWith="textblock2"
+                           x:Uid="/jia_chenggong/textblock4"
+                            Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock5" Text="10.36 GB" 
+                   RelativePanel.Below="textblock2" RelativePanel.RightOf="textblock4"
+                    Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock6" Text="已用时间："
+                           RelativePanel.Below="textblock4" RelativePanel.AlignLeftWith="textblock2"
+                           x:Uid="/jia_chenggong/textblock6"
+                           Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock7" Text="21：23" 
+                   RelativePanel.Below="textblock4" RelativePanel.RightOf="textblock6"
+                  Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock8" Text="平均速度："
+                           RelativePanel.Below="textblock6" RelativePanel.AlignLeftWith="textblock2"
+                           x:Uid="/jia_chenggong/textblock8"
+                           Margin="0,5,0,0"/>
+                <TextBlock x:Name="textblock9" Text="26.26 M/S"
+                   RelativePanel.Below="textblock6" RelativePanel.RightOf="textblock8"
+                   Margin="0,5,0,0"/>
+            </RelativePanel>
+            <Button x:Name="xiayibu" Margin="0,0,40,30"
+                    RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
+                    Click="Button_Click" Background="{ThemeResource SystemAccentColor}"
+                Style="{StaticResource ButtonRevealStyle}" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="textblock16" VerticalAlignment="Center"
+                               x:Uid="/jia_chenggong/textblock16"
+                               Text="完成" />
+                    <TextBlock x:Name="textblock17" Margin="5,0,0,0" VerticalAlignment="Center"
+                                FontFamily="Segoe MDL2 Assets" Text="&#xE00F;"/>
+                </StackPanel>
+            </Button>
+        </RelativePanel>
+    </ScrollViewer>
+</Page>

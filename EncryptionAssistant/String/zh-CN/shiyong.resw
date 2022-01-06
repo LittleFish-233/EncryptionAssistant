@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>密匙</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES（Data Encryption Standard）：对称算法，数据加密标准，速度较快，适用于加密大量数据的场合；</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>3DES（Triple DES）：是基于DES的对称算法，对一块数据用三个不同的密钥进行三次加密，强度更高；</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2和RC4：对称算法，用变长密钥对大量数据进行加密，比 DES 快；</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>AES（Advanced Encryption Standard）：高级加密标准，对称算法，是下一代的加密算法标准，速度快，安全级别高，在21世纪AES 标准的一个实现是 Rijndael 算法；</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>注意：推荐使用AES 192位进行加密，安全高效。由于技术限制全部使用电子密码本（ECB）模式，可能会降低安全性能，机密文件请使用Win32的加密软件。敬请期待后续更新。</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>概念：这里的密码并不会影响文件整体的加密情况，也就是说无论密码是什么，加密后的文件本质都是一样的。因此密码只在这个应用内部作为验证身份的功能而不能保护文件，要想保护文件请修改密匙。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>设置密码：（1）输入密码（2）单击使用（3）再次输入密码（4）单机确认（5）设置成功（6）提示密码错误后可以重新输入，提示三次后可以重新设置密码，注意观察密码输入框上方文字</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>注意：存储密码时会使用一样的加密算法和密匙加密，也就是说提示密码错误的时候可能是 解密算法或解密密匙错误。密码长度没有限制，也可以不输入。</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>密文格式</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>概念：密匙就是属于加密算法的一个密码，其他人必须通过输入这个密匙并使用匹配的解密算法才能解密文件。因为密匙是加密算法的一部分，所以采用何种加密算法决定了密匙的最大长度</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>加密文本后的密文会以类似于##1A2##的开头，请确保全部复制，少了任何一个字符都无法解密，出于安全考虑不讨论其详细的构造。</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>其他关于加密的说明</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1.可以加密的文件大小取决于你的计算机内存大小和体系架构，32位操作系统最高可加密400MB，64位操作系统可加密1GB以上；加密时所需内存大致是文件大小的3倍,如果文件太大会直接卡死，解决办法是强行重启；由于每台设备的性能不一样，我们并没有设置文件大小上限；为了正常解密请不要加密处于临界值大小的文件（测试机器性能：Intel(R)Core(TM)i5-5200U CPU@ 2.20GHz2.20GHz,RAM 8GB,Windows 10(x64)专业版 17763.253）</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2.提醒文件被加密：加密后的文件后缀名会被修改为.lfjia ，解密后恢复正常。双击解密功能正在开发中</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3.记录加密信息：加密文件中会记录加密算法和密匙，解密时尽管输入的是错误的算法或密匙，也会正常解密，但是密码输入错误后会中止解密。</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4.删除源文件：勾选后删除的文件不会出现在回收站中，请三思后启用</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5.双重加密：此功能是为了回应（Jin Fan kingium@outlook.com）的质疑。1.4.12版本经过开发人员的大量测试，不存在替换加密密匙或密码的情况。现在引入这个功能更是否决了这个可能性。</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6.此应用调用UWP自带API，正在自研加密/解密C++库</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>7.批量加密后的文件将会按照原文件夹顺序层次排放，但是会把保存到的文件夹默认作为第一层存放</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>MD5和哈希算法以及对比文本</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>加密/解密密匙：使用默认密匙加密可以免去你自己输入密匙这个步骤，但是会降低一部分安全性。为了防止文件被其他应用恶意解密，这次不再明文显示默认密匙。从前由于我们的疏忽没有考虑到技术人员恶意使用默认密匙攻击，深感抱歉。每一种加密算法所需要的密匙的位数都会给出，一般情况下将位数除以8就是你要输入的字符长度（我们不担保用中文的后果）比如：56位就要输入7个数字或字母（再比如：123F56A）（准确来说是十六进制数，F以后的字母尽可能不要输）。如果检测到密匙位数多于或少于给定位数，应用会从后向前截断或使用空字符补齐。</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>概念：MD5即Message-Digest Algorithm 5（信息-摘要算法5），用于确保信息传输完整一致。是计算机广泛使用的杂凑算法之一（又译摘要算法、哈希算法），主流编程语言普遍已有MD5实现。将数据（如汉字）运算为另一固定长度值，是杂凑算法的基础原理，MD5的前身有MD2、MD3和MD4。MD5算法具有以下特点：</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1.压缩性：任意长度的数据，算出的MD5值长度都是固定的。</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>2.容易计算：从原数据计算出MD5值很容易。</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3.抗修改性：对原数据进行任何改动，哪怕只修改1个字节，所得到的MD5值都有很大区别。</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>4.强抗碰撞：已知原数据和其MD5值，想找到一个具有相同MD5值的数据（即伪造数据）是非常困难的。</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>MD5的作用是让大容量信息在用数字签名软件签署私人密钥前被 压缩 成一种保密的格式（就是把一个任意长度的字节串变换成一定长的十六进制数字串）哈希算法依次类推。由于时间紧迫没有添加sha3算法，在此表达真挚的歉意.</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>通俗解释：许多下载站会给出文件的sha值，只需要对比下载到的文件的sha值是否和给出的一致，就可以判断文件是否在下载过程中被损坏</value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>对比文件：出于过低的使用频率和时间问题，暂时移除这一功能</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>旧格式文件</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>由于微软的激进更新政策和开发团队有限的精力，现在已经无法编译1.3.711的代码工程，也无法运行1.3.6的本地安装包。但是我们在应用中内置了1.3.711版本的加密/解密页面 访问方式：帮助中心-&gt;存档</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>随机生成：它使用系统的随机数API生成随机密匙，考虑到后续更新我们使用AA开头</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>请尽快将所有加密的旧版本的文件转化成新格式的文件,我们只能在能力范围内维持对旧文件的支持。1.5.23版本为了向下兼容操作系统，文件编码由默认编码换成了UTF-8，极个别出现无法解密提示文件损坏的用户，请联系开发者获取1.5.21测试版</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>应用版本</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>应用使用流畅设计体系，因此Windows 10 版本低于14399的用户会收到另一个安装包1.3.711，这两个安装包的版本不再一致。由于跨越六个大的系统更新，加之本团队能力有限请尽快更新至新版本系统（17763）</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>当前版本包含英语，日语，德语，法语，中文繁体，可以前往系统设置切换语言</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>对于Windows 10 Mobile用户，目前我们已经成功适配到周年更新版本（14399），请升级到最新系统</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>免责声明</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>我们确保对此应用进行了全面测试，但是不担保此应用在任何时候都运行正常，也不担保加密/解密结果的正确性。发生任何问题后请在第一时间联系我们，我们会做出能力范围内的修复和补偿。我们不对翻译的文字的准确性和完整性做出担保，即由于英文的提示说明使你误解并造成了一定损失，我们不承担任何责任</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>关于下载管理</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>这一部分还在开发中，功能十分简陋，还请各位用户以测试的心态去使用。我们计划明年更新磁力链接和种子文件下载功能，希望在这方面有所了解的大佬给我们一些指导，能加快我们的步伐。如果不想让应用进行联网操作，可以到系统设置里拒绝应用网络权限，感谢你的支持</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>注意：同一个加密文本或文件的解密密匙和加密密匙是同一个！请牢记密匙，目前没有找回密匙的方法！</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>我们推荐使用默认密匙并不是出于安全的考虑，而是担心你会忘记密匙从而丢失宝贵文件！！！</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>加密算法（对称式加密技术）</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>概念：数据加密的基本过程就是对原来为明文的文件或数据按某种算法进行处理，使其成为不可读的一段代码，通常称为 密文 ，使其只能在输入相应的密钥之后才能显示出本来内容，通过这样的途径来达到保护数据不被非法人窃取、阅读的目的。 该过程的逆过程为解密，即将该编码信息转化为其原来数据的过程。</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>通俗解释：这就像把你的文件放进一个抽屉并给它上锁，只有用对应的钥匙才能打开这个抽屉（解密），而其他人无法打开这个抽屉，除非通过暴力手段（尝试遍世界上的所有钥匙）</value>
+  </data>
+</root>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="biaoti1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="biaoti2.Text" xml:space="preserve">
+    <value>accueillir</value>
+  </data>
+  <data name="biaoti6.Text" xml:space="preserve">
+    <value>chiffrement</value>
+  </data>
+  <data name="biaoti7.Text" xml:space="preserve">
+    <value>déchiffrer</value>
+  </data>
+  <data name="shengcheng_jia.Content" xml:space="preserve">
+    <value>Génération</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Ce texte ne peut pas être crypté, s'il vous plaît essayer à nouveau</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>Le texte que vous avez entré ne correspond pas au nouveau format, et pour déchiffrer l'ancien texte, visitez Archive</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Ce texte ne peut pas être décrypté, assurez-vous que la clé de déchiffrement et l'algorithme sont corrects</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>Erreur de mot de passe, s'il vous plaît confirmer et essayer à nouveau</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>Besoin d'aide ?</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>Besoin d'aide ?</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>Quoi de neuf - Télécharger La gestion</value>
+  </data>
+  <data name="textlock4.Text" xml:space="preserve">
+    <value>clé</value>
+  </data>
+  <data name="textlock5.Text" xml:space="preserve">
+    <value>automatique</value>
+  </data>
+  <data name="textlock9.Text" xml:space="preserve">
+    <value>algorithme</value>
+  </data>
+</root>

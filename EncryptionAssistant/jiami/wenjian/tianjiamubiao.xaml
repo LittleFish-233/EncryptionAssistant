@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="EncryptionAssistant.jiami.wenjian.tianjiamubiao"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.jiami.wenjian"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00000000">
+    <ScrollViewer>
+        <RelativePanel x:Name="re">
+            <Border AllowDrop="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"
+               Drop="VcBorder_DropAsync"
+               DragOver="VcBorder_DragOver"
+               Background="#00000000" >
+            </Border>
+
+            <TextBlock x:Name="textblock1" Text="添加要加密的文件或文件夹"
+                       x:Uid="/jia_tianjiamubiao/textblock1"
+                       FontSize="25" FontWeight="Bold"
+                       RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <Polygon x:Name="juxing1" Points="10,20,10,10,200,10,210,20" Fill="#404040" StrokeThickness="0"/>
+            <Polygon x:Name="juxing2" Points="230,20,220,10,420,10,430,20" Fill="#808080" StrokeThickness="0"/>
+            <Polygon x:Name="juxing3" Points="450,20,440,10,640,10,650,20"  Fill="#808080" StrokeThickness="0"/>
+            <Polygon x:Name="juxing4" Points="670,20,660,10,860,10,860,20"  Fill="#808080" StrokeThickness="0" HorizontalAlignment="Left" Margin="-1,0,0,0" VerticalAlignment="Center"/>
+
+
+            <TextBlock x:Name="textblock2" Text="将文件或文件夹拖拽到整个页面内即可加密"
+                       x:Uid="/jia_tianjiamubiao/textblock2"
+                       RelativePanel.Below="textblock1" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                       Margin="0,80,0,0"/>
+            <TextBlock x:Name="textblock3" Text="或者" RelativePanel.Below="textblock2" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                       Margin="0,20,0,0" FontWeight="Bold" FontSize="20"
+                       x:Uid="/jia_tianjiamubiao/textblock3"/>
+            <RelativePanel RelativePanel.Below="textblock3" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                       Margin="0,50,0,0">
+                <Button  Margin="0,0,50,0" Click="tianjia_wenjian_ClickAsync"  Padding="20"
+                    x:Name="tianjia_wenjian"  Width="150" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <RelativePanel>
+
+                        <Path Margin="20,0,20,0" x:Name="tubiao1" Data="M 552.6 534.9 h -35.9 V 499 L 552.6 534.9 Z M 474.2 579.2 h -0.3 c -0.1 1.6 -0.4 3.3 -0.9 4.9 l -5.5 19 h 12.9 l -5.4 -18.8 C 474.7 582.8 474.4 581.2 474.2 579.2 Z M 520.3 598.7 c 1 -0.9 1.5 -2.3 1.5 -3.9 c 0 -3.1 -2.1 -4.6 -6.2 -4.6 h -3.2 v 10 h 3.7 C 517.9 600.1 519.3 599.7 520.3 598.7 Z M 517.1 607.2 h -4.7 v 11.1 h 4.6 c 2 0 3.5 -0.5 4.6 -1.5 s 1.7 -2.4 1.7 -4.2 c 0 -1.7 -0.5 -3 -1.6 -4 C 520.6 607.7 519 607.2 517.1 607.2 Z M 552.4 544.2 v 110 H 426.5 v -155 h 80.8 v 45 H 552.4 Z M 499 625.2 l -17.9 -56 h -13.5 l -18.4 56 h 12.3 l 3.6 -12.5 h 17.9 l 3.6 12.5 H 499 Z M 532.3 612.7 c 0 -2.6 -0.8 -4.9 -2.4 -6.7 c -1.6 -1.8 -3.8 -2.9 -6.4 -3.3 v -0.1 c 2.1 -0.7 3.9 -1.8 5.3 -3.5 s 2.1 -3.7 2.1 -5.9 c 0 -3.1 -1.1 -5.5 -3.4 -7.3 s -5.5 -2.6 -9.7 -2.6 h -13.8 v 42 h 14.5 c 4.3 0 7.7 -1.1 10.2 -3.4 S 532.3 616.5 532.3 612.7 Z"
+                          Fill="{ThemeResource SystemAccentColor}"
+                  UseLayoutRounding="False" Stretch="Uniform" />
+                        <TextBlock x:Name="textblock4" Text="添加文件" FontSize="20" FontWeight="Bold"
+                                   Margin="0,20,0,0"
+                                   x:Uid="/jia_tianjiamubiao/textblock4"
+                                   RelativePanel.AlignHorizontalCenterWith="tubiao1" RelativePanel.Below="tubiao1"/>
+                    </RelativePanel>
+
+                </Button>
+                <Button RelativePanel.RightOf="tianjia_wenjian" Click="Button_ClickAsync"
+                    Width="150" Margin="50,0,0,0" Padding="20">
+                    <RelativePanel>
+                        <Path  Margin="20,0,20,0" x:Name="tubiao2" Data="M 979.6 602.7 c -1.1 -1.9 -2.3 -3.7 -3.5 -5.4 c -1.3 -1.7 -2.5 -3.5 -3.5 -5.4 c -1.1 -1.9 -1.6 -4.4 -1.6 -7.5 v -80 c 0 -1.4 -0.5 -2.6 -1.5 -3.6 c -1 -1 -2.2 -1.5 -3.6 -1.5 H 857.3 v 154.9 h 118.7 c 1.4 0 2.6 -0.5 3.6 -1.5 c 1 -1 1.5 -2.2 1.5 -3.6 v -38.7 C 981.2 607.2 980.7 604.7 979.6 602.7 Z M 941.7 556.6 H 912 v 20.6 h 27.2 v 15.4 H 912 v 32.6 h -18.9 v -84 h 48.6 V 556.6 Z" FocusVisualPrimaryBrush="Black" Stretch="Uniform" 
+                      UseLayoutRounding="False" Fill="{ThemeResource SystemAccentColor}" />
+                        <TextBlock x:Name="textblock5" FontSize="20" Text="添加文件夹" FontWeight="Bold"
+                                   x:Uid="/jia_tianjiamubiao/textblock5"
+                                   Margin="0,20,0,0"
+                                   RelativePanel.AlignHorizontalCenterWith="tubiao2" RelativePanel.Below="tubiao2"/>
+                    </RelativePanel>
+                </Button>
+            </RelativePanel>
+        </RelativePanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="EncryptionAssistant.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mux="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+    <mux:NavigationView x:Name="NavView" IsSettingsVisible="False"
+                    SelectionChanged="NavView_SelectionChanged"
+                    PaneDisplayMode="Auto" IsBackButtonVisible="Collapsed">
+        <mux:NavigationView.MenuItems>
+            <mux:NavigationViewItem Content="主页" x:Uid="/MainPage/home" Tag="home" IsSelected="True">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE10F;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>
+            <mux:NavigationViewItemSeparator/>
+            <mux:NavigationViewItem Content="加密文本或文件" x:Uid="/MainPage/jiami" Tag="jiami">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE1F6;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>
+            <mux:NavigationViewItem Content="解密文本或文件"  x:Uid="/MainPage/jiemi" Tag="jiemi">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE785;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>
+
+            <mux:NavigationViewItem Content="MD5和哈希函数" x:Uid="/MainPage/md5_haxi" Tag="md5_haxi">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE928;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>
+        <!-- <mux:NavigationViewItem Content="下载管理" x:Uid="/MainPage/xiazai" Tag="xiazai">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xEDE4;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>-->   
+            <mux:NavigationViewItemSeparator/>
+            <mux:NavigationViewItem Content="帮助" x:Uid="/MainPage/guanyu" Tag="guanyu">
+                <mux:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE946;"/>
+                </mux:NavigationViewItem.Icon>
+            </mux:NavigationViewItem>
+        </mux:NavigationView.MenuItems>
+        <Frame x:Name="ContentFrame" Margin="0,-32,0,0" Background="{ThemeResource SystemControlChromeLowAcrylicWindowBrush}">
+            <Frame.ContentTransitions>
+                <TransitionCollection>
+                    <NavigationThemeTransition/>
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
+
+    </mux:NavigationView>
+</Page>

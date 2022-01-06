@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{201F2F91-1D8B-42B7-AECD-FA7609B25681}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zhushou_jiami_jiemi</RootNamespace>
+    <AssemblyName>zhushou_jiami_jiemi</AssemblyName>
+    <DefaultLanguage>zh-cn</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>
+    </PackageCertificateKeyFile>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppInstallerUpdateFrequency>0</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <PackageCertificateThumbprint>10183115EC0A77E3CC047352F0D3CCFCF9FD7704</PackageCertificateThumbprint>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>zh-CN</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\cundang.xaml.cs">
+      <DependentUpon>cundang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\duihuandaima.xaml.cs">
+      <DependentUpon>duihuandaima.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\gengxin.xaml.cs">
+      <DependentUpon>gengxin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\guanyu.xaml.cs">
+      <DependentUpon>guanyu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\shiyong.xaml.cs">
+      <DependentUpon>shiyong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="banzhu\wenzhi.xaml.cs">
+      <DependentUpon>wenzhi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="daima\gongju.cs" />
+    <Compile Include="daima\jiamijiemi_waibu.cs" />
+    <Compile Include="daima\huancun.cs" />
+    <Compile Include="daima\jiami_jiemi.cs" />
+    <Compile Include="daima\guoshi\Jiami_Jiemi_guoshi.cs" />
+    <Compile Include="daima\wenjian_liebiao.cs" />
+    <Compile Include="daima\xiazaiwenjian.cs" />
+    <Compile Include="jiami\jia_zhuye.xaml.cs">
+      <DependentUpon>jia_zhuye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenben\jiamiwenben.xaml.cs">
+      <DependentUpon>jiamiwenben.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\baocun.xaml.cs">
+      <DependentUpon>baocun.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\chenggong.xaml.cs">
+      <DependentUpon>chenggong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\jixutianjia.xaml.cs">
+      <DependentUpon>jixutianjia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\queren.xaml.cs">
+      <DependentUpon>queren.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\shibai.xaml.cs">
+      <DependentUpon>shibai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\tianjiamubiao.xaml.cs">
+      <DependentUpon>tianjiamubiao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\tianxiecanshu.xaml.cs">
+      <DependentUpon>tianxiecanshu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiami\wenjian\zhengzaijiami.xaml.cs">
+      <DependentUpon>zhengzaijiami.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\jie_zhuye.xaml.cs">
+      <DependentUpon>jie_zhuye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenben\jiemiwenben.xaml.cs">
+      <DependentUpon>jiemiwenben.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\baocun.xaml.cs">
+      <DependentUpon>baocun.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\chenggong.xaml.cs">
+      <DependentUpon>chenggong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\jixutianjia.xaml.cs">
+      <DependentUpon>jixutianjia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\queren.xaml.cs">
+      <DependentUpon>queren.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\shibai.xaml.cs">
+      <DependentUpon>shibai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\tianjiamubiao.xaml.cs">
+      <DependentUpon>tianjiamubiao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\tianxiecanshu.xaml.cs">
+      <DependentUpon>tianxiecanshu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jiemi\wenjian\zhengzaijiemi.xaml.cs">
+      <DependentUpon>zhengzaijiemi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\md5_suanfa.xaml.cs">
+      <DependentUpon>md5_suanfa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\mima_shuru.xaml.cs">
+      <DependentUpon>mima_shuru.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\mishi.xaml.cs">
+      <DependentUpon>mishi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\pingbi.xaml.cs">
+      <DependentUpon>pingbi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\suanfa.xaml.cs">
+      <DependentUpon>suanfa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kongjian\xinjianxiazai.xaml.cs">
+      <DependentUpon>xinjianxiazai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MD5\md5_zhu.xaml.cs">
+      <DependentUpon>md5_zhu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MD5\wenben.xaml.cs">
+      <DependentUpon>wenben.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MD5\wenjian.xaml.cs">
+      <DependentUpon>wenjian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qita\cheshiwangsu.xaml.cs">
+      <DependentUpon>cheshiwangsu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xiazai\wangcheng.xaml.cs">
+      <DependentUpon>wangcheng.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xiazai\xiazai_zhu.xaml.cs">
+      <DependentUpon>xiazai_zhu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="xiazai\zhengzai_xiazai.xaml.cs">
+      <DependentUpon>zhengzai_xiazai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="zhuye\zhuye.xaml.cs">
+      <DependentUpon>zhuye.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="EncryptionAssistant_TemporaryKey.pfx" />
+    <None Include="zhushou_jiami_jiemi_TemporaryKey.pfx" />
+    <PRIResource Include="String\zh-CN\MainPage.resw" />
+    <PRIResource Include="String\zh-CN\zhuye.resw" />
+    <PRIResource Include="String\zh-CN\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\zh-CN\xiazai_zhu.resw" />
+    <PRIResource Include="String\zh-CN\wangcheng.resw" />
+    <PRIResource Include="String\zh-CN\md5_zhu.resw" />
+    <PRIResource Include="String\zh-CN\md5_wenben.resw" />
+    <PRIResource Include="String\zh-CN\md5_wenjian.resw" />
+    <PRIResource Include="String\zh-CN\xinjianxiazai.resw" />
+    <PRIResource Include="String\zh-CN\suanfa.resw" />
+    <PRIResource Include="String\zh-CN\mishi.resw" />
+    <PRIResource Include="String\zh-CN\mima_shuru.resw" />
+    <PRIResource Include="String\zh-CN\md5_suanfa.resw" />
+    <PRIResource Include="String\zh-CN\jie_zhuye.resw" />
+    <PRIResource Include="String\zh-CN\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\zh-CN\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\zh-CN\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\zh-CN\jie_shibai.resw" />
+    <PRIResource Include="String\zh-CN\jie_queren.resw" />
+    <PRIResource Include="String\zh-CN\jie_jixutianjia.resw" />
+    <PRIResource Include="String\zh-CN\jie_chenggong.resw" />
+    <PRIResource Include="String\zh-CN\jie_baocun.resw" />
+    <PRIResource Include="String\zh-CN\jie_wenben.resw" />
+    <PRIResource Include="String\zh-CN\jia_zhuye.resw" />
+    <PRIResource Include="String\zh-CN\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\zh-CN\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\zh-CN\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\zh-CN\jia_shibai.resw" />
+    <PRIResource Include="String\zh-CN\jia_queren.resw" />
+    <PRIResource Include="String\zh-CN\jia_jixutianjia.resw" />
+    <PRIResource Include="String\zh-CN\jia_chenggong.resw" />
+    <PRIResource Include="String\zh-CN\jia_baocun.resw" />
+    <PRIResource Include="String\zh-CN\jia_wenben.resw" />
+    <PRIResource Include="String\zh-CN\cundang.resw" />
+    <PRIResource Include="String\zh-CN\guanyu.resw" />
+    <PRIResource Include="String\zh-CN\wenzhi.resw" />
+    <PRIResource Include="String\zh-CN\shiyong.resw" />
+    <PRIResource Include="String\zh-CN\Resources.resw" />
+    <PRIResource Include="String\en-US\cundang.resw" />
+    <PRIResource Include="String\en-US\guanyu.resw" />
+    <PRIResource Include="String\en-US\jia_baocun.resw" />
+    <PRIResource Include="String\en-US\jia_chenggong.resw" />
+    <PRIResource Include="String\en-US\jia_jixutianjia.resw" />
+    <PRIResource Include="String\en-US\jia_queren.resw" />
+    <PRIResource Include="String\en-US\jia_shibai.resw" />
+    <PRIResource Include="String\en-US\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\en-US\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\en-US\jia_wenben.resw" />
+    <PRIResource Include="String\en-US\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\en-US\jia_zhuye.resw" />
+    <PRIResource Include="String\en-US\jie_baocun.resw" />
+    <PRIResource Include="String\en-US\jie_chenggong.resw" />
+    <PRIResource Include="String\en-US\jie_jixutianjia.resw" />
+    <PRIResource Include="String\en-US\jie_queren.resw" />
+    <PRIResource Include="String\en-US\jie_shibai.resw" />
+    <PRIResource Include="String\en-US\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\en-US\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\en-US\jie_wenben.resw" />
+    <PRIResource Include="String\en-US\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\en-US\jie_zhuye.resw" />
+    <PRIResource Include="String\en-US\MainPage.resw" />
+    <PRIResource Include="String\en-US\md5_suanfa.resw" />
+    <PRIResource Include="String\en-US\md5_wenben.resw" />
+    <PRIResource Include="String\en-US\md5_wenjian.resw" />
+    <PRIResource Include="String\en-US\md5_zhu.resw" />
+    <PRIResource Include="String\en-US\mima_shuru.resw" />
+    <PRIResource Include="String\en-US\mishi.resw" />
+    <PRIResource Include="String\en-US\Resources.resw" />
+    <PRIResource Include="String\en-US\shiyong.resw" />
+    <PRIResource Include="String\en-US\suanfa.resw" />
+    <PRIResource Include="String\en-US\wangcheng.resw" />
+    <PRIResource Include="String\en-US\wenzhi.resw" />
+    <PRIResource Include="String\en-US\xiazai_zhu.resw" />
+    <PRIResource Include="String\en-US\xinjianxiazai.resw" />
+    <PRIResource Include="String\en-US\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\en-US\zhuye.resw" />
+    <PRIResource Include="String\zh-Hant\cundang.resw" />
+    <PRIResource Include="String\zh-Hant\guanyu.resw" />
+    <PRIResource Include="String\zh-Hant\jia_baocun.resw" />
+    <PRIResource Include="String\zh-Hant\jia_chenggong.resw" />
+    <PRIResource Include="String\zh-Hant\jia_jixutianjia.resw" />
+    <PRIResource Include="String\zh-Hant\jia_queren.resw" />
+    <PRIResource Include="String\zh-Hant\jia_shibai.resw" />
+    <PRIResource Include="String\zh-Hant\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\zh-Hant\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\zh-Hant\jia_wenben.resw" />
+    <PRIResource Include="String\zh-Hant\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\zh-Hant\jia_zhuye.resw" />
+    <PRIResource Include="String\zh-Hant\jie_baocun.resw" />
+    <PRIResource Include="String\zh-Hant\jie_chenggong.resw" />
+    <PRIResource Include="String\zh-Hant\jie_jixutianjia.resw" />
+    <PRIResource Include="String\zh-Hant\jie_queren.resw" />
+    <PRIResource Include="String\zh-Hant\jie_shibai.resw" />
+    <PRIResource Include="String\zh-Hant\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\zh-Hant\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\zh-Hant\jie_wenben.resw" />
+    <PRIResource Include="String\zh-Hant\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\zh-Hant\jie_zhuye.resw" />
+    <PRIResource Include="String\zh-Hant\MainPage.resw" />
+    <PRIResource Include="String\zh-Hant\md5_suanfa.resw" />
+    <PRIResource Include="String\zh-Hant\md5_wenben.resw" />
+    <PRIResource Include="String\zh-Hant\md5_wenjian.resw" />
+    <PRIResource Include="String\zh-Hant\md5_zhu.resw" />
+    <PRIResource Include="String\zh-Hant\mima_shuru.resw" />
+    <PRIResource Include="String\zh-Hant\mishi.resw" />
+    <PRIResource Include="String\zh-Hant\Resources.resw" />
+    <PRIResource Include="String\zh-Hant\shiyong.resw" />
+    <PRIResource Include="String\zh-Hant\suanfa.resw" />
+    <PRIResource Include="String\zh-Hant\wangcheng.resw" />
+    <PRIResource Include="String\zh-Hant\wenzhi.resw" />
+    <PRIResource Include="String\zh-Hant\xiazai_zhu.resw" />
+    <PRIResource Include="String\zh-Hant\xinjianxiazai.resw" />
+    <PRIResource Include="String\zh-Hant\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\zh-Hant\zhuye.resw" />
+    <PRIResource Include="String\ja-JP\cundang.resw" />
+    <PRIResource Include="String\ja-JP\guanyu.resw" />
+    <PRIResource Include="String\ja-JP\jia_baocun.resw" />
+    <PRIResource Include="String\ja-JP\jia_chenggong.resw" />
+    <PRIResource Include="String\ja-JP\jia_jixutianjia.resw" />
+    <PRIResource Include="String\ja-JP\jia_queren.resw" />
+    <PRIResource Include="String\ja-JP\jia_shibai.resw" />
+    <PRIResource Include="String\ja-JP\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\ja-JP\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\ja-JP\jia_wenben.resw" />
+    <PRIResource Include="String\ja-JP\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\ja-JP\jia_zhuye.resw" />
+    <PRIResource Include="String\ja-JP\jie_baocun.resw" />
+    <PRIResource Include="String\ja-JP\jie_chenggong.resw" />
+    <PRIResource Include="String\ja-JP\jie_jixutianjia.resw" />
+    <PRIResource Include="String\ja-JP\jie_queren.resw" />
+    <PRIResource Include="String\ja-JP\jie_shibai.resw" />
+    <PRIResource Include="String\ja-JP\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\ja-JP\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\ja-JP\jie_wenben.resw" />
+    <PRIResource Include="String\ja-JP\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\ja-JP\jie_zhuye.resw" />
+    <PRIResource Include="String\ja-JP\MainPage.resw" />
+    <PRIResource Include="String\ja-JP\md5_suanfa.resw" />
+    <PRIResource Include="String\ja-JP\md5_wenben.resw" />
+    <PRIResource Include="String\ja-JP\md5_wenjian.resw" />
+    <PRIResource Include="String\ja-JP\md5_zhu.resw" />
+    <PRIResource Include="String\ja-JP\mima_shuru.resw" />
+    <PRIResource Include="String\ja-JP\mishi.resw" />
+    <PRIResource Include="String\ja-JP\Resources.resw" />
+    <PRIResource Include="String\ja-JP\shiyong.resw" />
+    <PRIResource Include="String\ja-JP\suanfa.resw" />
+    <PRIResource Include="String\ja-JP\wangcheng.resw" />
+    <PRIResource Include="String\ja-JP\wenzhi.resw" />
+    <PRIResource Include="String\ja-JP\xiazai_zhu.resw" />
+    <PRIResource Include="String\ja-JP\xinjianxiazai.resw" />
+    <PRIResource Include="String\ja-JP\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\ja-JP\zhuye.resw" />
+    <PRIResource Include="String\de\cundang.resw" />
+    <PRIResource Include="String\de\guanyu.resw" />
+    <PRIResource Include="String\de\jia_baocun.resw" />
+    <PRIResource Include="String\de\jia_chenggong.resw" />
+    <PRIResource Include="String\de\jia_jixutianjia.resw" />
+    <PRIResource Include="String\de\jia_queren.resw" />
+    <PRIResource Include="String\de\jia_shibai.resw" />
+    <PRIResource Include="String\de\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\de\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\de\jia_wenben.resw" />
+    <PRIResource Include="String\de\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\de\jia_zhuye.resw" />
+    <PRIResource Include="String\de\jie_baocun.resw" />
+    <PRIResource Include="String\de\jie_chenggong.resw" />
+    <PRIResource Include="String\de\jie_jixutianjia.resw" />
+    <PRIResource Include="String\de\jie_queren.resw" />
+    <PRIResource Include="String\de\jie_shibai.resw" />
+    <PRIResource Include="String\de\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\de\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\de\jie_wenben.resw" />
+    <PRIResource Include="String\de\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\de\jie_zhuye.resw" />
+    <PRIResource Include="String\de\MainPage.resw" />
+    <PRIResource Include="String\de\md5_suanfa.resw" />
+    <PRIResource Include="String\de\md5_wenben.resw" />
+    <PRIResource Include="String\de\md5_wenjian.resw" />
+    <PRIResource Include="String\de\md5_zhu.resw" />
+    <PRIResource Include="String\de\mima_shuru.resw" />
+    <PRIResource Include="String\de\mishi.resw" />
+    <PRIResource Include="String\de\Resources.resw" />
+    <PRIResource Include="String\de\shiyong.resw" />
+    <PRIResource Include="String\de\suanfa.resw" />
+    <PRIResource Include="String\de\wangcheng.resw" />
+    <PRIResource Include="String\de\wenzhi.resw" />
+    <PRIResource Include="String\de\xiazai_zhu.resw" />
+    <PRIResource Include="String\de\xinjianxiazai.resw" />
+    <PRIResource Include="String\de\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\de\zhuye.resw" />
+    <PRIResource Include="String\fr\cundang.resw" />
+    <PRIResource Include="String\fr\guanyu.resw" />
+    <PRIResource Include="String\fr\jia_baocun.resw" />
+    <PRIResource Include="String\fr\jia_chenggong.resw" />
+    <PRIResource Include="String\fr\jia_jixutianjia.resw" />
+    <PRIResource Include="String\fr\jia_queren.resw" />
+    <PRIResource Include="String\fr\jia_shibai.resw" />
+    <PRIResource Include="String\fr\jia_tianjiamubiao.resw" />
+    <PRIResource Include="String\fr\jia_tianxiecanshu.resw" />
+    <PRIResource Include="String\fr\jia_wenben.resw" />
+    <PRIResource Include="String\fr\jia_zhengzaijiami.resw" />
+    <PRIResource Include="String\fr\jia_zhuye.resw" />
+    <PRIResource Include="String\fr\jie_baocun.resw" />
+    <PRIResource Include="String\fr\jie_chenggong.resw" />
+    <PRIResource Include="String\fr\jie_jixutianjia.resw" />
+    <PRIResource Include="String\fr\jie_queren.resw" />
+    <PRIResource Include="String\fr\jie_shibai.resw" />
+    <PRIResource Include="String\fr\jie_tianjiamubiao.resw" />
+    <PRIResource Include="String\fr\jie_tianxiecanshu.resw" />
+    <PRIResource Include="String\fr\jie_wenben.resw" />
+    <PRIResource Include="String\fr\jie_zhengzaijiemi.resw" />
+    <PRIResource Include="String\fr\jie_zhuye.resw" />
+    <PRIResource Include="String\fr\MainPage.resw" />
+    <PRIResource Include="String\fr\md5_suanfa.resw" />
+    <PRIResource Include="String\fr\md5_wenben.resw" />
+    <PRIResource Include="String\fr\md5_wenjian.resw" />
+    <PRIResource Include="String\fr\md5_zhu.resw" />
+    <PRIResource Include="String\fr\mima_shuru.resw" />
+    <PRIResource Include="String\fr\mishi.resw" />
+    <PRIResource Include="String\fr\Resources.resw" />
+    <PRIResource Include="String\fr\shiyong.resw" />
+    <PRIResource Include="String\fr\suanfa.resw" />
+    <PRIResource Include="String\fr\wangcheng.resw" />
+    <PRIResource Include="String\fr\wenzhi.resw" />
+    <PRIResource Include="String\fr\xiazai_zhu.resw" />
+    <PRIResource Include="String\fr\xinjianxiazai.resw" />
+    <PRIResource Include="String\fr\zhengzai_xiazai.resw" />
+    <PRIResource Include="String\fr\zhuye.resw" />
+    <None Include="zhushou_jiami_jiemi_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\1.html" />
+    <Content Include="Assets\1.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-125.png" />
+    <Content Include="Assets\SmallTile.scale-150.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\说明.PNG" />
+    <Content Include="Assets\文件夹.png" />
+    <Content Include="Assets\阴影背景.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="banzhu\cundang.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="banzhu\duihuandaima.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="banzhu\gengxin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="banzhu\guanyu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="banzhu\shiyong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="banzhu\wenzhi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\jia_zhuye.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenben\jiamiwenben.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\baocun.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\chenggong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\jixutianjia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\queren.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\shibai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\tianjiamubiao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\tianxiecanshu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiami\wenjian\zhengzaijiami.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiemi\jie_zhuye.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiemi\wenben\jiemiwenben.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiemi\wenjian\baocun.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\chenggong.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\jixutianjia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\queren.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\shibai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jiemi\wenjian\tianjiamubiao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\tianxiecanshu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jiemi\wenjian\zhengzaijiemi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="kongjian\md5_suanfa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kongjian\mima_shuru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kongjian\mishi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kongjian\pingbi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kongjian\suanfa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kongjian\xinjianxiazai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MD5\md5_zhu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MD5\wenben.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MD5\wenjian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="qita\cheshiwangsu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xiazai\wangcheng.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xiazai\xiazai_zhu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="xiazai\zhengzai_xiazai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="zhuye\zhuye.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.13</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.UI.Xaml">
+      <Version>2.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="TaskThread">
+      <Version>1.1.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\zhushou_jiami_jiemi.de.xlf" />
+    <XliffResource Include="MultilingualResources\zhushou_jiami_jiemi.en-US.xlf" />
+    <XliffResource Include="MultilingualResources\zhushou_jiami_jiemi.fr.xlf" />
+    <XliffResource Include="MultilingualResources\zhushou_jiami_jiemi.ja-JP.xlf" />
+    <XliffResource Include="MultilingualResources\zhushou_jiami_jiemi.zh-Hant.xlf" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

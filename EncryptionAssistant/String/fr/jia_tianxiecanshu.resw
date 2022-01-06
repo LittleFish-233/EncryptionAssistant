@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>claquer &lt; 使用 &gt; 按钮以确认密码无误</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>S'il vous plaît définir le mot de passe avant de chiffrer</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Remplissez les paramètres qui seront appliqués au fichier</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Étape suivante</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>Étape précédente</value>
+  </data>
+  <data name="textmcc.Text" xml:space="preserve">
+    <value>Le fichier rapide est crypté</value>
+  </data>
+  <data name="textmcc1.Text" xml:space="preserve">
+    <value>Enregistrer les algorithmes et les clés de chiffrement</value>
+  </data>
+  <data name="textmcc2.Text" xml:space="preserve">
+    <value>Double cryptage</value>
+  </data>
+  <data name="textmcc3.Text" xml:space="preserve">
+    <value>Supprimer le fichier d'origine après le succès</value>
+  </data>
+</root>

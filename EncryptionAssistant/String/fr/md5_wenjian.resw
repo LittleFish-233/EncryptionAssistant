@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button1.Content" xml:space="preserve">
+    <value>Ajouter un fichier</value>
+  </data>
+  <data name="jisuan.Content" xml:space="preserve">
+    <value>calcul</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Faites glisser les fichiers dans la zone pour commencer à vérifier</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>）.Si ce message apparaît toujours après avoir réessayé plus d'une fois, s'il vous plaît demander dans le centre de rétroaction et nous allons enquêter et résoudre le problème dès que possible。</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>calcul</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Un fichier n'a pas détecté et peut continuer à être ajouté pour remplacer l'ancien fichier</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Un fichier n'a pas détecté et peut continuer à être ajouté pour remplacer l'ancien fichier</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Il y a eu une erreur de sélection du fichier&lt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>Un fichier n'a pas détecté et peut continuer à être ajouté pour remplacer l'ancien fichier</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Faites glisser et déposer ici pour ajouter des fichiers o(^▽^)o</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>S'il vous plaît ajouter le fichier d'abord</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>Évaluation</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Il y a eu une erreur dans le résumé du message du fichier（</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Faites glisser les fichiers dans la zone pour commencer à vérifier</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>Et soit</value>
+  </data>
+</root>

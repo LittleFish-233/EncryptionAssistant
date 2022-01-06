@@ -1,0 +1,27 @@
+﻿<UserControl
+    x:Class="EncryptionAssistant.kongjian.mima_shuru"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.kongjian"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="400" Height="80">
+
+    <RelativePanel>
+        <TextBlock x:Name="textblock3" Text="输入密码（可选）" 
+                   x:Uid="/mima_shuru/textblock3"   
+                   RelativePanel.AlignLeftWithPanel="True" 
+                   Margin="0,0,0,0"/>
+        <PasswordBox x:Name="mima_shu" RelativePanel.Below="textblock3" RelativePanel.AlignRightWithPanel="True"
+                     RelativePanel.AlignLeftWithPanel="True" PasswordChanged="mima_shu_PasswordChanged"
+                     Margin="0,10,70,0"/>
+        <Button x:Name="shiyong" RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.Below="textblock3" Width="65" Margin="0,10,0,0"
+                Click="shiyong_Click">
+            <TextBlock x:Name="textxblock" Text="使用" 
+                       x:Uid="/mima_shuru/textxblock"  />
+        </Button>
+
+    </RelativePanel>
+</UserControl>

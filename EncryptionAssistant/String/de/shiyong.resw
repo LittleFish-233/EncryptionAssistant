@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>schlüssel</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES (Data Standard Encryption): Symmetriealgorithmus, Datenverschlüsselungsstandard, schneller, geeignet für die Verschlüsselung großer Datenmengen;</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>3DES (Triple DES): Ein symmetrischer Algorithmus, der auf DES basiert und ein Datenstück dreimal mit drei verschiedenen Schlüsseln verschlüsselt, mit einer höheren Intensität;</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2 und RC4: Symmetriealgorithmus, der große Datenmengen mit einem langen Schlüssel verschlüsselt, schneller als DES;</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>Erweiterte Verschlüsselung: Erweiterter Verschlüsselungsstandard, symmetrischer Algorithmus, ist die nächste Generation von Verschlüsselungsalgorithmus Standard, schnell, hohe Sicherheitsstufe, in der 21. Jahrhundert AES-Standard eine Implementierung ist der Rijndael-Algorithmus;</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>Hinweis: Es wird empfohlen, AES 192 Bits für die Verschlüsselung zu verwenden, die sicher und effizient ist. Aufgrund technischer Einschränkungen bei der vollständigen Nutzung des elektronischen Verschlüsselungsbuchs (ECB), die die Sicherheitsleistung beeinträchtigen können, werden vertrauliche Dateien mit der Verschlüsselungssoftware von Win32 verwendet. Bleiben Sie dran für Follow-up-Updates。</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>Kennwort</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Konzept: Das Passwort hat hier keinen Einfluss auf die Gesamtverschlüsselung der Datei, d.h. unabhängig vom Passwort ist die verschlüsselte Datei im Wesentlichen gleich. So ist das Passwort nur innerhalb dieser App als Funktion der Identitätsüberprüfung und kann die Datei nicht schützen, um die Datei zu schützen, ändern Sie bitte den Schlüssel。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>Passwort festlegen: (1) Geben Sie das Passwort ein (2) klicken Sie auf (3) Geben Sie das Kennwort erneut ein (4) Stand-alone-Bestätigung (5) Stellen Sie den Kennwortfehler ein, nachdem der Eingabeaufforderungskennwortfehler erneut eingegeben werden kann, prompt dreimal kann das Kennwort zurückgesetzt werden, achten Sie darauf, das Passwort-Eingabefeld über dem Text zu beachten</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>Hinweis: Kennwörter werden mit demselben Verschlüsselungsalgorithmus und der gleichen Schlüsselverschlüsselung gespeichert, was bedeutet, dass ein Kennwortfehler ein Entschlüsselungsalgorithmus oder ein Schlüsselfehler sein kann. Es gibt keine Begrenzung für die Länge des Kennworts, und Sie können es nicht eingeben.</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>Geheimes Format</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>Konzept: Ein Schlüssel ist ein Kennwort, das zu einem Verschlüsselungsalgorithmus gehört, und andere müssen den Schlüssel eingeben und einen übereinstimmenden Entschlüsselungsalgorithmus verwenden, um die Datei zu entschlüsseln. Da der Schlüssel Teil des Verschlüsselungsalgorithmus ist, bestimmt der verwendete Verschlüsselungsalgorithmus die maximale Länge des Schlüssels.</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>Der verschlüsselte Text wird mit einem #的开头 ähnlich dem #1A2 verschlüsselt, wobei sichergestellt wird, dass alle Kopien kopiert werden, dass kein Zeichen entschlüsselt wird und dass seine detaillierte Konstruktion aus Sicherheitsgründen nicht besprochen wird.</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>Weitere Anweisungen zur Verschlüsselung</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1. Die Größe der Dateien, die verschlüsselt werden können, hängt von der Speichergröße und Architektur Ihres Computers ab, 32-Bit-Betriebssystem kann bis zu 400MB verschlüsselt werden, 64-Bit-Betriebssystem kann mehr als 1 GB verschlüsseln; Da die Leistung jedes Geräts unterschiedlich ist, legen wir die Dateigrößenbeschränkung nicht fest, um Dateien normalerweise nicht mit kritischer Wertgröße zu verschlüsseln (Testmaschinenleistung: Intel (R)Core (TM)) I5-5200U CPU 2.20GHz 2.20GHz, RAM 8GB, Windows 10 (x64) Pro 17763.253)</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2. Erinnern Sie die zu verschlüsselnde Datei: Das verschlüsselte Dateisuffix wird in .lfjia geändert, entschlüsselt und wieder normalisiert. Doppelklick-Entschlüsselung ist in der Entwicklung</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3. Aufzeichnung verschlüsselter Informationen: Die Verschlüsselungsdatei wird den Verschlüsselungsalgorithmus und Schlüssel aufzeichnen, entschlüsseln, obwohl die Eingabe des falschen Algorithmus oder Schlüssel, wird auch normale Entschlüsselung sein, aber das Passwort Eingabefehler wird die Entschlüsselung abbrechen.</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4. Löschen Sie die Quelldatei: die gelöschte Datei nach der Überprüfung wird nicht im Papierkorb angezeigt, bitte denken Sie zweimal nach, bevor Sie die Aktivierung</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5. Doppelte Verschlüsselung: Diese Funktion ist eine Antwort auf eine Abfrage (Jin Fan kingium.outlook.com). Version 1.4.12 wurde von Entwicklern ausgiebig getestet und es gibt keinen Grund, einen Verschlüsselungsschlüssel oder ein Passwort zu ersetzen. Die Einführung dieser Funktion lehnt diese Möglichkeit nun ab.</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6. Diese App ruft die eigene API der UWP auf, die die Verschlüsselung/Entschlüsselung der C-Bibliothek selbst recherchiert</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>6. Diese App ruft die eigene API der UWP auf, die die Verschlüsselung/Entschlüsselung der C-Bibliothek selbst recherchiert ...</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>6. Diese App ruft UWP eigene API, ist Selbststudium Verschlüsselung / Entschlüsselung von C-Bibliothek 7. Bulk-verschlüsselte Dateien werden in der ursprünglichen Ordner-Reihenfolge Hierarchie freigegeben werden, aber wird den Ordner Standard als die erste Schicht von Speicher MD5 und Hash-Algorithmus und Kontrast-Text speichern</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>Verschlüsselungs-/Entschlüsselungsschlüssel: Die Verwendung der Standardschlüsselverschlüsselung macht die Eingabe des Schlüssels nicht mehr selbst erforderlich, verringert jedoch die Sicherheit. Um zu verhindern, dass Dateien von anderen Apps böswillig entschlüsselt werden, wird der Standardschlüssel dieses Mal nicht mehr explizit angezeigt. Zuvor, aufgrund unserer Fahrlässigkeit, bedauern wir, dass wir die böswillige Verwendung des Standard-Schlüsselangriffs durch einen Techniker nicht berücksichtigt haben. Die Anzahl der für jeden Verschlüsselungsalgorithmus erforderlichen Ziffern ist angegeben, und im Allgemeinen ist die Division der Anzahl der Ziffern durch 8 die Länge des Zeichens, das Sie eingeben möchten (wir garantieren nicht die Folgen des Chinesischen) zum Beispiel: 56 Bits werden mit 7 Zahlen oder Buchstaben eingegeben (z. B. 123F56A) (um genau zu sein hexadezimal, F nach dem Buchstaben so weit wie möglich nicht verlieren). Wenn mehr oder weniger als eine bestimmte Anzahl von Schlüsseln erkannt wird, wird die App von hinten abgeschnitten oder verwendet leere Zeichen, um sie zu ergänzen.</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>Konzept: MD5, Message-Algorithm 5 (Informations-Zusammenfassungsalgorithmus 5), um eine vollständige und konsistente Informationsübertragung zu gewährleisten. Es ist einer der am häufigsten verwendeten Algorithmen von Computern (und Translation Summary-Algorithmen, Hash-Algorithmen), und MD5 wurde weithin in Mainstream-Programmiersprachen implementiert. Die Funktionsweise von Daten (z. B. chinesische Zeichen) als ein weiterer Wert fester Länge ist das Grundprinzip des Hybridalgorithmus, dem MD2, MD3 und MD4 vorausgingen. Der MD5-Algorithmus verfügt über die folgenden Funktionen:</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1. Komprimierung: beliebige Datenlänge, berechnete MD5-Wertlänge ist festgelegt.</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>Einfach zu berechnen: Es ist einfach, den MD5-Wert aus den Originaldaten zu berechnen.</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3. Anti-Modifikation: Alle Änderungen an den ursprünglichen Daten, auch wenn nur 1 Byte, der resultierende MD5-Wert ist sehr unterschiedlich.</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>4. Starke Kollision: Bekannte Rohdaten und ihr MD5-Wert, es ist sehr schwierig, Daten mit dem gleichen MD5-Wert (d. h. gefälschte Daten) zu finden.</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>Die Rolle von MD5 besteht darin, Informationen mit großer Kapazität in ein vertrauliches Format zu komprimiert (d. h. eine Zeichenfolge von Bytes beliebiger Länge in eine bestimmte Länge der hexadezimalen Zeichenfolge zu konvertieren), die ihn verzerrt hat, bevor ein privater Schlüssel mit digitaler Signatursoftware signiert wird. Aufgrund der Zeitbeschränkungen, die den sha3-Algorithmus nicht hinzugefügt haben, ist hier eine aufrichtige Entschuldigung zum Ausdruck zu bringen.</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>Beliebte Erklärung: Viele Download-Sites geben den Sha-Wert der Datei an, müssen nur den Sha-Wert der heruntergeladenen Datei mit dem angegebenen vergleichen, Sie können feststellen, ob die Datei während des Downloadvorgangs beschädigt ist.</value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>Vergleichsdateien: Entfernen Sie diese Funktion vorübergehend aufgrund von geringer Nutzungshäufigkeit und Zeitproblemen</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>Informationen zu Dateien mit altem Format</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>Aufgrund der aggressiven Update-Richtlinie von Microsoft und des begrenzten Aufwands seitens des Entwicklungsteams ist es nicht mehr möglich, das Codeprojekt 1.3.711 zu kompilieren oder das lokale Installationspaket 1.3.6 auszuführen. Aber wir haben 1.3.711 Version der Verschlüsselung / Entschlüsselungsseite in der App Wie man darauf zugreift: Help Center - Archiv</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>Zufälliger Build: Es verwendet die Zufallszahlen-API des Systems, um einen geheimen Schlüssel zu generieren, unter Berücksichtigung nachfolgender Updates verwenden wir AA am Anfang</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>Bitte konvertieren Sie alle verschlüsselten alten Versionen von Dateien so schnell wie möglich in neue Formatdateien, und wir können nur Die Unterstützung für ältere Dateien innerhalb unserer Fähigkeiten beibehalten. 1.5.23 Version Um mit dem Betriebssystem nicht kompatibel zu sein, wurde die Dateicodierung vom Standardcode auf UTF-8 geändert, sehr wenige Benutzer, die die Fehlersuche nicht entschlüsseln konnten, wenden Sie sich bitte an den Entwickler für 1.5.21 Beta</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>Info zu dieser App</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>Die App verwendet ein reibungsloses Designsystem, sodass Benutzer mit Windows 10-Versionen unter 14399 ein weiteres Installationspaket 1.3.711 erhalten und die Versionen der beiden Installationspakete nicht mehr übereinstimmen. Aufgrund von sechs großen System-Updates, gekoppelt mit der begrenzten Kapazität dieses Teams, aktualisieren Sie bitte so schnell wie möglich auf die neue Version des Systems (17763)</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>Die aktuelle ausgabe enthält englisch, japanisch, Deutsch, französisch und chinesisch und ist verfügbar, um umgehende sprachen auszuwählen</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>Für Windows 10 Mobile-Benutzer haben wir uns jetzt erfolgreich an das Anniversary Update (14399) angepasst, aktualisieren Sie bitte auf das neueste System</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>Haftungsausschluss</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>Wir stellen sicher, dass diese Anwendung gründlich getestet wird, aber garantieren nicht, dass die Anwendung jederzeit ordnungsgemäß funktioniert, noch dass die Verschlüsselungs-/Entschlüsselungsergebnisse korrekt sind. Bitte kontaktieren Sie uns in erster Linie, nachdem Probleme auftreten und wir werden Reparaturen und Entschädigung im Rahmen unserer Möglichkeiten vornehmen. Wir übernehmen keine Gewätsskraft für die Richtigkeit und Vollständigkeit des übersetzten Textes, d.h. wir sind nicht verantwortlich für Verluste, die durch die Anweisungen in englischer Sprache verursacht werden, die Sie zu Missverstehen und Zufall von Schäden führen.</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>Hinweis: Der gleiche verschlüsselte Text oder Datei entschlüsselungsschlüsseln Schlüssel und Verschlüsselungsschlüssel sind die gleichen! Denken Sie daran, den Schlüssel, es gibt derzeit keine Möglichkeit, es abzurufen!</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>Wir empfehlen den Standardschlüssel nicht aus Sicherheitsgründen, sondern aus Angst, dass Sie den Schlüssel vergessen und wertvolle Dateien verlieren!!!</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>Verschlüsselungsalgorithmen (symmetrische Verschlüsselung)</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>Konzept: Der grundlegende Prozess der Datenverschlüsselung besteht darin, die ursprüngliche Klartextdatei oder Daten nach einem Algorithmus zu verarbeiten, so dass sie unlesbar ein Code ist, der oft als Redaction bezeichnet wird, so dass er erst eingegeben werden kann, nachdem der entsprechende Schlüssel den originalen Inhalt anzeigen kann, so dass die Daten vor illegalem Diebstahl, Lesezwecken geschützt werden können. Der umgekehrte Prozess des Prozesses ist der Prozess der Entschlüsselung, der die codierten Informationen in seine ursprünglichen Daten konvertiert.</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>Beliebte Erklärung: Es ist wie ihre Datei in eine Schublade zu legen und sperren, nur mit dem entsprechenden Schlüssel, um es zu öffnen (entschlüsselt), und niemand sonst kann es öffnen, es sei denn, es ist gewalttätig (versuchen, alle Schlüssel in der Welt zu installieren)</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>Informationen zur Downloadverwaltung</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>Dieser Teil befindet sich noch in der Entwicklung, die Funktion ist sehr einfach, bitte verwenden Sie auch die Testmentalität des Benutzers. Wir haben vor, die Funktion zum Herunterladen von magnetischen Links und Seed-Dateien im nächsten Jahr zu aktualisieren. Wenn Sie nicht möchten, dass die App vernetzt wird, können Sie die Netzwerkberechtigungen in den Systemeinstellungen verweigern. Vielen Dank für Ihre Unterstützung.</value>
+  </data>
+</root>

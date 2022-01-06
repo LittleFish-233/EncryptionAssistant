@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>ファイルの選択中にエラーが発生しました&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>フォルダの選択中にエラーが発生しました&lt;</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>ファイルやフォルダを追加しなかった</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>ファイルを追加しなかったし、空のフォルダを暗号化できませんでした</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>暗号化しようとしているファイルまたはフォルダを確認する</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>ファイルを追加</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>フォルダーの追加</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>親フォルダに戻る</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>前のステップ</value>
+  </data>
+</root>

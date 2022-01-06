@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>密匙</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES（Data Encryption Standard）：對稱演算法，資料加密標準，速度較快，適用于加密大量資料的場合；</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>3DES（Triple DES）：是基於DES的對稱演算法，對一塊資料用三個不同的金鑰進行三次加密，強度更高；</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2和RC4：對稱演算法，用變長金鑰組大量資料進行加密，比 DES 快；</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>AES（Advanced Encryption Standard）：進階加密標準，對稱演算法，是下一代的加密演算法標準，速度快，安全級別高，在21世紀AES 標準的一個實現是 Rijndael 演算法；</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>注意：推薦使用AES 192位進行加密，安全高效。 由於技術限制全部使用電子密碼本（ECB）模式，可能會降低安全性能，機密檔請使用Win32的加密軟體。 敬請期待後續更新。</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>概念：這裡的密碼並不會影響檔整體的加密情況，也就是說無論密碼是什麼，加密後的檔本質都是一樣的。 因此密碼只在這個應用內部作為驗證身份的功能而不能保護檔，要想保護檔請修改密匙。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>設置密碼：（1）輸入密碼（2）按一下使用（3）再次輸入密碼（4）單機確認（5）設置成功（6）提示密碼錯誤後可以重新輸入，提示三次後可以重新設置密碼，注意觀察密碼輸入框上方文字</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>設置密碼：（1）輸入密碼（2）按一下使用（3）再次輸入密碼（4）單機確認（5）設置成功（6）提示密碼錯誤後可以重新輸入，提示三次後可以重新設置密碼，注意觀察密碼輸入框上方文字 ...</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>密文格式</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>概念：密匙就是屬於加密演算法的一個密碼，其他人必須通過輸入這個密匙並使用匹配的解密演算法才能解密檔。 因為密匙是加密演算法的一部分，所以採用何種加密演算法決定了密匙的最大長度</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>加密文本後的密文會以類似于##1A2##的開頭，請確保全部複製，少了任何一個字元都無法解密，出於安全考慮不討論其詳細的構造。</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>其他關於加密的說明</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1.可以加密的檔案大小取決於你的電腦記憶體大小和體系架構，32位作業系統最高可加密400MB，64位作業系統可加密1GB以上；加密時所需記憶體大致是檔案大小的3倍,如果檔太大會直接卡死，解決辦法是強行重啟 ；由於每台設備的性能不一樣，我們並沒有設置檔案大小上限；為了正常解密請不要加密處於臨界值大小的檔（測試機器性能：Intel(R)Core(TM)i5-5200U CPU@ 2.20GHz2.20GHz,RAM 8GB, Windows 10(x64)專業版 17763.253）</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2.提醒檔被加密：加密後的檔尾碼名會被修改為.lfjia ，解密後恢復正常。 按兩下解密功能正在開發中</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3.記錄加密資訊：加密檔中會記錄加密演算法和密匙，解密時儘管輸入的是錯誤的演算法或密匙，也會正常解密，但是密碼輸入錯誤後會中止解密。</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4.刪除原始檔案：勾選後刪除的檔不會出現在回收站中，請三思後啟用</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5.雙重加密：此功能是為了回應（Jin Fan kingium@outlook.com）的質疑。 1.4.12版本經過開發人員的大量測試，不存在替換加密密匙或密碼的情況。 現在引入這個功能更是否決了這個可能性。</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6.此應用調用UWP自帶API，正在自研加密/解密C++庫</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>7.大量加密後的檔將會按照原資料夾順序層次排放，但是會把保存到的資料夾預設作為第一層存放</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>MD5和雜湊演算法以及對比文本</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>加密/解密密匙：使用預設密匙加密可以免去你自己輸入密匙這個步驟，但是會降低一部分安全性。 為了防止檔被其他應用惡意解密，這次不再明文顯示預設密匙。 從前由於我們的疏忽沒有考慮到技術人員惡意使用預設密匙攻擊，深感抱歉。 每一種加密演算法所需要的密匙的位數都會給出，一般情況下將位數除以8就是你要輸入的字元長度（我們不擔保用中文的後果）比如：56位就要輸入7個數字或字母（再比如：123F56A）（準確來說是十六進位數， F以後的字母盡可能不要輸）。 如果檢測到密匙位數多於或少於給定位數，應用會從後向前截斷或使用空字元補齊。</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>概念：MD5即Message-Digest Algorithm 5（信息-摘要算法5），用于确保信息传输完整一致。是计算机广泛使用的杂凑算法之一（又译摘要算法、哈希算法），主流编程语言普遍已有MD5实现。将数据（如汉字）运算为另一固定长度值，是杂凑算法的基础原理，MD5的前身有MD2、MD3和MD4。MD5算法具有以下特点：</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1.壓縮性：任意長度的資料，算出的MD5值長度都是固定的。</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>2.容易計算：從原資料計算出MD5值很容易。</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3.抗修改性：對原資料進行任何改動，哪怕只修改1個位元組，所得到的MD5值都有很大區別。</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>4.強抗碰撞：已知原資料和其MD5值，想找到一個具有相同MD5值的資料（即偽造資料）是非常困難的。</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>MD5的作用是讓大容量資訊在用數位簽章軟體簽署私人金鑰前被 壓縮 成一種保密的格式（就是把一個任意長度的位元組串變換成一定長的十六進位數位串）雜湊演算法依次類推。 由於時間緊迫沒有添加sha3演算法，在此表達真摯的歉意.</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>通俗解釋：許多下載站會給出檔的sha值，只需要對比下載到的檔的sha值是否和給出的一致，就可以判斷檔是否在下載過程中被損壞 </value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>對比檔：出於過低的使用頻率和時間問題，暫時移除這一功能</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>關於舊格式檔</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>由於微軟的激進更新政策和開發團隊有限的精力，現在已經無法編譯1.3.711的代碼工程，也無法運行1.3.6的本地安裝包。 但是我們在應用中內置了1.3.711版本的加密/解密頁面 訪問方式：説明中心-&gt;存檔</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>隨機生成：它使用系統的亂數API生成隨機密匙，考慮到後續更新我們使用AA開頭</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>請儘快將所有加密的舊版本的檔轉化成新格式的檔,我們只能在能力範圍內維持對舊檔的支援。 1.5.23版本為了向下相容作業系統，檔編碼由預設編碼換成了UTF-8，極個別出現無法解密提示檔損壞的使用者，請聯繫開發者獲取1.5.21測試版</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>關於本應用程式</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>應用使用流暢設計體系，因此Windows 10 版本低於14399的使用者會收到另一個安裝包1.3.711，這兩個安裝包的版本不再一致。 由於跨越六個大的系統更新，加之本團隊能力有限請儘快更新至新版本系統（17763）</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>當前版本包含英語，日語，德語，法語，中文繁體，可以前往系統設置切換語言</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>對於Windows 10 Mobile使用者，目前我們已經成功適配到周年更新版本（14399），請升級到最新系統</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>免責聲明</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>我們確保對此應用進行了全面測試，但是不擔保此應用在任何時候都運行正常，也不擔保加密/解密結果的正確性。 發生任何問題後請在第一時間聯繫我們，我們會做出能力範圍內的修復和補償。 我們不對翻譯的文字的準確性和完整性做出擔保，即由於英文的提示說明使你誤解並造成了一定損失，我們不承擔任何責任</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>注意：同一個加密文本或檔的解密密匙和加密密匙是同一個！ 請牢記密匙，目前沒有找回密匙的方法！</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>我們推薦使用預設密匙並不是出於安全的考慮，而是擔心你會忘記密匙從而丟失寶貴檔！！！</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>加密算法（对称式加密技术）</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>概念：資料加密的基本過程就是對原來為明文的檔或資料按某種演算法進行處理，使其成為不可讀的一段代碼，通常稱為 密文 ，使其只能在輸入相應的金鑰之後才能顯示出本來內容，通過這樣的途徑來達到保護資料不被非法人竊取、閱讀的目的。 該過程的逆過程為解密，即將該編碼資訊轉化為其原來資料的過程。</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>通俗解釋：這就像把你的檔放進一個抽屜並給它上鎖，只有用對應的鑰匙才能打開這個抽屜（解密），而其他人無法打開這個抽屜，除非通過暴力手段（嘗試遍世界上的所有鑰匙）</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>關於下載管理</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>這一部分還在開發中，功能十分簡陋，還請各位用戶以測試的心態去使用。我們計劃明年更新磁力鏈接和種子文件下載功能，希望在這方面有所了解的大佬給我們一些指導，能加快我們的步伐。如果不想讓應用進行聯網操作，可以到系統設置裡拒絕應用網絡權限，感謝你的支持</value>
+  </data>
+</root>

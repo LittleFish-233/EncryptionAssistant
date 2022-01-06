@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="jisuan.Content" xml:space="preserve">
+    <value>calcul</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Il y a eu une erreur dans le résumé du message du fichier（</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>）.Si ce message apparaît toujours après avoir réessayé plus d'une fois, s'il vous plaît demander dans le centre de rétroaction et nous allons enquêter et résoudre le problème dès que possible</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Pâte réussie</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Entrer du texte</value>
+  </data>
+</root>

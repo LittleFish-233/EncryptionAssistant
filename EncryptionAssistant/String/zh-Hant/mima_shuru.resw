@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>輸入密碼（可選）</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>再一次输入密码</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>再一次输入密码</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>輸入密碼（可選）</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>入侵程式</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>這是你的密碼</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>輸入密碼（可選）</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>入侵程式</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>入侵程式</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>密碼錯誤，請確認後重試</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>重新輸入密碼</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>再一次輸入密碼</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>這是你的密碼</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>在类&lt;mima_shuru&gt;方法&lt;Mimazhuangtai.get&gt;中发生异常&lt;传递的参数无效&lt;</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>密碼不能留空白</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>入侵程式</value>
+  </data>
+  <data name="textblock.Text" xml:space="preserve">
+    <value>入侵程式</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>輸入密碼（可選）</value>
+  </data>
+</root>

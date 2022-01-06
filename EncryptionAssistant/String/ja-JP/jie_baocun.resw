@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>暗号化結果を保存するフォルダを選択してください</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>フォルダの選択中にエラーが発生しました&lt;</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>保存パスの選択</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>次のステップ</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>前のステップ</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>パスの保存：</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>閲覧する</value>
+  </data>
+</root>

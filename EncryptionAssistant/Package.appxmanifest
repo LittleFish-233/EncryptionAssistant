@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="418TheLastMagician.4688730751BBB" Publisher="CN=FE9FCCA6-5EE3-4735-B5F0-5DEDC05969DA" Version="1.6.40.0" />
+  <mp:PhoneIdentity PhoneProductId="3a986a8b-6d6d-4fbb-8ee8-01d1639e5e28" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Tool Manager</DisplayName>
+    <PublisherDisplayName>Little Fish团队</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="EncryptionAssistant.App">
+      <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="应用包含多种加密/解密算法，专注于你的隐私安全，没有申请任何权限请放心使用。" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".lfjia">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.lfjia</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:InfoTip>文件已加密</uap:InfoTip>
+            <uap:Logo>Assets\1.png</uap:Logo>
+            <uap:DisplayName>文件已加密</uap:DisplayName>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap:Capability Name="picturesLibrary"/></Capabilities>
+</Package>

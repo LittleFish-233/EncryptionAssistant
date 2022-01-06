@@ -1,0 +1,236 @@
+﻿<Page
+    x:Class="EncryptionAssistant.banzhu.shiyong"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.banzhu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00000000">
+    <ScrollViewer>
+        <RelativePanel Margin="0,0,20,20">
+            <TextBlock x:Name="textblock1" Text="密匙"
+                       x:Uid="/shiyong/textblock1"
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       Margin="0,0,0,10"/>
+            <TextBlock x:Name="textblock2" Text="概念：密匙就是属于加密算法的一个密码，其他人必须通过输入这个密匙并使用匹配的解密算法才能解密文件。因为密匙是加密算法的一部分，所以采用何种加密算法决定了密匙的最大长度"
+                       x:Uid="/shiyong/textblock2"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock1" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock3" Text="加密/解密密匙：使用默认密匙加密可以免去你自己输入密匙这个步骤，但是会降低一部分安全性。为了防止文件被其他应用恶意解密，这次不再明文显示默认密匙。从前由于我们的疏忽没有考虑到技术人员恶意使用默认密匙攻击，深感抱歉。每一种加密算法所需要的密匙的位数都会给出，一般情况下将位数除以8就是你要输入的字符长度（我们不担保用中文的后果）比如：56位就要输入7个数字或字母（再比如：123F56A）（准确来说是十六进制数，F以后的字母尽可能不要输）。如果检测到密匙位数多于或少于给定位数，应用会从后向前截断或使用空字符补齐。"
+                       x:Uid="/shiyong/textblock3"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"               
+                       RelativePanel.Below="textblock2" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock4" Text="随机生成：它使用系统的随机数API生成随机密匙，考虑到后续更新我们使用AA开头"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       x:Uid="/shiyong/textblock4"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock3" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock5" Text="注意：同一个加密文本或文件的解密密匙和加密密匙是同一个！请牢记密匙，目前没有找回密匙的方法！"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock5"
+                       RelativePanel.Below="textblock4" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock6" Text="我们推荐使用默认密匙并不是出于安全的考虑，而是担心你会忘记密匙从而丢失宝贵文件！！！"
+                        Style="{StaticResource BodyTextBlockStyle}" Foreground="Red"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock6"
+                       RelativePanel.Below="textblock5" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+          
+            <TextBlock x:Name="textblock7" Text="加密算法（对称式加密技术）"
+                      Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock7"
+                       Margin="0,10" RelativePanel.Below="textblock6"/>
+            <TextBlock x:Name="textblock8" Text="概念：数据加密的基本过程就是对原来为明文的文件或数据按某种算法进行处理，使其成为不可读的一段代码，通常称为 密文 ，使其只能在输入相应的密钥之后才能显示出本来内容，通过这样的途径来达到保护数据不被非法人窃取、阅读的目的。 该过程的逆过程为解密，即将该编码信息转化为其原来数据的过程。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock8"
+                       RelativePanel.Below="textblock7" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock9" Text="通俗解释：这就像把你的文件放进一个抽屉并给它上锁，只有用对应的钥匙才能打开这个抽屉（解密），而其他人无法打开这个抽屉，除非通过暴力手段（尝试遍世界上的所有钥匙）"
+                       x:Uid="/shiyong/textblock9"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock8" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock10" Text="DES（Data Encryption Standard）：对称算法，数据加密标准，速度较快，适用于加密大量数据的场合；"
+                       x:Uid="/shiyong/textblock10"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock9" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock11" Text="3DES（Triple DES）：是基于DES的对称算法，对一块数据用三个不同的密钥进行三次加密，强度更高；"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock11"
+                       RelativePanel.Below="textblock10" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock12" Text="RC2和RC4：对称算法，用变长密钥对大量数据进行加密，比 DES 快；"
+                       x:Uid="/shiyong/textblock12"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock11" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock13" Text="AES（Advanced Encryption Standard）：高级加密标准，对称算法，是下一代的加密算法标准，速度快，安全级别高，在21世纪AES 标准的一个实现是 Rijndael 算法；"
+                       x:Uid="/shiyong/textblock13"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock12" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock14" Text="注意：推荐使用AES 192位进行加密，安全高效。由于技术限制全部使用电子密码本（ECB）模式，可能会降低安全性能，机密文件请使用Win32的加密软件。敬请期待后续更新。"
+                       x:Uid="/shiyong/textblock14"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock13" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+         
+            <TextBlock x:Name="textblock15" Text="密码" 
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock15"
+                       Margin="0,10" RelativePanel.Below="textblock14"/>
+            <TextBlock x:Name="textblock16" Text="概念：这里的密码并不会影响文件整体的加密情况，也就是说无论密码是什么，加密后的文件本质都是一样的。因此密码只在这个应用内部作为验证身份的功能而不能保护文件，要想保护文件请修改密匙。"                       
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       x:Uid="/shiyong/textblock16"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock15" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock17" Text="设置密码：（1）输入密码（2）单击使用（3）再次输入密码（4）单机确认（5）设置成功（6）提示密码错误后可以重新输入，提示三次后可以重新设置密码，注意观察密码输入框上方文字"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock17"
+                       RelativePanel.Below="textblock16" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock18" Text="注意：存储密码时会使用一样的加密算法和密匙加密，也就是说提示密码错误的时候可能是 解密算法或解密密匙错误。密码长度没有限制，也可以不输入。"
+                       x:Uid="/shiyong/textblock18"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock17" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+         
+            <TextBlock x:Name="textblock19" Text="密文格式"
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock19"
+                       Margin="0,10" RelativePanel.Below="textblock18"/>
+            <TextBlock x:Name="textblock20" Text="加密文本后的密文会以类似于##1A2##的开头，请确保全部复制，少了任何一个字符都无法解密，出于安全考虑不讨论其详细的构造。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock20"
+                       RelativePanel.Below="textblock19" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+          
+            <TextBlock x:Name="textblock21" Text="其他关于加密的说明" 
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock21"
+                       Margin="0,10" RelativePanel.Below="textblock20"/>
+            <TextBlock x:Name="textblock22" Text="1.可以加密的文件大小取决于你的计算机内存大小和体系架构，32位操作系统最高可加密400MB，64位操作系统可加密1GB以上；加密时所需内存大致是文件大小的3倍,如果文件太大会直接卡死，解决办法是强行重启；由于每台设备的性能不一样，我们并没有设置文件大小上限；为了正常解密请不要加密处于临界值大小的文件（测试机器性能：Intel(R)Core(TM)i5-5200U CPU@ 2.20GHz2.20GHz,RAM 8GB,Windows 10(x64)专业版 17763.253）"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock22"
+                       RelativePanel.Below="textblock21" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock23" Text="2.提醒文件被加密：加密后的文件后缀名会被修改为.lfjia ，解密后恢复正常。双击解密功能正在开发中"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock23"
+                       RelativePanel.Below="textblock22" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock24" Text="3.记录加密信息：加密文件中会记录加密算法和密匙，解密时尽管输入的是错误的算法或密匙，也会正常解密，但是密码输入错误后会中止解密。"
+                       x:Uid="/shiyong/textblock24"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock23" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock25" Text="4.删除源文件：勾选后删除的文件不会出现在回收站中，请三思后启用"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock25"
+                       RelativePanel.Below="textblock24" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock26" Text="5.双重加密：此功能是为了回应（Jin Fan kingium@outlook.com）的质疑。1.4.12版本经过开发人员的大量测试，不存在替换加密密匙或密码的情况。现在引入这个功能更是否决了这个可能性。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock26"
+                       RelativePanel.Below="textblock25" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock27" Text="6.此应用调用UWP自带API，正在自研加密/解密C++库"
+                      Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock27"
+                       RelativePanel.Below="textblock26" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock28" Text="7.批量加密后的文件将会按照原文件夹顺序层次排放，但是会把保存到的文件夹默认作为第一层存放"
+                      Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock28"
+                       RelativePanel.Below="textblock27" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+         
+            <TextBlock x:Name="textblock29" Text="MD5和哈希算法以及对比文本"
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock29"
+                       Margin="0,10" RelativePanel.Below="textblock28"/>
+            <TextBlock x:Name="textblock30" Text="概念：MD5即Message-Digest Algorithm 5（信息-摘要算法5），用于确保信息传输完整一致。是计算机广泛使用的杂凑算法之一（又译摘要算法、哈希算法），主流编程语言普遍已有MD5实现。将数据（如汉字）运算为另一固定长度值，是杂凑算法的基础原理，MD5的前身有MD2、MD3和MD4。MD5算法具有以下特点："
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       x:Uid="/shiyong/textblock30"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock29" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock31" Text="1.压缩性：任意长度的数据，算出的MD5值长度都是固定的。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock31"
+                       RelativePanel.Below="textblock30" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock32" Text="2.容易计算：从原数据计算出MD5值很容易。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock32"
+                       RelativePanel.Below="textblock31" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock33" Text="3.抗修改性：对原数据进行任何改动，哪怕只修改1个字节，所得到的MD5值都有很大区别。"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock33"
+                       RelativePanel.Below="textblock32" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock34" Text="4.强抗碰撞：已知原数据和其MD5值，想找到一个具有相同MD5值的数据（即伪造数据）是非常困难的。"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock34"
+                       RelativePanel.Below="textblock33" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock35" Text="MD5的作用是让大容量信息在用数字签名软件签署私人密钥前被 压缩 成一种保密的格式（就是把一个任意长度的字节串变换成一定长的十六进制数字串）哈希算法依次类推。由于时间紧迫没有添加sha3算法，在此表达真挚的歉意."
+                      Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock35"
+                       RelativePanel.Below="textblock34" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock36" Text="通俗解释：许多下载站会给出文件的sha值，只需要对比下载到的文件的sha值是否和给出的一致，就可以判断文件是否在下载过程中被损坏"
+                       x:Uid="/shiyong/textblock36" 
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       RelativePanel.Below="textblock35" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock37" Text="对比文件：出于过低的使用频率和时间问题，暂时移除这一功能"
+                        Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock37" 
+                       RelativePanel.Below="textblock36" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+         
+            <TextBlock x:Name="textblock38" Text="旧格式文件" 
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock38" 
+                       Margin="0,10" RelativePanel.Below="textblock37"/>
+            <TextBlock x:Name="textblock39" Text="由于微软的激进更新政策和开发团队有限的精力，现在已经无法编译1.3.711的代码工程，也无法运行1.3.6的本地安装包。但是我们在应用中内置了1.3.711版本的加密/解密页面 访问方式：帮助中心->存档"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock39" 
+                       RelativePanel.Below="textblock38" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock40" Text="请尽快将所有加密的旧版本的文件转化成新格式的文件,我们只能在能力范围内维持对旧文件的支持。1.5.23版本为了向下兼容操作系统，文件编码由默认编码换成了UTF-8，极个别出现无法解密提示文件损坏的用户，请联系开发者获取1.5.21测试版"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock40"
+                       RelativePanel.Below="textblock39" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+         
+            
+            <TextBlock x:Name="textblock41" Text="应用版本"
+                        Style="{StaticResource SubtitleTextBlockStyle}"
+                       x:Uid="/shiyong/textblock41"
+                       Margin="0,10" RelativePanel.Below="textblock40"/>
+            <TextBlock x:Name="textblock42" Text="应用使用流畅设计体系，因此Windows 10 版本低于14399的用户会收到另一个安装包1.3.711，这两个安装包的版本不再一致。由于跨越六个大的系统更新，加之本团队能力有限请尽快更新至新版本系统（17763）"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock42"
+                       RelativePanel.Below="textblock41" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock43" Text="当前版本为无英文测试版，若需要英文请联系开发人员以获取1.4.12正式版"
+                       Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock43"
+                       RelativePanel.Below="textblock42" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+            <TextBlock x:Name="textblock44" Text="对于Windows 10 Mobile用户，目前我们已经成功适配到周年更新版本（14399），请升级到最新系统"
+                      Style="{StaticResource BodyTextBlockStyle}"
+                       TextWrapping="Wrap" Margin="0,0,0,5"
+                       x:Uid="/shiyong/textblock44"
+                       RelativePanel.Below="textblock43" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+        
+            
+        </RelativePanel>
+    </ScrollViewer>
+</Page>

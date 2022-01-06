@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button1.Content" xml:space="preserve">
+    <value>新增檔案</value>
+  </data>
+  <data name="jisuan.Content" xml:space="preserve">
+    <value>记                     算</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>將檔拖拽到該區域內開始校驗</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>）.若重試多次後仍然出現這條消息，請在回饋中樞提出，我們會儘快調查並解決問題。</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>记                     算</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>檢測到檔 可以繼續添加以覆蓋舊檔</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>檢測到檔 可以繼續添加以覆蓋舊檔</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>選擇檔時發生錯誤&lt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>檢測到檔 可以繼續添加以覆蓋舊檔</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>拖放此處即可添加檔 o(^▽^)o</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>請先添加檔</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>正在計算...</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>對檔進行消息摘要時發生錯誤（</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>對檔進行消息摘要時發生錯誤 ...</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>新增任一個</value>
+  </data>
+</root>

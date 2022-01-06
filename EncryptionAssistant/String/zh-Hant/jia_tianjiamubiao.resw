@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>選擇檔時發生錯誤&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>選擇資料夾時發生錯誤&lt;</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>拖放此處即可添加檔 o(^▽^)o</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>添加要加密的檔或資料夾</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>將檔或資料夾拖拽到整個頁面內即可加密</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>新增任一個</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>新增檔案</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>新增資料夾</value>
+  </data>
+</root>

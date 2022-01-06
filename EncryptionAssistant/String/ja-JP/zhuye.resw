@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="biaoti1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="biaoti2.Text" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="biaoti6.Text" xml:space="preserve">
+    <value>暗号化</value>
+  </data>
+  <data name="biaoti7.Text" xml:space="preserve">
+    <value>解読する</value>
+  </data>
+  <data name="shengcheng_jia.Content" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>このテキストは暗号化できません。</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>入力したテキストが新しい形式に適合せず、古いテキストを復号化するには、[アーカイブ] にアクセスします。</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>このテキストは復号化できません。</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>パスワードエラー、確認してもう一度やり直してください</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>ヘルプが必要ですか?</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>ヘルプが必要ですか?</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>新機能 - ダウンロード管理</value>
+  </data>
+  <data name="textlock4.Text" xml:space="preserve">
+    <value>キー</value>
+  </data>
+  <data name="textlock5.Text" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="textlock9.Text" xml:space="preserve">
+    <value>アルゴリズム</value>
+  </data>
+</root>

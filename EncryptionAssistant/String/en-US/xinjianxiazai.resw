@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fangshi.Header" xml:space="preserve">
+    <value>Download As:</value>
+  </data>
+  <data name="fangshi_1" xml:space="preserve">
+    <value>Http single-threaded non-point break</value>
+  </data>
+  <data name="fangshi_2" xml:space="preserve">
+    <value>Http single-threaded break-in</value>
+  </data>
+  <data name="queding.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="quexiao.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>There was an error selecting a folder&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Please choose how to download</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Please enter the download address</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Please select the folder you saved to</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>This download can only be saved to the picture library</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>New download task</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="textbox2.Text" xml:space="preserve">
+    <value>Save to</value>
+  </data>
+  <data name="fangshi.PlaceholderText" xml:space="preserve">
+    <value>Select a download mode</value>
+  </data>
+</root>

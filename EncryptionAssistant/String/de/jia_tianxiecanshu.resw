@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>klicken &lt; 使用 &gt; 按钮以确认密码无误</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Bitte legen Sie das Kennwort vor der Verschlüsselung fest.</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Füllen Sie die Parameter aus, die auf die Datei angewendet werden.</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>Erweitert</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Nächster Schritt</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="textmcc.Text" xml:space="preserve">
+    <value>Prompt-Datei wird verschlüsselt</value>
+  </data>
+  <data name="textmcc1.Text" xml:space="preserve">
+    <value>Aufzeichnen von Verschlüsselungsalgorithmen und Schlüsseln</value>
+  </data>
+  <data name="textmcc2.Text" xml:space="preserve">
+    <value>Duale Verschlüsselung</value>
+  </data>
+  <data name="textmcc3.Text" xml:space="preserve">
+    <value>Löschen der Originaldatei nach Erfolg</value>
+  </data>
+</root>

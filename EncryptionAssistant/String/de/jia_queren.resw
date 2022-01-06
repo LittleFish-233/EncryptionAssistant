@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>Fehler bei der Auswahl der Datei&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Fehler bei der Auswahl eines Ordners&lt;</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Sie haben keine Dateien oder Ordner hinzugefügt</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Sie haben keine Dateien hinzugefügt und konnten keine leeren Ordner verschlüsseln</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Vergewissern Sie sich, dass eine Datei oder ein Ordner, der kurz vor der Verschlüsselung steht,</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>Datei hinzufügen</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>Ordner hinzufügen</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>Zurück zum übergeordneten Ordner</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+</root>

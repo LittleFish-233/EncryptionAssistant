@@ -1,0 +1,1765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_TIANJIAMUBIAO.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_TIANJIAMUBIAO.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>拖放此处即可添加文件 o(^▽^)o</source>
+          <target state="final">Ziehen und Ablegen hier, um Dateien hinzuzufügen o(^▽^)o</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>添加要加密的文件或文件夹</source>
+          <target state="final">Hinzufügen einer zu verschlüsselnden Datei oder eines Ordners</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>将文件或文件夹拖拽到整个页面内即可加密</source>
+          <target state="final">Ziehen Sie eine Datei oder einen Ordner über die Seite, um sie zu verschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>或者</source>
+          <target state="final" state-qualifier="tm-suggestion">Und entweder</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_SHIBAI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_SHIBAI.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>部分文件未能成功加密</source>
+          <target state="final">Einige Dateien wurden nicht erfolgreich verschlüsselt</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>文件总数：</source>
+          <target state="final" state-qualifier="tm-suggestion">Dateien insgesamt</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>无法解密的文件数量：</source>
+          <target state="final">Anzahl der Dateien, die nicht entschlüsselt werden konnten：</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_QUEREN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_QUEREN.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件或文件夹</source>
+          <target state="final">Sie haben keine Dateien oder Ordner hinzugefügt</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件，无法加密空的文件夹</source>
+          <target state="final">Sie haben keine Dateien hinzugefügt und konnten keine leeren Ordner verschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>确认即将加密的文件或文件夹</source>
+          <target state="final">Vergewissern Sie sich, dass eine Datei oder ein Ordner, der kurz vor der Verschlüsselung steht,</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock13.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>返回上级文件夹</source>
+          <target state="final">Zurück zum übergeordneten Ordner</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_JIXUTIANJIA.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_JIXUTIANJIA.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件或文件夹</source>
+          <target state="final">Sie haben keine Dateien oder Ordner hinzugefügt</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件，无法加密空的文件夹</source>
+          <target state="final">Sie haben keine Dateien hinzugefügt und konnten keine leeren Ordner verschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>添加要加密的文件或文件夹</source>
+          <target state="final">Hinzufügen einer zu verschlüsselnden Datei oder eines Ordners</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock13.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>返回上级文件夹</source>
+          <target state="final">Zurück zum übergeordneten Ordner</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/ZHUYE.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/ZHUYE.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>欢</source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>迎</source>
+          <target state="final">willkommen</target>
+        </trans-unit>
+        <trans-unit id="biaoti6.Text" translate="yes" xml:space="preserve">
+          <source>加密</source>
+          <target state="final" state-qualifier="exact-match">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="biaoti7.Text" translate="yes" xml:space="preserve">
+          <source>解密</source>
+          <target state="final" state-qualifier="exact-match">entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="shengcheng_jia.Content" translate="yes" xml:space="preserve">
+          <source>生    成</source>
+          <target state="final" state-qualifier="tm-suggestion">Generation</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>重置</source>
+          <target state="final" state-qualifier="exact-match">zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>无法加密这个文本，请重试</source>
+          <target state="final">Dieser Text kann nicht verschlüsselt werden, versuchen Sie es erneut</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>重置</source>
+          <target state="final" state-qualifier="exact-match">zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>重置</source>
+          <target state="final" state-qualifier="exact-match">zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>你输入的文本不符合新版格式，若要解密旧版文本，请访问存档</source>
+          <target state="final">Der eingegebene Text passt nicht zum neuen Format, und um den alten Text zu entschlüsseln, besuchen Sie Archiv</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>无法解密此文本，请确保解密密匙和算法正确</source>
+          <target state="final">Dieser Text kann nicht entschlüsselt werden, stellen Sie sicher, dass der Entschlüsselungsschlüssel und der Algorithmus korrekt sind</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>密码错误，请确认后重试</source>
+          <target state="final">Kennwortfehler, bestätigen Sie und versuchen Sie es erneut</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>重置</source>
+          <target state="final" state-qualifier="exact-match">zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="textblock14.Text" translate="yes" xml:space="preserve">
+          <source>需要帮助？</source>
+          <target state="final" state-qualifier="tm-suggestion">Benötigen Sie Hilfe?</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>需要帮助？</source>
+          <target state="final" state-qualifier="tm-suggestion">Benötigen Sie Hilfe?</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>新增功能 —— 下载管理</source>
+          <target state="final">Was gibt es Neues - Download Management</target>
+        </trans-unit>
+        <trans-unit id="textlock4.Text" translate="yes" xml:space="preserve">
+          <source>密匙</source>
+          <target state="final">schlüssel</target>
+        </trans-unit>
+        <trans-unit id="textlock5.Text" translate="yes" xml:space="preserve">
+          <source>自动</source>
+          <target state="final" state-qualifier="exact-match">automatisch</target>
+        </trans-unit>
+        <trans-unit id="textlock9.Text" translate="yes" xml:space="preserve">
+          <source>算法</source>
+          <target state="final" state-qualifier="exact-match">Algorithmus</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/ZHENGZAI_XIAZAI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/ZHENGZAI_XIAZAI.RESW" datatype="resx">
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>新建任务</source>
+          <target state="final" state-qualifier="tm-suggestion">Erstellt eine neue Aufgabe</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_TIANJIAMUBIAO.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_TIANJIAMUBIAO.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">选择文件时发生错误&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>添加要解密的文件或文件夹</source>
+          <target state="final">Hinzufügen einer Datei oder eines Ordners zum Entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>将文件或文件夹拖拽到整个页面内即可加密</source>
+          <target state="final">Ziehen Sie eine Datei oder einen Ordner über die Seite, um sie zu verschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>或者</source>
+          <target state="final" state-qualifier="tm-suggestion">Und entweder</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_SHIBAI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_SHIBAI.RESW" datatype="resx">
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>部分文件未能成功解密</source>
+          <target state="final">Einige Dateien konnten nicht erfolgreich entschlüsselt werden</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>文件总数：</source>
+          <target state="final" state-qualifier="tm-suggestion">Dateien insgesamt</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>无法解密的文件数量：</source>
+          <target state="final">Anzahl der Dateien, die nicht entschlüsselt werden konnten:</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_QUEREN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_QUEREN.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件或文件夹</source>
+          <target state="final">Sie haben keine Dateien oder Ordner hinzugefügt</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件，无法加密空的文件夹</source>
+          <target state="final">Sie haben keine Dateien hinzugefügt und konnten keine leeren Ordner verschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>确认即将加密的文件或文件夹</source>
+          <target state="final">Vergewissern Sie sich, dass eine Datei oder ein Ordner, der kurz vor der Verschlüsselung steht,</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock13.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>返回上级文件夹</source>
+          <target state="final">Zurück zum übergeordneten Ordner</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock19.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_BAOCUN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_BAOCUN.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>请选择一个文件夹以保存加密结果</source>
+          <target state="final">Wählen Sie einen Ordner aus, um die Verschlüsselungsergebnisse zu speichern.</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>选择保存路径</source>
+          <target state="final">Wählen Sie einen Speicherpfad</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>保存路径：</source>
+          <target state="final">Save-Pfad：</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>浏览</source>
+          <target state="final" state-qualifier="exact-match">durchsuchen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_ZHUYE.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_ZHUYE.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>加</source>
+          <target state="final" state-qualifier="tm-suggestion"></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>密</source>
+          <target state="final" state-qualifier="tm-suggestion">verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="wenben.Text" translate="yes" xml:space="preserve">
+          <source>文本</source>
+          <target state="final" state-qualifier="exact-match">Text</target>
+        </trans-unit>
+        <trans-unit id="wenjian.Text" translate="yes" xml:space="preserve">
+          <source>文件</source>
+          <target state="final" state-qualifier="exact-match">Datei</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_ZHENGZAIJIAMI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_ZHENGZAIJIAMI.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>加密文件失败</source>
+          <target state="final">Fehler beim Verschlüsseln der Datei</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>加密文件失败</source>
+          <target state="final">Fehler beim Verschlüsseln der Datei</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>正在加密文件</source>
+          <target state="final">Verschlüsseln der Datei</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>剩余时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verbleibende Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>速度：</source>
+          <target state="final" state-qualifier="tm-suggestion">Geschwindigkeit</target>
+        </trans-unit>
+        <trans-unit id="textblock8.Text" translate="yes" xml:space="preserve">
+          <source>完成百分比：</source>
+          <target state="final" state-qualifier="exact-match">Prozent abgeschlossen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MD5_WENJIAN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MD5_WENJIAN.RESW" datatype="resx">
+        <trans-unit id="button1.Content" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="jisuan.Content" translate="yes" xml:space="preserve">
+          <source>记                     算</source>
+          <target state="final">berechnung</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>将文件拖拽到该区域内开始校验</source>
+          <target state="final">Ziehen Sie Dateien in den Bereich, um mit der Überprüfung zu beginnen</target>
+        </trans-unit>
+        <trans-unit id="String10" translate="yes" xml:space="preserve">
+          <source>）.若重试多次后仍然出现这条消息，请在反馈中心提出，我们会尽快调查并解决问题。</source>
+          <target state="final">）.Wenn diese Meldung nach dem erneuten Versuch immer noch angezeigt wird, fragen Sie bitte im Feedback Center nach, und wir werden das Problem so schnell wie möglich untersuchen und beheben.。</target>
+        </trans-unit>
+        <trans-unit id="String11" translate="yes" xml:space="preserve">
+          <source>记                     算</source>
+          <target state="final">berechnung</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>检测到文件  可以继续添加以覆盖旧文件</source>
+          <target state="final">检测到文件  可以继续添加以覆盖旧文件</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>检测到文件  可以继续添加以覆盖旧文件</source>
+          <target state="final">Eine Datei wurde nicht erkannt und kann weiterhin hinzugefügt werden, um die alte Datei zu überschreiben.</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>检测到文件  可以继续添加以覆盖旧文件</source>
+          <target state="final">Eine Datei wurde nicht erkannt und kann weiterhin hinzugefügt werden, um die alte Datei zu überschreiben.</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>拖放此处即可添加文件 o(^▽^)o</source>
+          <target state="final">Ziehen und Ablegen hier, um Dateien hinzuzufügen o(^▽^)o</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>请先添加文件</source>
+          <target state="final">Bitte fügen Sie die Datei zuerst hinzu</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>正     在     计     算</source>
+          <target state="final" state-qualifier="tm-suggestion">Auswerten</target>
+        </trans-unit>
+        <trans-unit id="String9" translate="yes" xml:space="preserve">
+          <source>对文件进行消息摘要时发生错误（</source>
+          <target state="final">Fehler in der Nachrichtenzusammenfassung der Datei（</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>将文件拖拽到该区域内开始校验</source>
+          <target state="final">Ziehen Sie Dateien in den Bereich, um mit der Überprüfung zu beginnen</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>或者</source>
+          <target state="final" state-qualifier="tm-suggestion">Und entweder</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MD5_WENBEN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MD5_WENBEN.RESW" datatype="resx">
+        <trans-unit id="jisuan.Content" translate="yes" xml:space="preserve">
+          <source>记                     算</source>
+          <target state="final">berechnung</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>对文件进行消息摘要时发生错误（</source>
+          <target state="final">Fehler in der Nachrichtenzusammenfassung der Datei（</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>）.若重试多次后仍然出现这条消息，请在反馈中心提出，我们会尽快调查并解决问题</source>
+          <target state="final">）.Wenn diese Meldung nach dem erneuten Versuch immer noch angezeigt wird, fragen Sie bitte im Feedback Center nach, und wir werden das Problem so schnell wie möglich untersuchen und beheben.</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>粘贴成功</source>
+          <target state="final">Paste erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>输入文本</source>
+          <target state="final" state-qualifier="tm-suggestion">Text eingeben</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MD5_SUANFA.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MD5_SUANFA.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>算法</source>
+          <target state="final" state-qualifier="exact-match">Algorithmus</target>
+        </trans-unit>
+        <trans-unit id="wen_suan.Text" translate="yes" xml:space="preserve">
+          <source>选择算法</source>
+          <target state="final">Wählen Sie den Algorithmus</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MAINPAGE.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MAINPAGE.RESW" datatype="resx">
+        <trans-unit id="guanyu.Content" translate="yes" xml:space="preserve">
+          <source>帮助</source>
+          <target state="final" state-qualifier="exact-match">Hilfe</target>
+        </trans-unit>
+        <trans-unit id="home.Content" translate="yes" xml:space="preserve">
+          <source>主页</source>
+          <target state="final" state-qualifier="exact-match">Startseite</target>
+        </trans-unit>
+        <trans-unit id="jiami.Content" translate="yes" xml:space="preserve">
+          <source>加密文本或文件</source>
+          <target state="final">Verschlüsseln von Text oder Dateien</target>
+        </trans-unit>
+        <trans-unit id="jiemi.Content" translate="yes" xml:space="preserve">
+          <source>解密文本或文件</source>
+          <target state="final">Entschlüsseln von Text oder Dateien</target>
+        </trans-unit>
+        <trans-unit id="md5_haxi.Content" translate="yes" xml:space="preserve">
+          <source>MD5和哈希函数</source>
+          <target state="final">MD5- und Hashfunktionen</target>
+        </trans-unit>
+        <trans-unit id="xiazai.Content" translate="yes" xml:space="preserve">
+          <source>下载管理</source>
+          <target state="final">Download-Management</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_JIXUTIANJIA.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_JIXUTIANJIA.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl der Datei&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件或文件夹</source>
+          <target state="final">Sie haben keine Dateien oder Ordner hinzugefügt</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>你没有添加任何一个文件，无法加密空的文件夹</source>
+          <target state="final">Sie haben keine Dateien oder Ordner hinzugefügt ...</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>添加要加密的文件或文件夹</source>
+          <target state="final">Hinzufügen einer zu verschlüsselnden Datei oder eines Ordners</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>添加文件</source>
+          <target state="final" state-qualifier="tm-suggestion">Datei hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock13.Text" translate="yes" xml:space="preserve">
+          <source>添加文件夹</source>
+          <target state="final" state-qualifier="tm-suggestion">Ordner hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>返回上级文件夹</source>
+          <target state="final">Zurück zum übergeordneten Ordner</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_CHENGGONG.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_CHENGGONG.RESW" datatype="resx">
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>解密成功</source>
+          <target state="final">Erfolgreich entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>解密文件总数：</source>
+          <target state="final">Gesamtzahl der entschlüsselten Dateien：</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>解密文件总共大小：</source>
+          <target state="final">Gesamtgröße der entschlüsselten Datei：</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock8.Text" translate="yes" xml:space="preserve">
+          <source>平均速度：</source>
+          <target state="final" state-qualifier="tm-suggestion">Durchschnittliche Velocity</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_WENBEN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_WENBEN.RESW" datatype="resx">
+        <trans-unit id="jiami_wen_an.Text" translate="yes" xml:space="preserve">
+          <source>加         密</source>
+          <target state="final" state-qualifier="exact-match">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</source>
+          <target state="final">在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>粘贴成功</source>
+          <target state="final">Paste erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>请单击 <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</source>
+          <target state="final">klicken <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>请先设置密码,再进行加密</source>
+          <target state="final">Bitte legen Sie das Kennwort vor der Verschlüsselung fest.</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>无法加密这个文本，请重试</source>
+          <target state="final">Dieser Text kann nicht verschlüsselt werden, versuchen Sie es erneut</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>复制成功</source>
+          <target state="final">Replikation erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>输入文本</source>
+          <target state="final" state-qualifier="tm-suggestion">Text eingeben</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>加密结果</source>
+          <target state="final">Verschlüsselungsergebnisse</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/XINJIANXIAZAI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/XINJIANXIAZAI.RESW" datatype="resx">
+        <trans-unit id="fangshi.Header" translate="yes" xml:space="preserve">
+          <source>下载方式</source>
+          <target state="final" state-qualifier="tm-suggestion">Download als:</target>
+        </trans-unit>
+        <trans-unit id="fangshi_1" translate="yes" xml:space="preserve">
+          <source>Http单线程非断点续传</source>
+          <target state="final">Http Single-Threaded Nicht-Punkt-Unterbrechung</target>
+        </trans-unit>
+        <trans-unit id="fangshi_2" translate="yes" xml:space="preserve">
+          <source>Http单线程断点续传</source>
+          <target state="final">Http Single-Threaded Break-in</target>
+        </trans-unit>
+        <trans-unit id="queding.Content" translate="yes" xml:space="preserve">
+          <source>确定</source>
+          <target state="final" state-qualifier="exact-match">OK</target>
+        </trans-unit>
+        <trans-unit id="quexiao.Content" translate="yes" xml:space="preserve">
+          <source>取消</source>
+          <target state="final" state-qualifier="exact-match">abbrechen</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>请选择下载方式</source>
+          <target state="final">Bitte wählen Sie aus, wie Sie herunterladen möchten</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>请输入下载地址</source>
+          <target state="final">Bitte geben Sie die Download-Adresse ein</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>请选择保存到的文件夹</source>
+          <target state="final">Bitte wählen Sie den Ordner aus, in dem Sie</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>此下载方式只能保存到图片库</source>
+          <target state="final">Dieser Download kann nur in der Bildbibliothek gespeichert werden</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>新建下载任务</source>
+          <target state="final">Neue Download-Aufgabe</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>浏览</source>
+          <target state="final" state-qualifier="exact-match">durchsuchen</target>
+        </trans-unit>
+        <trans-unit id="textbox2.Text" translate="yes" xml:space="preserve">
+          <source>保存到</source>
+          <target state="final" state-qualifier="tm-suggestion">Gespeichert in</target>
+        </trans-unit>
+        <trans-unit id="fangshi.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>选择一个下载方式</source>
+          <target state="final">Wählen sie eine art download</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/XIAZAI_ZHU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/XIAZAI_ZHU.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>下</source>
+          <target state="final" state-qualifier="tm-suggestion"></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>载文件</source>
+          <target state="final">Datei herunterladen</target>
+        </trans-unit>
+        <trans-unit id="wangcehng.Text" translate="yes" xml:space="preserve">
+          <source>已完成</source>
+          <target state="final" state-qualifier="exact-match">Abgeschlossen</target>
+        </trans-unit>
+        <trans-unit id="zhengzai.Text" translate="yes" xml:space="preserve">
+          <source>正在下载</source>
+          <target state="final" state-qualifier="tm-suggestion">heruntergeladen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/WENZHI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/WENZHI.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>帮</source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>助中心</source>
+          <target state="final">Help Center</target>
+        </trans-unit>
+        <trans-unit id="guanyu.Text" translate="yes" xml:space="preserve">
+          <source>关于我们</source>
+          <target state="final" state-qualifier="tm-suggestion">Wir über uns</target>
+        </trans-unit>
+        <trans-unit id="jiubanben.Text" translate="yes" xml:space="preserve">
+          <source>存档</source>
+          <target state="final" state-qualifier="exact-match">archivieren</target>
+        </trans-unit>
+        <trans-unit id="shiyong.Text" translate="yes" xml:space="preserve">
+          <source>使用手册</source>
+          <target state="final">Manuell</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/WANGCHENG.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/WANGCHENG.RESW" datatype="resx">
+        <trans-unit id="textblock14.Text" translate="yes" xml:space="preserve">
+          <source>清除记录</source>
+          <target state="final" state-qualifier="tm-suggestion">Verlauf löschen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_TIANXIECANSHU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_TIANXIECANSHU.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</source>
+          <target state="final">在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>请单击 <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</source>
+          <target state="final">klicken <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>请先设置密码,再进行加密</source>
+          <target state="final">Bitte legen Sie das Kennwort vor der Verschlüsselung fest.</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>填写将应用于文件的参数</source>
+          <target state="final">Füllen Sie die Parameter aus, die auf die Datei angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>高级</source>
+          <target state="final" state-qualifier="exact-match">Erweitert</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+        <trans-unit id="textmcc.Text" translate="yes" xml:space="preserve">
+          <source>提示文件被加密</source>
+          <target state="final">Prompt-Datei wird verschlüsselt</target>
+        </trans-unit>
+        <trans-unit id="textmcc1.Text" translate="yes" xml:space="preserve">
+          <source>记录加密算法和密匙</source>
+          <target state="final">Aufzeichnen von Verschlüsselungsalgorithmen und Schlüsseln</target>
+        </trans-unit>
+        <trans-unit id="textmcc2.Text" translate="yes" xml:space="preserve">
+          <source>双重加密</source>
+          <target state="final">Duale Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="textmcc3.Text" translate="yes" xml:space="preserve">
+          <source>成功后删除原文件</source>
+          <target state="final">Löschen der Originaldatei nach Erfolg</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_CHENGGONG.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_CHENGGONG.RESW" datatype="resx">
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>加密成功</source>
+          <target state="final">Verschlüsselung erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>完成</source>
+          <target state="final" state-qualifier="exact-match">Fertig</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>加密文件总数：</source>
+          <target state="final">Gesamtzahl der verschlüsselten Dateien：</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>加密文件总共大小：</source>
+          <target state="final">Gesamtgröße der verschlüsselten Dateien：</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock8.Text" translate="yes" xml:space="preserve">
+          <source>平均速度：</source>
+          <target state="final" state-qualifier="tm-suggestion">Durchschnittliche Velocity</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIA_BAOCUN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIA_BAOCUN.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>请选择一个文件夹以保存加密结果</source>
+          <target state="final">Wählen Sie einen Ordner aus, um die Verschlüsselungsergebnisse zu speichern.</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>选择文件夹时发生错误&lt;</source>
+          <target state="final">Fehler bei der Auswahl eines Ordners&lt;</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>选择保存路径</source>
+          <target state="final">Wählen Sie einen Speicherpfad</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>保存路径：</source>
+          <target state="final">Save-Pfad：</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>浏览</source>
+          <target state="final" state-qualifier="exact-match">durchsuchen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/GUANYU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/GUANYU.RESW" datatype="resx">
+        <trans-unit id="textblock10.Text" translate="yes" xml:space="preserve">
+          <source>最后更新日期:  2020/2/4 20:35</source>
+          <target state="needs-review-translation">Zuletzt aktualisiert:  2020/2/4 20:35</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>开发者:  Little Fish 团队</source>
+          <target state="final">Entwickler:  Little Fish 团队</target>
+        </trans-unit>
+        <trans-unit id="textblock12.Text" translate="yes" xml:space="preserve">
+          <source>我们的电子邮箱：</source>
+          <target state="final">Unsere E-Mail：</target>
+        </trans-unit>
+        <trans-unit id="textblock14.Text" translate="yes" xml:space="preserve">
+          <source>客服QQ:  3101558049</source>
+          <target state="final">KundeQQ:  3101558049</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>讨论QQ群:  564467848</source>
+          <target state="final">Besprechen Sie die QQ-Gruppe:  564467848</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>应用服务条款：</source>
+          <target state="final">Nutzungsbedingungen für die Anwendung：</target>
+        </trans-unit>
+        <trans-unit id="textblock9.Text" translate="yes" xml:space="preserve">
+          <source>应用版本号:  1.5.37.0</source>
+          <target state="needs-review-translation">App-Versionsnummer:  1.5.37.0</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_ZHUYE.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_ZHUYE.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>解</source>
+          <target state="final" state-qualifier="tm-suggestion"></target>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>密</source>
+          <target state="final" state-qualifier="tm-suggestion">Entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="wenben.Text" translate="yes" xml:space="preserve">
+          <source>文本</source>
+          <target state="final" state-qualifier="exact-match">Text</target>
+        </trans-unit>
+        <trans-unit id="wenjian.Text" translate="yes" xml:space="preserve">
+          <source>文件</source>
+          <target state="final" state-qualifier="exact-match">Datei</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_ZHENGZAIJIEMI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_ZHENGZAIJIEMI.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>解密文件失败</source>
+          <target state="final">Fehler beim Entschlüsseln der Datei</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>正在解密文件</source>
+          <target state="final">Entschlüsseln der Datei</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>已用时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>剩余时间：</source>
+          <target state="final" state-qualifier="tm-suggestion">Verbleibende Zeit:</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>速度：</source>
+          <target state="final" state-qualifier="tm-suggestion">Geschwindigkeit</target>
+        </trans-unit>
+        <trans-unit id="textblock8.Text" translate="yes" xml:space="preserve">
+          <source>完成百分比：</source>
+          <target state="final" state-qualifier="exact-match">Prozent abgeschlossen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_WENBEN.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_WENBEN.RESW" datatype="resx">
+        <trans-unit id="jiami_wen_an.Text" translate="yes" xml:space="preserve">
+          <source>解         密</source>
+          <target state="final" state-qualifier="exact-match">entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</source>
+          <target state="final">在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>粘贴成功</source>
+          <target state="final">Paste erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>请单击 <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</source>
+          <target state="final">klicken <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>请先设置密码,再进行加密</source>
+          <target state="final">Bitte legen Sie das Kennwort vor der Verschlüsselung fest.</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>你输入的文本不符合新版格式，若要解密旧版文本，请访问存档</source>
+          <target state="final">Der eingegebene Text passt nicht zum neuen Format, und um den alten Text zu entschlüsseln, besuchen Sie Archiv</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>无法解密此文本，请确保解密密匙和算法正确</source>
+          <target state="final">Dieser Text kann nicht entschlüsselt werden, stellen Sie sicher, dass der Entschlüsselungsschlüssel und der Algorithmus korrekt sind</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>密码错误，请确认后重试</source>
+          <target state="final">Kennwortfehler, bestätigen Sie und versuchen Sie es erneut</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>复制成功</source>
+          <target state="final">Replikation erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>输入文本</source>
+          <target state="final" state-qualifier="tm-suggestion">Text eingeben</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>解密结果</source>
+          <target state="final">Entschlüsseln von Ergebnissen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/SUANFA.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/SUANFA.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>算法</source>
+          <target state="final" state-qualifier="exact-match">Algorithmus</target>
+        </trans-unit>
+        <trans-unit id="wen_suan.Text" translate="yes" xml:space="preserve">
+          <source>算法</source>
+          <target state="final" state-qualifier="exact-match">Algorithmus</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/SHIYONG.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/SHIYONG.RESW" datatype="resx">
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>密匙</source>
+          <target state="final">schlüssel</target>
+        </trans-unit>
+        <trans-unit id="textblock10.Text" translate="yes" xml:space="preserve">
+          <source>DES（Data Encryption Standard）：对称算法，数据加密标准，速度较快，适用于加密大量数据的场合；</source>
+          <target state="final">DES (Data Standard Encryption): Symmetriealgorithmus, Datenverschlüsselungsstandard, schneller, geeignet für die Verschlüsselung großer Datenmengen;</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>3DES（Triple DES）：是基于DES的对称算法，对一块数据用三个不同的密钥进行三次加密，强度更高；</source>
+          <target state="final">3DES (Triple DES): Ein symmetrischer Algorithmus, der auf DES basiert und ein Datenstück dreimal mit drei verschiedenen Schlüsseln verschlüsselt, mit einer höheren Intensität;</target>
+        </trans-unit>
+        <trans-unit id="textblock12.Text" translate="yes" xml:space="preserve">
+          <source>RC2和RC4：对称算法，用变长密钥对大量数据进行加密，比 DES 快；</source>
+          <target state="final">RC2 und RC4: Symmetriealgorithmus, der große Datenmengen mit einem langen Schlüssel verschlüsselt, schneller als DES;</target>
+        </trans-unit>
+        <trans-unit id="textblock13.Text" translate="yes" xml:space="preserve">
+          <source>AES（Advanced Encryption Standard）：高级加密标准，对称算法，是下一代的加密算法标准，速度快，安全级别高，在21世纪AES 标准的一个实现是 Rijndael 算法；</source>
+          <target state="final">Erweiterte Verschlüsselung: Erweiterter Verschlüsselungsstandard, symmetrischer Algorithmus, ist die nächste Generation von Verschlüsselungsalgorithmus Standard, schnell, hohe Sicherheitsstufe, in der 21. Jahrhundert AES-Standard eine Implementierung ist der Rijndael-Algorithmus;</target>
+        </trans-unit>
+        <trans-unit id="textblock14.Text" translate="yes" xml:space="preserve">
+          <source>注意：推荐使用AES 192位进行加密，安全高效。由于技术限制全部使用电子密码本（ECB）模式，可能会降低安全性能，机密文件请使用Win32的加密软件。敬请期待后续更新。</source>
+          <target state="final">Hinweis: Es wird empfohlen, AES 192 Bits für die Verschlüsselung zu verwenden, die sicher und effizient ist. Aufgrund technischer Einschränkungen bei der vollständigen Nutzung des elektronischen Verschlüsselungsbuchs (ECB), die die Sicherheitsleistung beeinträchtigen können, werden vertrauliche Dateien mit der Verschlüsselungssoftware von Win32 verwendet. Bleiben Sie dran für Follow-up-Updates。</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>密码</source>
+          <target state="final" state-qualifier="exact-match">Kennwort</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>概念：这里的密码并不会影响文件整体的加密情况，也就是说无论密码是什么，加密后的文件本质都是一样的。因此密码只在这个应用内部作为验证身份的功能而不能保护文件，要想保护文件请修改密匙。</source>
+          <target state="final">Konzept: Das Passwort hat hier keinen Einfluss auf die Gesamtverschlüsselung der Datei, d.h. unabhängig vom Passwort ist die verschlüsselte Datei im Wesentlichen gleich. So ist das Passwort nur innerhalb dieser App als Funktion der Identitätsüberprüfung und kann die Datei nicht schützen, um die Datei zu schützen, ändern Sie bitte den Schlüssel。</target>
+        </trans-unit>
+        <trans-unit id="textblock17.Text" translate="yes" xml:space="preserve">
+          <source>设置密码：（1）输入密码（2）单击使用（3）再次输入密码（4）单机确认（5）设置成功（6）提示密码错误后可以重新输入，提示三次后可以重新设置密码，注意观察密码输入框上方文字</source>
+          <target state="final">Passwort festlegen: (1) Geben Sie das Passwort ein (2) klicken Sie auf (3) Geben Sie das Kennwort erneut ein (4) Stand-alone-Bestätigung (5) Stellen Sie den Kennwortfehler ein, nachdem der Eingabeaufforderungskennwortfehler erneut eingegeben werden kann, prompt dreimal kann das Kennwort zurückgesetzt werden, achten Sie darauf, das Passwort-Eingabefeld über dem Text zu beachten</target>
+        </trans-unit>
+        <trans-unit id="textblock18.Text" translate="yes" xml:space="preserve">
+          <source>注意：存储密码时会使用一样的加密算法和密匙加密，也就是说提示密码错误的时候可能是 解密算法或解密密匙错误。密码长度没有限制，也可以不输入。</source>
+          <target state="final">Hinweis: Kennwörter werden mit demselben Verschlüsselungsalgorithmus und der gleichen Schlüsselverschlüsselung gespeichert, was bedeutet, dass ein Kennwortfehler ein Entschlüsselungsalgorithmus oder ein Schlüsselfehler sein kann. Es gibt keine Begrenzung für die Länge des Kennworts, und Sie können es nicht eingeben.</target>
+        </trans-unit>
+        <trans-unit id="textblock19.Text" translate="yes" xml:space="preserve">
+          <source>密文格式</source>
+          <target state="final">Geheimes Format</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>概念：密匙就是属于加密算法的一个密码，其他人必须通过输入这个密匙并使用匹配的解密算法才能解密文件。因为密匙是加密算法的一部分，所以采用何种加密算法决定了密匙的最大长度</source>
+          <target state="final">Konzept: Ein Schlüssel ist ein Kennwort, das zu einem Verschlüsselungsalgorithmus gehört, und andere müssen den Schlüssel eingeben und einen übereinstimmenden Entschlüsselungsalgorithmus verwenden, um die Datei zu entschlüsseln. Da der Schlüssel Teil des Verschlüsselungsalgorithmus ist, bestimmt der verwendete Verschlüsselungsalgorithmus die maximale Länge des Schlüssels.</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>加密文本后的密文会以类似于##1A2##的开头，请确保全部复制，少了任何一个字符都无法解密，出于安全考虑不讨论其详细的构造。</source>
+          <target state="final">Der verschlüsselte Text wird mit einem #的开头 ähnlich dem #1A2 verschlüsselt, wobei sichergestellt wird, dass alle Kopien kopiert werden, dass kein Zeichen entschlüsselt wird und dass seine detaillierte Konstruktion aus Sicherheitsgründen nicht besprochen wird.</target>
+        </trans-unit>
+        <trans-unit id="textblock21.Text" translate="yes" xml:space="preserve">
+          <source>其他关于加密的说明</source>
+          <target state="final">Weitere Anweisungen zur Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="textblock22.Text" translate="yes" xml:space="preserve">
+          <source>1.可以加密的文件大小取决于你的计算机内存大小和体系架构，32位操作系统最高可加密400MB，64位操作系统可加密1GB以上；加密时所需内存大致是文件大小的3倍,如果文件太大会直接卡死，解决办法是强行重启；由于每台设备的性能不一样，我们并没有设置文件大小上限；为了正常解密请不要加密处于临界值大小的文件（测试机器性能：Intel(R)Core(TM)i5-5200U CPU@ 2.20GHz2.20GHz,RAM 8GB,Windows 10(x64)专业版 17763.253）</source>
+          <target state="final">1. Die Größe der Dateien, die verschlüsselt werden können, hängt von der Speichergröße und Architektur Ihres Computers ab, 32-Bit-Betriebssystem kann bis zu 400MB verschlüsselt werden, 64-Bit-Betriebssystem kann mehr als 1 GB verschlüsseln; Da die Leistung jedes Geräts unterschiedlich ist, legen wir die Dateigrößenbeschränkung nicht fest, um Dateien normalerweise nicht mit kritischer Wertgröße zu verschlüsseln (Testmaschinenleistung: Intel (R)Core (TM)) I5-5200U CPU 2.20GHz 2.20GHz, RAM 8GB, Windows 10 (x64) Pro 17763.253)</target>
+        </trans-unit>
+        <trans-unit id="textblock23.Text" translate="yes" xml:space="preserve">
+          <source>2.提醒文件被加密：加密后的文件后缀名会被修改为.lfjia ，解密后恢复正常。双击解密功能正在开发中</source>
+          <target state="final">2. Erinnern Sie die zu verschlüsselnde Datei: Das verschlüsselte Dateisuffix wird in .lfjia geändert, entschlüsselt und wieder normalisiert. Doppelklick-Entschlüsselung ist in der Entwicklung</target>
+        </trans-unit>
+        <trans-unit id="textblock24.Text" translate="yes" xml:space="preserve">
+          <source>3.记录加密信息：加密文件中会记录加密算法和密匙，解密时尽管输入的是错误的算法或密匙，也会正常解密，但是密码输入错误后会中止解密。</source>
+          <target state="final">3. Aufzeichnung verschlüsselter Informationen: Die Verschlüsselungsdatei wird den Verschlüsselungsalgorithmus und Schlüssel aufzeichnen, entschlüsseln, obwohl die Eingabe des falschen Algorithmus oder Schlüssel, wird auch normale Entschlüsselung sein, aber das Passwort Eingabefehler wird die Entschlüsselung abbrechen.</target>
+        </trans-unit>
+        <trans-unit id="textblock25.Text" translate="yes" xml:space="preserve">
+          <source>4.删除源文件：勾选后删除的文件不会出现在回收站中，请三思后启用</source>
+          <target state="final">4. Löschen Sie die Quelldatei: die gelöschte Datei nach der Überprüfung wird nicht im Papierkorb angezeigt, bitte denken Sie zweimal nach, bevor Sie die Aktivierung</target>
+        </trans-unit>
+        <trans-unit id="textblock26.Text" translate="yes" xml:space="preserve">
+          <source>5.双重加密：此功能是为了回应（Jin Fan kingium@outlook.com）的质疑。1.4.12版本经过开发人员的大量测试，不存在替换加密密匙或密码的情况。现在引入这个功能更是否决了这个可能性。</source>
+          <target state="final">5. Doppelte Verschlüsselung: Diese Funktion ist eine Antwort auf eine Abfrage (Jin Fan kingium.outlook.com). Version 1.4.12 wurde von Entwicklern ausgiebig getestet und es gibt keinen Grund, einen Verschlüsselungsschlüssel oder ein Passwort zu ersetzen. Die Einführung dieser Funktion lehnt diese Möglichkeit nun ab.</target>
+        </trans-unit>
+        <trans-unit id="textblock27.Text" translate="yes" xml:space="preserve">
+          <source>6.此应用调用UWP自带API，正在自研加密/解密C++库</source>
+          <target state="final">6. Diese App ruft die eigene API der UWP auf, die die Verschlüsselung/Entschlüsselung der C-Bibliothek selbst recherchiert</target>
+        </trans-unit>
+        <trans-unit id="textblock28.Text" translate="yes" xml:space="preserve">
+          <source>7.批量加密后的文件将会按照原文件夹顺序层次排放，但是会把保存到的文件夹默认作为第一层存放</source>
+          <target state="final">6. Diese App ruft die eigene API der UWP auf, die die Verschlüsselung/Entschlüsselung der C-Bibliothek selbst recherchiert ...</target>
+        </trans-unit>
+        <trans-unit id="textblock29.Text" translate="yes" xml:space="preserve">
+          <source>MD5和哈希算法以及对比文本</source>
+          <target state="final">6. Diese App ruft UWP eigene API, ist Selbststudium Verschlüsselung / Entschlüsselung von C-Bibliothek 7. Bulk-verschlüsselte Dateien werden in der ursprünglichen Ordner-Reihenfolge Hierarchie freigegeben werden, aber wird den Ordner Standard als die erste Schicht von Speicher MD5 und Hash-Algorithmus und Kontrast-Text speichern</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>加密/解密密匙：使用默认密匙加密可以免去你自己输入密匙这个步骤，但是会降低一部分安全性。为了防止文件被其他应用恶意解密，这次不再明文显示默认密匙。从前由于我们的疏忽没有考虑到技术人员恶意使用默认密匙攻击，深感抱歉。每一种加密算法所需要的密匙的位数都会给出，一般情况下将位数除以8就是你要输入的字符长度（我们不担保用中文的后果）比如：56位就要输入7个数字或字母（再比如：123F56A）（准确来说是十六进制数，F以后的字母尽可能不要输）。如果检测到密匙位数多于或少于给定位数，应用会从后向前截断或使用空字符补齐。</source>
+          <target state="final">Verschlüsselungs-/Entschlüsselungsschlüssel: Die Verwendung der Standardschlüsselverschlüsselung macht die Eingabe des Schlüssels nicht mehr selbst erforderlich, verringert jedoch die Sicherheit. Um zu verhindern, dass Dateien von anderen Apps böswillig entschlüsselt werden, wird der Standardschlüssel dieses Mal nicht mehr explizit angezeigt. Zuvor, aufgrund unserer Fahrlässigkeit, bedauern wir, dass wir die böswillige Verwendung des Standard-Schlüsselangriffs durch einen Techniker nicht berücksichtigt haben. Die Anzahl der für jeden Verschlüsselungsalgorithmus erforderlichen Ziffern ist angegeben, und im Allgemeinen ist die Division der Anzahl der Ziffern durch 8 die Länge des Zeichens, das Sie eingeben möchten (wir garantieren nicht die Folgen des Chinesischen) zum Beispiel: 56 Bits werden mit 7 Zahlen oder Buchstaben eingegeben (z. B. 123F56A) (um genau zu sein hexadezimal, F nach dem Buchstaben so weit wie möglich nicht verlieren). Wenn mehr oder weniger als eine bestimmte Anzahl von Schlüsseln erkannt wird, wird die App von hinten abgeschnitten oder verwendet leere Zeichen, um sie zu ergänzen.</target>
+        </trans-unit>
+        <trans-unit id="textblock30.Text" translate="yes" xml:space="preserve">
+          <source>概念：MD5即Message-Digest Algorithm 5（信息-摘要算法5），用于确保信息传输完整一致。是计算机广泛使用的杂凑算法之一（又译摘要算法、哈希算法），主流编程语言普遍已有MD5实现。将数据（如汉字）运算为另一固定长度值，是杂凑算法的基础原理，MD5的前身有MD2、MD3和MD4。MD5算法具有以下特点：</source>
+          <target state="final">Konzept: MD5, Message-Algorithm 5 (Informations-Zusammenfassungsalgorithmus 5), um eine vollständige und konsistente Informationsübertragung zu gewährleisten. Es ist einer der am häufigsten verwendeten Algorithmen von Computern (und Translation Summary-Algorithmen, Hash-Algorithmen), und MD5 wurde weithin in Mainstream-Programmiersprachen implementiert. Die Funktionsweise von Daten (z. B. chinesische Zeichen) als ein weiterer Wert fester Länge ist das Grundprinzip des Hybridalgorithmus, dem MD2, MD3 und MD4 vorausgingen. Der MD5-Algorithmus verfügt über die folgenden Funktionen:</target>
+        </trans-unit>
+        <trans-unit id="textblock31.Text" translate="yes" xml:space="preserve">
+          <source>1.压缩性：任意长度的数据，算出的MD5值长度都是固定的。</source>
+          <target state="final">1. Komprimierung: beliebige Datenlänge, berechnete MD5-Wertlänge ist festgelegt.</target>
+        </trans-unit>
+        <trans-unit id="textblock32.Text" translate="yes" xml:space="preserve">
+          <source>2.容易计算：从原数据计算出MD5值很容易。</source>
+          <target state="final">Einfach zu berechnen: Es ist einfach, den MD5-Wert aus den Originaldaten zu berechnen.</target>
+        </trans-unit>
+        <trans-unit id="textblock33.Text" translate="yes" xml:space="preserve">
+          <source>3.抗修改性：对原数据进行任何改动，哪怕只修改1个字节，所得到的MD5值都有很大区别。</source>
+          <target state="final">3. Anti-Modifikation: Alle Änderungen an den ursprünglichen Daten, auch wenn nur 1 Byte, der resultierende MD5-Wert ist sehr unterschiedlich.</target>
+        </trans-unit>
+        <trans-unit id="textblock34.Text" translate="yes" xml:space="preserve">
+          <source>4.强抗碰撞：已知原数据和其MD5值，想找到一个具有相同MD5值的数据（即伪造数据）是非常困难的。</source>
+          <target state="final">4. Starke Kollision: Bekannte Rohdaten und ihr MD5-Wert, es ist sehr schwierig, Daten mit dem gleichen MD5-Wert (d. h. gefälschte Daten) zu finden.</target>
+        </trans-unit>
+        <trans-unit id="textblock35.Text" translate="yes" xml:space="preserve">
+          <source>MD5的作用是让大容量信息在用数字签名软件签署私人密钥前被 压缩 成一种保密的格式（就是把一个任意长度的字节串变换成一定长的十六进制数字串）哈希算法依次类推。由于时间紧迫没有添加sha3算法，在此表达真挚的歉意.</source>
+          <target state="final">Die Rolle von MD5 besteht darin, Informationen mit großer Kapazität in ein vertrauliches Format zu komprimiert (d. h. eine Zeichenfolge von Bytes beliebiger Länge in eine bestimmte Länge der hexadezimalen Zeichenfolge zu konvertieren), die ihn verzerrt hat, bevor ein privater Schlüssel mit digitaler Signatursoftware signiert wird. Aufgrund der Zeitbeschränkungen, die den sha3-Algorithmus nicht hinzugefügt haben, ist hier eine aufrichtige Entschuldigung zum Ausdruck zu bringen.</target>
+        </trans-unit>
+        <trans-unit id="textblock36.Text" translate="yes" xml:space="preserve">
+          <source>通俗解释：许多下载站会给出文件的sha值，只需要对比下载到的文件的sha值是否和给出的一致，就可以判断文件是否在下载过程中被损坏</source>
+          <target state="final">Beliebte Erklärung: Viele Download-Sites geben den Sha-Wert der Datei an, müssen nur den Sha-Wert der heruntergeladenen Datei mit dem angegebenen vergleichen, Sie können feststellen, ob die Datei während des Downloadvorgangs beschädigt ist.</target>
+        </trans-unit>
+        <trans-unit id="textblock37.Text" translate="yes" xml:space="preserve">
+          <source>对比文件：出于过低的使用频率和时间问题，暂时移除这一功能</source>
+          <target state="final">Vergleichsdateien: Entfernen Sie diese Funktion vorübergehend aufgrund von geringer Nutzungshäufigkeit und Zeitproblemen</target>
+        </trans-unit>
+        <trans-unit id="textblock38.Text" translate="yes" xml:space="preserve">
+          <source>关于旧格式文件</source>
+          <target state="final">Informationen zu Dateien mit altem Format</target>
+        </trans-unit>
+        <trans-unit id="textblock39.Text" translate="yes" xml:space="preserve">
+          <source>由于微软的激进更新政策和开发团队有限的精力，现在已经无法编译1.3.711的代码工程，也无法运行1.3.6的本地安装包。但是我们在应用中内置了1.3.711版本的加密/解密页面 访问方式：帮助中心-&gt;存档</source>
+          <target state="final">Aufgrund der aggressiven Update-Richtlinie von Microsoft und des begrenzten Aufwands seitens des Entwicklungsteams ist es nicht mehr möglich, das Codeprojekt 1.3.711 zu kompilieren oder das lokale Installationspaket 1.3.6 auszuführen. Aber wir haben 1.3.711 Version der Verschlüsselung / Entschlüsselungsseite in der App Wie man darauf zugreift: Help Center - Archiv</target>
+        </trans-unit>
+        <trans-unit id="textblock4.Text" translate="yes" xml:space="preserve">
+          <source>随机生成：它使用系统的随机数API生成随机密匙，考虑到后续更新我们使用AA开头</source>
+          <target state="final">Zufälliger Build: Es verwendet die Zufallszahlen-API des Systems, um einen geheimen Schlüssel zu generieren, unter Berücksichtigung nachfolgender Updates verwenden wir AA am Anfang</target>
+        </trans-unit>
+        <trans-unit id="textblock40.Text" translate="yes" xml:space="preserve">
+          <source>请尽快将所有加密的旧版本的文件转化成新格式的文件,我们只能在能力范围内维持对旧文件的支持。1.5.23版本为了向下兼容操作系统，文件编码由默认编码换成了UTF-8，极个别出现无法解密提示文件损坏的用户，请联系开发者获取1.5.21测试版</source>
+          <target state="final">Bitte konvertieren Sie alle verschlüsselten alten Versionen von Dateien so schnell wie möglich in neue Formatdateien, und wir können nur Die Unterstützung für ältere Dateien innerhalb unserer Fähigkeiten beibehalten. 1.5.23 Version Um mit dem Betriebssystem nicht kompatibel zu sein, wurde die Dateicodierung vom Standardcode auf UTF-8 geändert, sehr wenige Benutzer, die die Fehlersuche nicht entschlüsseln konnten, wenden Sie sich bitte an den Entwickler für 1.5.21 Beta</target>
+        </trans-unit>
+        <trans-unit id="textblock41.Text" translate="yes" xml:space="preserve">
+          <source>关于此应用</source>
+          <target state="final" state-qualifier="tm-suggestion">Info zu dieser App</target>
+        </trans-unit>
+        <trans-unit id="textblock42.Text" translate="yes" xml:space="preserve">
+          <source>应用使用流畅设计体系，因此Windows 10 版本低于14399的用户会收到另一个安装包1.3.711，这两个安装包的版本不再一致。由于跨越六个大的系统更新，加之本团队能力有限请尽快更新至新版本系统（17763）</source>
+          <target state="final">Die App verwendet ein reibungsloses Designsystem, sodass Benutzer mit Windows 10-Versionen unter 14399 ein weiteres Installationspaket 1.3.711 erhalten und die Versionen der beiden Installationspakete nicht mehr übereinstimmen. Aufgrund von sechs großen System-Updates, gekoppelt mit der begrenzten Kapazität dieses Teams, aktualisieren Sie bitte so schnell wie möglich auf die neue Version des Systems (17763)</target>
+        </trans-unit>
+        <trans-unit id="textblock43.Text" translate="yes" xml:space="preserve">
+          <source>当前版本包含英语，日语，德语，法语，中文繁体，可以前往系统设置切换语言</source>
+          <target state="final">Die aktuelle ausgabe enthält englisch, japanisch, Deutsch, französisch und chinesisch und ist verfügbar, um umgehende sprachen auszuwählen</target>
+        </trans-unit>
+        <trans-unit id="textblock44.Text" translate="yes" xml:space="preserve">
+          <source>对于Windows 10 Mobile用户，目前我们已经成功适配到周年更新版本（14399），请升级到最新系统</source>
+          <target state="final">Für Windows 10 Mobile-Benutzer haben wir uns jetzt erfolgreich an das Anniversary Update (14399) angepasst, aktualisieren Sie bitte auf das neueste System</target>
+        </trans-unit>
+        <trans-unit id="textblock45.Text" translate="yes" xml:space="preserve">
+          <source>免责声明</source>
+          <target state="final" state-qualifier="tm-suggestion">Haftungsausschluss</target>
+        </trans-unit>
+        <trans-unit id="textblock46.Text" translate="yes" xml:space="preserve">
+          <source>我们确保对此应用进行了全面测试，但是不担保此应用在任何时候都运行正常，也不担保加密/解密结果的正确性。发生任何问题后请在第一时间联系我们，我们会做出能力范围内的修复和补偿。我们不对翻译的文字的准确性和完整性做出担保，即由于英文的提示说明使你误解并造成了一定损失，我们不承担任何责任</source>
+          <target state="final">Wir stellen sicher, dass diese Anwendung gründlich getestet wird, aber garantieren nicht, dass die Anwendung jederzeit ordnungsgemäß funktioniert, noch dass die Verschlüsselungs-/Entschlüsselungsergebnisse korrekt sind. Bitte kontaktieren Sie uns in erster Linie, nachdem Probleme auftreten und wir werden Reparaturen und Entschädigung im Rahmen unserer Möglichkeiten vornehmen. Wir übernehmen keine Gewätsskraft für die Richtigkeit und Vollständigkeit des übersetzten Textes, d.h. wir sind nicht verantwortlich für Verluste, die durch die Anweisungen in englischer Sprache verursacht werden, die Sie zu Missverstehen und Zufall von Schäden führen.</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>注意：同一个加密文本或文件的解密密匙和加密密匙是同一个！请牢记密匙，目前没有找回密匙的方法！</source>
+          <target state="final">Hinweis: Der gleiche verschlüsselte Text oder Datei entschlüsselungsschlüsseln Schlüssel und Verschlüsselungsschlüssel sind die gleichen! Denken Sie daran, den Schlüssel, es gibt derzeit keine Möglichkeit, es abzurufen!</target>
+        </trans-unit>
+        <trans-unit id="textblock6.Text" translate="yes" xml:space="preserve">
+          <source>我们推荐使用默认密匙并不是出于安全的考虑，而是担心你会忘记密匙从而丢失宝贵文件！！！</source>
+          <target state="final">Wir empfehlen den Standardschlüssel nicht aus Sicherheitsgründen, sondern aus Angst, dass Sie den Schlüssel vergessen und wertvolle Dateien verlieren!!!</target>
+        </trans-unit>
+        <trans-unit id="textblock7.Text" translate="yes" xml:space="preserve">
+          <source>加密算法（对称式加密技术）</source>
+          <target state="final">Verschlüsselungsalgorithmen (symmetrische Verschlüsselung)</target>
+        </trans-unit>
+        <trans-unit id="textblock8.Text" translate="yes" xml:space="preserve">
+          <source>概念：数据加密的基本过程就是对原来为明文的文件或数据按某种算法进行处理，使其成为不可读的一段代码，通常称为 密文 ，使其只能在输入相应的密钥之后才能显示出本来内容，通过这样的途径来达到保护数据不被非法人窃取、阅读的目的。 该过程的逆过程为解密，即将该编码信息转化为其原来数据的过程。</source>
+          <target state="final">Konzept: Der grundlegende Prozess der Datenverschlüsselung besteht darin, die ursprüngliche Klartextdatei oder Daten nach einem Algorithmus zu verarbeiten, so dass sie unlesbar ein Code ist, der oft als Redaction bezeichnet wird, so dass er erst eingegeben werden kann, nachdem der entsprechende Schlüssel den originalen Inhalt anzeigen kann, so dass die Daten vor illegalem Diebstahl, Lesezwecken geschützt werden können. Der umgekehrte Prozess des Prozesses ist der Prozess der Entschlüsselung, der die codierten Informationen in seine ursprünglichen Daten konvertiert.</target>
+        </trans-unit>
+        <trans-unit id="textblock9.Text" translate="yes" xml:space="preserve">
+          <source>通俗解释：这就像把你的文件放进一个抽屉并给它上锁，只有用对应的钥匙才能打开这个抽屉（解密），而其他人无法打开这个抽屉，除非通过暴力手段（尝试遍世界上的所有钥匙）</source>
+          <target state="final">Beliebte Erklärung: Es ist wie ihre Datei in eine Schublade zu legen und sperren, nur mit dem entsprechenden Schlüssel, um es zu öffnen (entschlüsselt), und niemand sonst kann es öffnen, es sei denn, es ist gewalttätig (versuchen, alle Schlüssel in der Welt zu installieren)</target>
+        </trans-unit>
+        <trans-unit id="textblock47.Text" translate="yes" xml:space="preserve">
+          <source>关于下载管理</source>
+          <target state="final">Informationen zur Downloadverwaltung</target>
+        </trans-unit>
+        <trans-unit id="textblock48.Text" translate="yes" xml:space="preserve">
+          <source>这一部分还在开发中，功能十分简陋，还请各位用户以测试的心态去使用。我们计划明年更新磁力链接和种子文件下载功能，希望在这方面有所了解的大佬给我们一些指导，能加快我们的步伐。如果不想让应用进行联网操作，可以到系统设置里拒绝应用网络权限，感谢你的支持</source>
+          <target state="final">Dieser Teil befindet sich noch in der Entwicklung, die Funktion ist sehr einfach, bitte verwenden Sie auch die Testmentalität des Benutzers. Wir haben vor, die Funktion zum Herunterladen von magnetischen Links und Seed-Dateien im nächsten Jahr zu aktualisieren. Wenn Sie nicht möchten, dass die App vernetzt wird, können Sie die Netzwerkberechtigungen in den Systemeinstellungen verweigern. Vielen Dank für Ihre Unterstützung.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AppDisplayName" translate="yes" xml:space="preserve">
+          <source>加密助手</source>
+          <target state="final">Werkzeuge</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MISHI.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MISHI.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>密匙位数</source>
+          <target state="final">Schlüsselziffern</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>无效的密匙位数</source>
+          <target state="final">Ungültige Schlüsselziffern</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>默认</source>
+          <target state="final" state-qualifier="exact-match">Standard</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>默认</source>
+          <target state="final" state-qualifier="exact-match">Standard</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>无效的算法</source>
+          <target state="final">Ungültiger Algorithmus</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>无效的位数</source>
+          <target state="final">Ungültige Ziffern</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>无效的算法</source>
+          <target state="final">Ungültiger Algorithmus</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>密匙</source>
+          <target state="final">schlüssel</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>密匙长度</source>
+          <target state="final">Schlüssellänge</target>
+        </trans-unit>
+        <trans-unit id="textblock11.Text" translate="yes" xml:space="preserve">
+          <source>随机生成</source>
+          <target state="final">Zufällige Generierung</target>
+        </trans-unit>
+        <trans-unit id="textmcc.Text" translate="yes" xml:space="preserve">
+          <source>使用默认密匙</source>
+          <target state="final">Verwenden des Standardschlüssels</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MD5_ZHU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MD5_ZHU.RESW" datatype="resx">
+        <trans-unit id="biaoti1.Text" translate="yes" xml:space="preserve">
+          <source>M</source>
+          <target state="final" state-qualifier="tm-suggestion">M</target>
+        </trans-unit>
+        <trans-unit id="biaoti2.Text" translate="yes" xml:space="preserve">
+          <source>D5校验</source>
+          <target state="final">D5 prüfen</target>
+        </trans-unit>
+        <trans-unit id="wenben.Text" translate="yes" xml:space="preserve">
+          <source>文本</source>
+          <target state="final" state-qualifier="exact-match">Text</target>
+        </trans-unit>
+        <trans-unit id="wenjian.Text" translate="yes" xml:space="preserve">
+          <source>文件</source>
+          <target state="final" state-qualifier="exact-match">Datei</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/JIE_TIANXIECANSHU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/JIE_TIANXIECANSHU.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</source>
+          <target state="final">在类&lt;tianxiecanshu&gt;方法&lt;Mima_shu_Cuowu&gt;中发生异常&lt;传递的参数无效&lt;</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>请单击 <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</source>
+          <target state="final">请单击 <it id="1" pos="open">&lt; 使用 &gt;</it> 按钮以确认密码无误</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>请先设置密码,再进行加密</source>
+          <target state="final">Bitte legen Sie das Kennwort vor der Verschlüsselung fest.</target>
+        </trans-unit>
+        <trans-unit id="textblock1.Text" translate="yes" xml:space="preserve">
+          <source>填写将应用于文件的参数</source>
+          <target state="final">Füllen Sie die Parameter aus, die auf die Datei angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="textblock15.Text" translate="yes" xml:space="preserve">
+          <source>高级</source>
+          <target state="final" state-qualifier="exact-match">Erweitert</target>
+        </trans-unit>
+        <trans-unit id="textblock16.Text" translate="yes" xml:space="preserve">
+          <source>下一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Nächster Schritt</target>
+        </trans-unit>
+        <trans-unit id="textblock20.Text" translate="yes" xml:space="preserve">
+          <source>上一步</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurück</target>
+        </trans-unit>
+        <trans-unit id="textmcc3.Text" translate="yes" xml:space="preserve">
+          <source>成功后删除原文件</source>
+          <target state="final">Löschen der Originaldatei nach Erfolg</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/MIMA_SHURU.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/MIMA_SHURU.RESW" datatype="resx">
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>输入密码（可选）</source>
+          <target state="final">Passwort eingeben (optional)</target>
+        </trans-unit>
+        <trans-unit id="String10" translate="yes" xml:space="preserve">
+          <source>再一次输入密码</source>
+          <target state="final">Geben Sie Ihr Passwort erneut ein</target>
+        </trans-unit>
+        <trans-unit id="String11" translate="yes" xml:space="preserve">
+          <source>确认</source>
+          <target state="final" state-qualifier="exact-match">bestätigen</target>
+        </trans-unit>
+        <trans-unit id="String12" translate="yes" xml:space="preserve">
+          <source>再一次输入密码</source>
+          <target state="final">Geben Sie Ihr Passwort erneut ein</target>
+        </trans-unit>
+        <trans-unit id="String13" translate="yes" xml:space="preserve">
+          <source>重设</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String14" translate="yes" xml:space="preserve">
+          <source>输入密码（可选）</source>
+          <target state="final">Passwort eingeben (optional)</target>
+        </trans-unit>
+        <trans-unit id="String15" translate="yes" xml:space="preserve">
+          <source>使用</source>
+          <target state="final" state-qualifier="exact-match">Nutzung</target>
+        </trans-unit>
+        <trans-unit id="String16" translate="yes" xml:space="preserve">
+          <source>确认</source>
+          <target state="final" state-qualifier="exact-match">bestätigen</target>
+        </trans-unit>
+        <trans-unit id="String17" translate="yes" xml:space="preserve">
+          <source>这是你的密码</source>
+          <target state="final">Hier ist Ihr Passwort.</target>
+        </trans-unit>
+        <trans-unit id="String18" translate="yes" xml:space="preserve">
+          <source>重设</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String19" translate="yes" xml:space="preserve">
+          <source>输入密码（可选）</source>
+          <target state="final">Passwort eingeben (optional)</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>使用</source>
+          <target state="final" state-qualifier="exact-match">Nutzung</target>
+        </trans-unit>
+        <trans-unit id="String20" translate="yes" xml:space="preserve">
+          <source>使用</source>
+          <target state="final" state-qualifier="exact-match">Nutzung</target>
+        </trans-unit>
+        <trans-unit id="String21" translate="yes" xml:space="preserve">
+          <source>密码错误，请确认后重试</source>
+          <target state="final">Kennwortfehler, bestätigen Sie und versuchen Sie es erneut</target>
+        </trans-unit>
+        <trans-unit id="String22" translate="yes" xml:space="preserve">
+          <source>重新输入密码</source>
+          <target state="final" state-qualifier="tm-suggestion">Geben Sie das Kennwort erneut ein.</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>再一次输入密码</source>
+          <target state="final">Geben Sie Ihr Passwort erneut ein</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>确认</source>
+          <target state="final" state-qualifier="exact-match">bestätigen</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>这是你的密码</source>
+          <target state="final">Hier ist Ihr Passwort.</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>重设</source>
+          <target state="final" state-qualifier="tm-suggestion">Zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>在类&lt;mima_shuru&gt;方法&lt;Mimazhuangtai.get&gt;中发生异常&lt;传递的参数无效&lt;</source>
+          <target state="final">在类&lt;mima_shuru&gt;方法&lt;Mimazhuangtai.get&gt;中发生异常&lt;传递的参数无效&lt;</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>密码不能为空</source>
+          <target state="final" state-qualifier="tm-suggestion">Das Kennwort darf nicht leer sein.</target>
+        </trans-unit>
+        <trans-unit id="String9" translate="yes" xml:space="preserve">
+          <source>使用</source>
+          <target state="final" state-qualifier="exact-match">Nutzung</target>
+        </trans-unit>
+        <trans-unit id="textblock.Text" translate="yes" xml:space="preserve">
+          <source>使用</source>
+          <target state="final" state-qualifier="exact-match">Nutzung</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>输入密码（可选）</source>
+          <target state="final">Passwort eingeben (optional)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="zh-CN" target-language="de" original="EncryptionAssistant/STRING/ZH-CN/CUNDANG.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="EncryptionAssistant/STRING/ZH-CN/CUNDANG.RESW" datatype="resx">
+        <trans-unit id="button1.Content" translate="yes" xml:space="preserve">
+          <source>加密</source>
+          <target state="final" state-qualifier="exact-match">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="button2.Content" translate="yes" xml:space="preserve">
+          <source>解密</source>
+          <target state="final" state-qualifier="exact-match">entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="combobox.Header" translate="yes" xml:space="preserve">
+          <source>加密/解密模式：</source>
+          <target state="final">Verschlüsselung/Entschlüsselungsmodus:</target>
+        </trans-unit>
+        <trans-unit id="combobox1.Header" translate="yes" xml:space="preserve">
+          <source>加密/解密算法：</source>
+          <target state="final">Verschlüsselungs-/Entschlüsselungsalgorithmus:</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>应用内存不足无法加密大于（390MB）的文件，敬请期待后续更新</source>
+          <target state="final">Anwendung mit Nicht-Speicher kann Dateien, die größer als (390 MB) sind, nicht verschlüsseln, bleiben für nachfolgende Updates optimiert</target>
+        </trans-unit>
+        <trans-unit id="String10" translate="yes" xml:space="preserve">
+          <source>请前往主页解密此文件<it id="1" pos="open">&lt;版本高于1.3.711&gt;</it></source>
+          <target state="final">Bitte gehen Sie zur Startseite, um diese Datei zu entschlüsseln<it id="1" pos="open">&lt;版本高于1.3.711&gt;</it></target>
+        </trans-unit>
+        <trans-unit id="String11" translate="yes" xml:space="preserve">
+          <source>尝试读取文件版本失败</source>
+          <target state="final">Fehler beim Lesen der Dateiversion</target>
+        </trans-unit>
+        <trans-unit id="String12" translate="yes" xml:space="preserve">
+          <source>解密时出现问题，请确保解密密匙，解密模式，解密算法的正确性，核对后请重试。如果你看到过这个提示很多次，请在反馈中心把这个问题报告给我们，谢谢</source>
+          <target state="final">Es gibt ein Problem entschlüsseln, stellen Sie bitte sicher, dass der Entschlüsselungsschlüssel, Entschlüsselungsmodus, decrypttheor Algorithmus Korrektheit, überprüfen Sie erneut. Wenn Sie diesen Tipp schon oft gesehen haben, melden Sie uns diese Frage bitte im Feedback Center, danke</target>
+        </trans-unit>
+        <trans-unit id="String13" translate="yes" xml:space="preserve">
+          <source>解密成功，点击下面的图片保存</source>
+          <target state="final">Decryptsuccessful, klicken Sie auf das Bild unten zu speichern</target>
+        </trans-unit>
+        <trans-unit id="String14" translate="yes" xml:space="preserve">
+          <source>请点击上面的图片选择要进行解密的文件</source>
+          <target state="final">Bitte klicken Sie auf das Bild oben, um die zu entschlüsselnde Datei auszuwählen</target>
+        </trans-unit>
+        <trans-unit id="String15" translate="yes" xml:space="preserve">
+          <source>保存结果时出现问题，请重试。若重试多次后依旧出现这条提示，请将此问题反馈给我们，我们会尽力解决，谢谢</source>
+          <target state="final">Es ist ein Problem beim Speichern der Ergebnisse vorliegt, versuchen Sie es bitte erneut. Wenn diese Eingabeaufforderung immer noch erscheint, nachdem Sie es noch viele Male versucht haben, füttern Sie uns bitte zurück zu diesem Problem und wir werden unser Bestes tun, um es zu lösen, danke</target>
+        </trans-unit>
+        <trans-unit id="String16" translate="yes" xml:space="preserve">
+          <source>保存成功</source>
+          <target state="final" state-qualifier="tm-suggestion">Speichern erfolgreich</target>
+        </trans-unit>
+        <trans-unit id="String17" translate="yes" xml:space="preserve">
+          <source>请先进行加密/解密</source>
+          <target state="final">Bitte zuerst verschlüsseln/entschlüsseln</target>
+        </trans-unit>
+        <trans-unit id="String18" translate="yes" xml:space="preserve">
+          <source>恭喜你，密匙长度已经达到要求的40个字符</source>
+          <target state="final">Herzlichen Glückwunsch, die Schlüssellänge hat die erforderlichen 40 Zeichen erreicht</target>
+        </trans-unit>
+        <trans-unit id="String19" translate="yes" xml:space="preserve">
+          <source>恭喜你，密匙长度已经达到要求的40个字符</source>
+          <target state="final">Herzlichen Glückwunsch, die Schlüssellänge hat die erforderlichen 40 Zeichen erreicht</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>密匙长度必须是40，请核对密匙</source>
+          <target state="final">Die Länge des Schlüssels muss 40 sein, überprüfen Sie bitte den Schlüssel</target>
+        </trans-unit>
+        <trans-unit id="String20" translate="yes" xml:space="preserve">
+          <source>密码过长，应在0~20字符之间</source>
+          <target state="final">Das Kennwort ist zu lang, sollte zwischen 0 und 20 Zeichen liegen</target>
+        </trans-unit>
+        <trans-unit id="String21" translate="yes" xml:space="preserve">
+          <source>两次输入的密码不一致</source>
+          <target state="final" state-qualifier="tm-suggestion">Ihre Kennwörter stimmen nicht überein.</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>设置密码时，请确保两次输入的密码一致，且长度小于60个字符</source>
+          <target state="final">Stellen Sie beim Festlegen eines Kennworts sicher, dass das zweimal eingegebene Kennwort identisch ist und weniger als 60 Zeichen lang ist.</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>加密时出现问题，请确保加密密匙，加密模式，加密算法的正确性，核对后请重试。如果你看到过这个提示很多次，请在反馈中心把这个问题报告给我们，谢谢</source>
+          <target state="final">Wenn es ein Problem mit der Verschlüsselung gibt, stellen Sie bitte sicher, dass der Verschlüsselungsschlüssel, der Verschlüsselungsmodus, der Verschlüsselungsalgorithmus korrekt ist, überprüfen Sie erneut. Wenn Sie diesen Tipp schon oft gesehen haben, melden Sie uns diese Frage bitte im Feedback Center, danke</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>加密成功，点击下面的图片保存</source>
+          <target state="final">Verschlüsselung war erfolgreich, klicken Sie auf das Bild unten, um zu speichern</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>请点击上面的图片选择要进行加密的文件。</source>
+          <target state="final">Bitte klicken Sie auf das Bild oben, um die zu verschlüsselnde Datei auszuwählen.</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>应用内存不足无法解密大于（390MB）的文件，敬请期待后续更新</source>
+          <target state="final">Anwendung mit Nicht-Arbeitsspeicher kann Dateien größer als (390MB) nicht entschlüsseln, bleiben auf nachfolgende Updates eingestellt</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>密匙长度必须是40，请核对密匙</source>
+          <target state="final">Die Länge des Schlüssels muss 40 sein, überprüfen Sie bitte den Schlüssel</target>
+        </trans-unit>
+        <trans-unit id="String9" translate="yes" xml:space="preserve">
+          <source>输入密码时，请确保两次输入的密码一致，且长度小于60个字符</source>
+          <target state="final">Stellen Sie bei der Eingabe eines Kennworts sicher, dass das Kennwort zweimal eingegeben wird und weniger als 60 Zeichen lang ist.</target>
+        </trans-unit>
+        <trans-unit id="textblock2.Text" translate="yes" xml:space="preserve">
+          <source>1.3.711版本 加密/解密</source>
+          <target state="final">1.3.711 Versionsverschlüsselung/-entschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="textblock3.Text" translate="yes" xml:space="preserve">
+          <source>需要加密/解密的文件</source>
+          <target state="final">Dateien, die verschlüsselt/entschlüsselt werden müssen</target>
+        </trans-unit>
+        <trans-unit id="textblock5.Text" translate="yes" xml:space="preserve">
+          <source>注意：若要给文件添加密码，请更改加密/解密模式为 普通模式 。由于密匙是40个0或1组成的，很容易看错，所以建议使用默认密匙。且在大部分情况下，加密/解密密匙和算法错误无法检测到，只有在使用文件时才会被你发现。部分被解密的文件的末尾存在多个/u008字符，我们大量的测试表明这不会影响使用，请放心。</source>
+          <target state="final">Hinweis: Um einer Datei ein Kennwort hinzuzufügen, ändern Sie den Verschlüsselungs-/Entschlüsselungsmodus in den normalen Modus. Da der Schlüssel aus 40 0s oder 1s besteht, ist er leicht falsch zu lesen, daher wird der Standardschlüssel empfohlen. Und in den meisten Fällen können Verschlüsselungs-/Entschlüsselungsschlüssel und algorithmische Fehler nicht erkannt werden und werden nur von Ihnen erkannt, wenn Sie Dateien verwenden. Es gibt mehrere /u008 Zeichen am Ende einiger der entschlüsselten Dateien, und unsere umfangreichen Tests zeigen, dass dies nicht die Verwendung beeinflussen wird, bitte sicher sein.</target>
+        </trans-unit>
+        <trans-unit id="textblock7.Text" translate="yes" xml:space="preserve">
+          <source>结果在这，点击保存</source>
+          <target state="final">Ergebnisse hier, klicken Sie auf Speichern</target>
+        </trans-unit>
+        <trans-unit id="textbox2.Header" translate="yes" xml:space="preserve">
+          <source>自定义密匙：</source>
+          <target state="final">Benutzerdefinierter Schlüssel:</target>
+        </trans-unit>
+        <trans-unit id="textbox2.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>点击下面的按钮输入密匙</source>
+          <target state="final">Klicken Sie auf die Schaltfläche unten, um den Schlüssel einzugeben</target>
+        </trans-unit>
+        <trans-unit id="textbox3.Header" translate="yes" xml:space="preserve">
+          <source>密码：</source>
+          <target state="final" state-qualifier="exact-match">Kennwort</target>
+        </trans-unit>
+        <trans-unit id="textbox3.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>设置加密密码，或输入解密密码</source>
+          <target state="final">Festlegen eines verschlüsselten Kennworts oder Eingeben eines Entschlüsselungskennworts</target>
+        </trans-unit>
+        <trans-unit id="textbox4.Header" translate="yes" xml:space="preserve">
+          <source>确认密码：</source>
+          <target state="final" state-qualifier="tm-suggestion">Kennwort wiederholen</target>
+        </trans-unit>
+        <trans-unit id="textbox4.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>再次输入加密/解密密码</source>
+          <target state="final">Geben Sie das Verschlüsselungs-/Entschlüsselungskennwort erneut ein.</target>
+        </trans-unit>
+        <trans-unit id="textmcc.Text" translate="yes" xml:space="preserve">
+          <source>使用默认加密/解密密匙（推荐）</source>
+          <target state="final">Verwenden des Standardverschlüsselungs-/Entschlüsselungsschlüssels (empfohlen)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,183 @@
+﻿<Page
+    x:Class="EncryptionAssistant.zhuye.zhuye"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.zhuye"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
+    mc:Ignorable="d"
+    Background="#00000000">
+    <RelativePanel>
+        <ScrollViewer RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
+            <RelativePanel>
+                <TextBlock x:Name="biaoti1" Text="欢" Margin="50,20,0,0" 
+                           x:Uid="/zhuye/biaoti1"
+                           FontSize="80.22" FontWeight="Bold" Foreground="{ThemeResource SystemAccentColor}" />
+                <TextBlock x:Name="biaoti2" Text="迎" FontSize="60.17" RelativePanel.AlignBottomWith="biaoti1"
+                           x:Uid="/zhuye/biaoti2"
+                           RelativePanel.RightOf="biaoti1" FontWeight="Bold"
+                           Foreground="{ThemeResource SystemAccentColor}" Margin="10,0,0,5"/>
+                <RelativePanel x:Name="banzhu_zuida" RelativePanel.AlignLeftWithPanel="True" CornerRadius="5"
+                               RelativePanel.AlignRightWithPanel="True" 
+                               Background="{ThemeResource SystemListMediumColor}" Height="85" Margin="70,30,70,0"
+                               RelativePanel.Below="biaoti1"  >
+                  
+                    <TextBlock x:Name="tubiao1" Text="&#xE781;"
+                               FontSize="32" FontFamily="Segoe MDL2 Assets" RelativePanel.AlignVerticalCenterWithPanel="True"
+                               FontWeight="Light" Margin="24,0,0,0"/>
+                    <TextBlock x:Name="textblock2" Text="需要帮助？"
+                               x:Uid="/zhuye/textblock2"
+                               RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.RightOf="tubiao1"
+                               FontSize="20"
+                               Margin="20,0,0,0"/>
+                    <Button Margin="0,0,20,0"
+                            RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"
+                            Click="Banzhu_Click">
+                        <TextBlock x:Name="tubiao2" Text="&#xE7BC;" 
+                                   FontSize="25" FontFamily="Segoe MDL2 Assets" 
+                                   FontWeight="Light"/>
+                    </Button>
+                </RelativePanel>
+
+                <Grid x:Name="buju" RelativePanel.Below="banzhu_zuida" 
+                      RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
+                      Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition x:Name="dierhang"/>
+                    </Grid.RowDefinitions>
+
+                    <RelativePanel x:Name="jiami_zuida" Grid.Column="0" Margin="0,0,0,0" >
+
+                        <RelativePanel x:Name="jiami" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
+                                       Background="{ThemeResource SystemListMediumColor}" Margin="70,50,20,0"  CornerRadius="5">
+                            <TextBlock x:Name="biaoti6" Text="加密" FontSize="36" FontWeight="Bold"
+                                       x:Uid="/zhuye/biaoti6"
+                                       Margin="50"/>
+                            <TextBlock x:Name="tubiao6" Text="&#xE1C2;"
+                                       FontSize="28" FontFamily="Segoe MDL2 Assets" 
+                                       RelativePanel.Below="biaoti6"
+                                       FontWeight="Light" Margin="50,-10,0,0"/>
+                            <TextBox x:Name="wenben_jiami"  IsSpellCheckEnabled="False"
+                                     RelativePanel.AlignBottomWith="tubiao6" RelativePanel.RightOf="tubiao6" RelativePanel.AlignRightWithPanel="True"
+                                     Margin="20,0,20,0"/>
+                            <TextBlock x:Name="textblock4" RelativePanel.Below="wenben_jiami"   
+                                       x:Uid="/zhuye/textlock9"
+                                       Text="算法" Margin="50,25,0,0"
+                                       FontSize="20" />
+                            <TextBlock
+                                x:Name="textnlock8" Text="AES" FontSize="24"
+                                FontWeight="SemiBold"
+                                RelativePanel.Below="wenben_jiami" RelativePanel.AlignRightWithPanel="True"
+                                Margin="0,25,20,0" Foreground="{ThemeResource SystemAccentColor}"/>
+                            <TextBlock x:Name="textblock9" RelativePanel.Below="textnlock8"
+                                       x:Uid="/zhuye/textlock4"
+                                       Text="密匙" Margin="50,25,0,0"
+                                       FontSize="20"/>
+                            <TextBlock x:Name="textlock5" Text="自动" FontSize="20"
+                                       x:Uid="/zhuye/textlock5"
+                                       FontWeight="SemiBold"                              
+                                       RelativePanel.Below="textnlock8" RelativePanel.AlignRightWithPanel="True"
+                                       Margin="0,25,20,0" Foreground="{ThemeResource SystemAccentColor}"/>
+                            <Button x:Name="shengcheng_jia" Content="生    成" Margin="0,20,0,30"
+                                    x:Uid="/zhuye/shengcheng_jia"
+                                    FontSize="20" FontWeight="Bold" Foreground="White" Style="{StaticResource ButtonRevealStyle}"
+                                    Background="{ThemeResource SystemAccentColor}" Width="200" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                                    Click="Shengcheng_jia_Click"
+                                    RelativePanel.Below="textlock5"/>
+                                               
+
+                        </RelativePanel>
+                    </RelativePanel>
+                    <RelativePanel x:Name="jie_zuida" Grid.Column="1" Grid.Row="0" Margin="0,0,0,0">
+                        <RelativePanel x:Name="jiemi" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
+                                       Background="{ThemeResource SystemListMediumColor}" Margin="20,50,70,0"  CornerRadius="5">
+                            <TextBlock x:Name="biaoti7" Text="解密" FontSize="36" FontWeight="Bold"
+                                       x:Uid="/zhuye/biaoti7" 
+                                       Margin="50" />
+                            <TextBlock x:Name="tubiao9" Text="&#xE1C2;"
+                                       FontSize="28" FontFamily="Segoe MDL2 Assets" 
+                                       RelativePanel.Below="biaoti7"
+                                       FontWeight="Light" Margin="50,-10,0,0"/>
+                            <TextBox x:Name="wenben_jiemi" IsSpellCheckEnabled="False"
+                                     RelativePanel.AlignBottomWith="tubiao9" RelativePanel.RightOf="tubiao9" RelativePanel.AlignRightWithPanel="True"
+                                     Margin="20,0,20,0"/>
+                            <TextBlock x:Name="textblock11" RelativePanel.Below="tubiao9"
+                                       x:Uid="/zhuye/textlock9"
+                                       Text="算法" Margin="50,25,0,0"
+                                       FontSize="20" />
+
+                            <TextBlock x:Name="textnlock12" Text="AES" FontSize="24"
+                                       FontWeight="SemiBold" RelativePanel.AlignRightWithPanel="True"
+                                       RelativePanel.Below="wenben_jiemi" RelativePanel.LeftOf="wenben_jiemi"
+                                       Margin="0,25,20,0" Foreground="{ThemeResource SystemAccentColor}"/>
+                            <TextBlock x:Name="textblock13" RelativePanel.Below="textnlock12"
+                                       x:Uid="/zhuye/textlock4"
+                                       Text="密匙" Margin="50,25,0,0"
+                                       FontSize="20" />
+                            <TextBlock x:Name="textlock14" Text="自动" FontSize="20"
+                                       x:Uid="/zhuye/textlock5"
+                                       FontWeight="SemiBold"
+                                       RelativePanel.Below="textnlock12" RelativePanel.AlignRightWithPanel="True"
+                                       Margin="0,25,20,0" Foreground="{ThemeResource SystemAccentColor}"/>
+                            <Button x:Name="shengcheng_jie" Content="生    成" Margin="0,20,0,30"
+                                    x:Uid="/zhuye/shengcheng_jia"   
+                                    FontSize="20" FontWeight="Bold" Foreground="White" Style="{StaticResource ButtonRevealStyle}"
+                                    Background="{ThemeResource SystemAccentColor}" Width="200" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                                    RelativePanel.Below="textlock14" Click="Shengcheng_jie_Click"/>
+
+                       
+
+                        </RelativePanel>
+
+                    </RelativePanel>
+
+
+                </Grid>
+            </RelativePanel>
+        </ScrollViewer>
+        <RelativePanel x:Name="tishi_zuida" MinHeight="200" Margin="0,0,0,-50"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"
+                       RelativePanel.AlignBottomWithPanel="True">
+            <Grid RelativePanel.AlignLeftWith="tishi" RelativePanel.AlignRightWith="tishi" RelativePanel.AlignBottomWith="tishi" RelativePanel.AlignTopWith="tishi">
+                <Canvas x:Name="ShadowHost6"
+                        Margin="50"/>
+                <Rectangle x:Name="beijing5" 
+                           Margin="100,50,100,50" Stretch="Fill"
+                           Canvas.ZIndex="1"/>
+            </Grid>
+
+            <RelativePanel x:Name="tishi" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" CornerRadius="5"
+                           Background="{ThemeResource SystemAltHighColor}" Height="62"  Margin="50,50,50,50">
+                <Grid x:Name="tubiao_shouji" RelativePanel.AlignTopWithPanel="True" 
+                      RelativePanel.AlignBottomWithPanel="True"
+                      Margin="20,0,0,0">
+                    <TextBlock x:Name="tubiao12" Text="&#xE814;" Foreground="#8E4444" VerticalAlignment="Center"
+                               FontFamily="Segoe MDL2 Assets" Visibility="Collapsed" FontSize="20"/>
+                    <TextBlock x:Name="tubiao13" Text="&#xED0C;" Foreground="Green" VerticalAlignment="Center"
+                               FontFamily="Segoe MDL2 Assets" FontSize="20"/>
+                </Grid>
+                <TextBlock x:Name="textblock14" Text="需要帮助？"
+                           RelativePanel.RightOf="tubiao_shouji"
+                           VerticalAlignment="Center"
+                           Style="{StaticResource SubtitleTextBlockStyle}"
+                           RelativePanel.AlignBottomWithPanel="True"
+                           RelativePanel.AlignTopWithPanel="True"
+                           RelativePanel.LeftOf="CloseButton"
+                           TextWrapping="Wrap"
+                           Margin="20,0,20,0"/>
+                <Button Margin="0,0,20,0"  Click="Button_Click" x:Name="CloseButton" FontSize="10"
+                        RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" >
+                    <FontIcon x:Name="tubiao15" Glyph="&#xE106;" />
+                </Button>
+            </RelativePanel>
+        </RelativePanel>
+    </RelativePanel>
+
+
+
+
+</Page>

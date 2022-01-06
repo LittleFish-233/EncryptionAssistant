@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="jisuan.Content" xml:space="preserve">
+    <value>berechnung</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Fehler in der Nachrichtenzusammenfassung der Datei（</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>）.Wenn diese Meldung nach dem erneuten Versuch immer noch angezeigt wird, fragen Sie bitte im Feedback Center nach, und wir werden das Problem so schnell wie möglich untersuchen und beheben.</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Paste erfolgreich</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Text eingeben</value>
+  </data>
+</root>

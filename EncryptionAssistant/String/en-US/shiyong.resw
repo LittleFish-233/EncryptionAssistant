@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES (Data Standard Encryption): Symmetry algorithm, data encryption standard, faster, suitable for encrypting large amounts of data;</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>DES (Data Standard Encryption): Symmetry algorithm, data encryption standard, faster, suitable for encrypting large amounts of data; ...</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2 and RC4: Symmetry algorithm, which encrypts large amounts of data with a long key, faster than DES;</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>Advanced Encryption: Advanced encryption standard, symmetric algorithm, is the next generation of encryption algorithm standard, fast, high security level, in the 21st century AES standard one implementation is the Rijndael algorithm;</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>Note: It is recommended to use AES 192 bits for encryption, which is safe and efficient. Due to technical restrictions on the full use of the Electronic Cipher Book (ECB) mode, which may degrade security performance, confidential files are used using Win32's encryption software. Stay tuned for follow-up updates.</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Concept: The password here does not affect the overall encryption of the file, that is, no matter what the password is, the encrypted file is essentially the same. So the password is only inside this app as a function of identity verification and cannot protect the file, to protect the file please modify the key。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>Concept: The password here does not affect the overall encryption of the file, that is, no matter what the password is, the encrypted file is essentially the same. So the password is only inside this app as a function of identity verification and cannot protect the file, to protect the file please modify the key ...</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>Note: Passwords are stored with the same encryption algorithm and key encryption, meaning that a password error may be a decryption algorithm or a key error. There is no limit to the length of the password, and you can't enter it.</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>Secret format</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>Concept: A key is a password that belongs to an encryption algorithm, and others must enter the key and use a matching decryption algorithm to decrypt the file. Because the key is part of the encryption algorithm, which encryption algorithm is used determines the maximum length of the key</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>The encrypted text is encrypted with a #的开头 similar to the #1A2, making sure that all copies are copied, that no one character is decrypted, and that its detailed construction is not discussed for security reasons.</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>Other instructions on encryption</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1. The size of the files that can be encrypted depends on your computer memory size and architecture, 32-bit operating system can be encrypted up to 400MB, 64-bit operating system can encrypt more than 1GB; Because the performance of each device is different, we do not set the file size limit, in order to decrypt normally Do not encrypt files at critical value size (test machine performance: Intel (R)Core (TM)) I5-5200U CPU 2.20GHz 2.20GHz, RAM 8GB, Windows 10 (x64) Pro 17763.253)</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2. Remind the file to be encrypted: the encrypted file suffix will be modified to .lfjia, decrypted and returned to normal. Double-click decryption is under development</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3. Record encrypted information: the encryption file will record the encryption algorithm and key, decrypting although the input of the wrong algorithm or key, will also be normal decryption, but the password input error will abort decryption.</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4. Delete the source file: the deleted file after checking will not appear in the recycle bin, please think twice before enabling</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5. Dual encryption: This feature is in response to a query (Jin Fan kingium.outlook.com). Version 1.4.12 has been extensively tested by developers and there is no case for replacing an encryption key or password. The introduction of this feature now rejects this possibility.</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6. This app calls UWP's own API, which is self-researching the encryption/decrypting C library</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>7. Bulk encrypted files will be discharged in the original folder order hierarchy, but the saved folder will be saved as the first layer by default</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>MD5 and hash algorithms and contrasting text</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>Encryption/decryption keys: Using the default key encryption eliminates the need to enter the key yourself, but reduces some security. To prevent files from being maliciously decrypted by other apps, the default key is no longer explicitly displayed this time. Previously, due to our negligence, we are sorry that we did not take into account the malicious use of the default key attack by a technician. The number of digits required for each encryption algorithm is given, and in general dividing the number of digits by 8 is the length of the character you want to enter (we do not guarantee the consequences of Chinese) for example: 56 bits will be entered with 7 numbers or letters (for example: 123F56A) (to be exact hexadecimal, F after the letter as far as possible do not lose). If more or less than a given number of keys is detected, the app truncates from the back or uses empty characters to complement them.</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>Concept: MD5, message-Algorithm 5 (information-summary algorithm 5), to ensure complete and consistent information transmission. It is one of the most widely used algorithms of computers (and translation summary algorithms, hash algorithms), and MD5 has been widely implemented in mainstream programming languages. The operation of data (such as Chinese characters) as another fixed-length value is the basic principle of the hybrid algorithm, which was preceded by MD2, MD3 and MD4. The MD5 algorithm has the following features:</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1. Compression: any length of data, calculated MD5 value length is fixed.</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>2. Easy to calculate: It is easy to calculate the MD5 value from the original data.</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3. Anti-modification: any changes to the original data, even if only 1 byte, the resulting MD5 value is very different.</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>4. Strong collision: Known raw data and its MD5 value, it is very difficult to find a data with the same MD5 value (i.e. falsified data).</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>The role of MD5 is to make large-capacity information compressed into a confidential format (i.e., converting a string of bytes of any length into a certain length of hexadecimal string) hash algorithm skewed it, before signing a private key with digital signature software. Due to the time constraints did not add the sha3 algorithm, here is a sincere apology to express.</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>Popular explanation: Many download sites will give the file's sha value, only need to compare the downloaded file's sha value is consistent with the given, you can determine whether the file is damaged during the download process</value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>Comparison files: Temporarily remove this feature due to low usage frequency and time issues</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>About old format files</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>Due to Microsoft's aggressive update policy and limited effort on the part of the development team, it is no longer possible to compile the 1.3.711 code project or run the 1.3.6 local installation package. But we built 1.3.711 version of the encryption/decryption page in the app How to access it: Help Center - archive</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>Random build: It uses the system's random number API to generate a secret key, taking into account subsequent updates we use AA at the beginning</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>Please convert all encrypted old versions of files into new format files as soon as possible, and we can only maintain support for older files within our capabilities. 1.5.23 version In order to be down-compatible with the operating system, the file encoding was changed from the default code to UTF-8, very few users who could not decrypt the prompt file corruption, please contact the developer for 1.5.21 beta</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>About this app</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>The app uses a smooth design system, so users with Windows 10 versions below 14399 receive another installation package 1.3.711, and the versions of the two installation packages no longer match. Due to six large system updates, coupled with the limited capacity of this team, please update to the new version of the system as soon as possible (17763)</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>The current version contains English, Japanese, German, French, traditional Chinese, you can go to the system Settings to switch languages</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>For Windows 10 Mobile users, we have now successfully adapted to the Anniversary Update (14399), please upgrade to the latest system</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>We ensure that this application is thoroughly tested, but do not guarantee that the application will function properly at all times, nor that the encryption/decryption results are correct. Please contact us in the first place after any problems occur and we will make repairs and compensation within our capabilities. We do not warrant the accuracy and completeness of the translated text, i.e. we are not responsible for any loss caused by the instructions in English that cause you to misunderstand and cause some damage.</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>Note: The same encrypted text or file decryption key and encryption key are the same! Keep in mind the key, there is currently no way to retrieve it!</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>We recommend the default key not for security reasons, but for fear that you will forget the key and lose valuable files!!!</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>Encryption algorithms (symmetric encryption)</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>Concept: The basic process of data encryption is to process the original clear-text file or data according to some algorithm, making it unreadable a piece of code, often referred to as redaction, so that it can only be entered after the corresponding key can show the original content, through such a way to protect the data from illegal theft, reading purposes. The reverse process of the process is the process of decrypting, which converts the encoded information into its original data.</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>Popular explanation: It's like putting your file in a drawer and locking it, only with the corresponding key to open it (decrypted), and no one else can open it unless it's violent (try ingestalling all the keys in the world)</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>About download management</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>This part is still under development, the function is very simple, please also use the user's mentality of testing. We plan to update the magnetic link and seed file download function next year. I hope that you can get some guidance in this area and speed up our pace. If you don't want the app to be networked, you can refuse to apply network permissions in the system settings. Thank you for your support.</value>
+  </data>
+</root>

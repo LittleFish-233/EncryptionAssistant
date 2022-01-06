@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="EncryptionAssistant.xiazai.wangcheng"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.xiazai"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00000000">
+
+    <RelativePanel>
+        <Button x:Name="qinchu" Margin="10,10,5,0" Background="#00000000"
+                Click="Qinchu_Click" 
+               Style="{StaticResource ButtonRevealStyle}" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="textblock14"
+                                FontFamily="Segoe MDL2 Assets"
+                              Margin="4,3,0,0"     FontWeight="Thin"  FontSize="22" Text="&#xED60;"/>
+                <TextBlock x:Name="textblock15" 
+                           x:Uid="/wangcheng/textblock14"
+                           FontWeight="Thin"  FontSize="18" Text="清除记录" Margin="10,0,0,0" Height="25" VerticalAlignment="Top"/>
+            </StackPanel>
+            
+        </Button>
+        <ListView x:Name="listview" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"
+                  RelativePanel.Below="qinchu" SelectionChanged="Listview_SelectionChanged"
+                  Background="#00000000" RelativePanel.AlignBottomWithPanel="True"
+                  Margin="10,20,10,30" SelectionMode="Single" IsItemClickEnabled="False">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <RelativePanel RelativePanel.Below="xinjian">
+                        <TextBlock Width="5000"/>
+                        <TextBlock x:Name="beijing" Text="&#xE909;" Margin="10,5,0,5"
+                             FontSize="40" FontFamily="Segoe MDL2 Assets" />
+                        <TextBlock x:Name="textblock1" Text="{Binding Wenjianming,Mode=OneWay}"
+                               FontWeight="Light" FontSize="25" RelativePanel.AlignVerticalCenterWithPanel="True"
+                               RelativePanel.RightOf="beijing" RelativePanel.LeftOf="dakai"
+                                Margin="10,5,0,0"/>
+                        <Button x:Name="dakai" Content="&#xF586;" FontSize="20"
+                                RelativePanel.AlignVerticalCenterWithPanel="True"
+                                RelativePanel.AlignRightWithPanel="True"
+                                Click="Dakai_Click"  FontFamily="Segoe MDL2 Assets"
+                                Margin="0,0,10,0" Background="#00000000"/>
+                    </RelativePanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Padding" Value="0,4"/>
+                    <Setter Property="IsFocusEngagementEnabled" Value="True"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+
+    </RelativePanel>
+</Page>

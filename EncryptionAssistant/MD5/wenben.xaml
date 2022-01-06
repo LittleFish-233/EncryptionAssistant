@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="EncryptionAssistant.MD5.wenben"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.MD5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:zi="using:EncryptionAssistant.kongjian"
+    Background="#00000000">
+
+    <ScrollViewer>
+        <RelativePanel>
+            <TextBox Name="wenzi" Height="150" Margin="0,45,0,0" Width="400"  IsSpellCheckEnabled="False"
+                       TextChanged="Wenzi_TextChanged" TextWrapping="Wrap"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <TextBlock x:Name="textblock1" Text="输入文本" FontSize="20" FontWeight="Bold"
+                       x:Uid="/md5_wenben/textblock1" 
+                       RelativePanel.AlignLeftWith="wenzi"/>
+            <Button x:Name="zhantie" RelativePanel.AlignRightWith="wenzi" Click="Zhantie_ClickAsync" >
+                <TextBlock x:Name="tubiao7" Text="&#xE77F;"
+                              FontSize="20" FontFamily="Segoe MDL2 Assets" 
+                               RelativePanel.Below="biaoti6"/>
+            </Button>
+            <zi:md5_suanfa RelativePanel.Below="wenzi" Width="400"
+                          Margin="0,40,0,0" x:Name="chuli_suanfa"
+                          RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+            <Button x:Name="jisuan" Content="记                     算" Margin="0,40,0,100"
+                    FontSize="20" FontWeight="Bold" Foreground="White" 
+                    Background="{ThemeResource SystemAccentColor}" Width="400" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                    Click="Jisuan_Click"   
+                    x:Uid="/md5_wenben/jisuan" 
+                    RelativePanel.Below="chuli_suanfa"
+                    Style="{StaticResource ButtonRevealStyle}"/>
+            <TextBox Name="jieguo" Height="150" Margin="0,-60,0,50" Width="400"
+                     TextChanged="Jieguo_TextChanged" TextWrapping="Wrap"
+                     RelativePanel.Below="jisuan" IsReadOnly="True"
+                     RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+
+
+        </RelativePanel>
+    </ScrollViewer>
+</Page>

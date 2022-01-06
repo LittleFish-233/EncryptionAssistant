@@ -1,0 +1,59 @@
+﻿<UserControl
+    x:Class="EncryptionAssistant.kongjian.xinjianxiazai"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EncryptionAssistant.kongjian"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="320"
+    d:DesignWidth="400"
+    >
+
+    <RelativePanel Background="{ThemeResource SystemListMediumColor}">
+        <TextBlock x:Name="textblock1" Text="新建下载任务" 
+                   x:Uid="/xinjianxiazai/textblock1"
+                   FontWeight="Bold"
+                   FontSize="22" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                   Margin="0,10,0,0"/>
+        <ComboBox SelectionChanged="ColorComboBox_SelectionChanged"
+                  x:Name="fangshi"
+                  x:Uid="/xinjianxiazai/fangshi"
+                  Header="下载方式" PlaceholderText="选择一个下载方式" 
+                  Width="300" RelativePanel.Below="textblock1" Margin="5,25,0,0">
+            <x:String >Http单线程非断点续传</x:String>
+            <x:String >Http单线程断点续传</x:String>
+        </ComboBox>
+        <TextBox x:Name="textbox1" Header="URL" RelativePanel.Below="fangshi"
+                 Margin="5,5,0,0" Width="300" TextChanged="Textbox1_TextChanged"/>
+
+        <TextBox x:Name="textbox2" Header="保存到" RelativePanel.Below="textbox1"
+                 x:Uid="/xinjianxiazai/textbox2"
+                 Margin="5,5,0,0" Width="300" IsReadOnly="True"/>
+        <Button x:Name="liulan" Background="#00000000" Margin="0,27,5,0"
+                        RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWith="textbox2"
+                        Click="liulan_ClickAsync"
+                        Style="{StaticResource ButtonRevealStyle}">
+            <RelativePanel>
+                <TextBlock x:Name="textblock4"
+                                FontFamily="Segoe MDL2 Assets"
+                              Margin="4,4,8,0"     FontWeight="Thin"  FontSize="18" Text="&#xEC50;"/>
+
+
+                <TextBlock x:Name="textblock5"
+                           x:Uid="/xinjianxiazai/textblock5"              
+                           RelativePanel.RightOf="textblock4"  Text="浏览" FontSize="17"/>
+            </RelativePanel>
+        </Button>
+        <Button x:Name="quexiao" Content="取消" Click="Quexiao_Click"
+                x:Uid="/xinjianxiazai/quexiao"
+                RelativePanel.Below="textbox2" RelativePanel.AlignLeftWithPanel="True"
+                Margin="50,20,0,20" Width="100"/>
+        <Button x:Name="queding" Content="确定" Foreground="White"
+                Click="Queding_Click"
+                x:Uid="/xinjianxiazai/queding"
+                RelativePanel.Below="textbox2" RelativePanel.AlignRightWithPanel="True"
+                Margin="0,20,50,20" Width="100" Background="{ThemeResource SystemAccentColor}"/>
+
+    </RelativePanel>
+</UserControl>

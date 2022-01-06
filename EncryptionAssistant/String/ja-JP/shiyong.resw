@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>キー</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES (データ標準暗号化): 対称アルゴリズム、データ暗号化標準、高速化、大量のデータの暗号化に適しています。</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>3DES (トリプル DES): DES に基づく対称アルゴリズムで、3 つの異なるキーでデータを 3 回暗号化し、より高い強度を持つ。</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2 と RC4: 対称アルゴリズムは、DES よりも高速な長いキーで大量のデータを暗号化します。</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>AES（Advanced Encryption Standard）：高级加密标准，对称算法，是下一代的加密算法标准，速度快，安全级别高，在21世纪AES 标准的一个实现是 Rijndael 算法；</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>注: 安全で効率的な暗号化には AES 192 ビットを使用することをお勧めします。 セキュリティパフォーマンスを低下させる可能性のある電子暗号ブック (ECB) モードの完全な使用に技術的な制限があるため、機密ファイルは Win32 の暗号化ソフトウェアを使用して使用されます。 フォローアップの更新にご期待ください。</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>概念: ここでのパスワードは、ファイルの全体的な暗号化には影響しません。 だから、パスワードは、アイデンティティ検証の機能としてアプリ内にあり、ファイルを保護することはできません、ファイルを保護するために、キーを変更してください。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>パスワードを設定する:(1)パスワードを入力する(2)パスワードを再入力する(3)パスワードを再入力する(4)スタンドアロン確認(5)パスワードエラーを再入力した後にパスワードエラーを設定し、プロンプト3回パスワードをリセットすることができ、テキストの上のパスワード入力ボックスに注意してください</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>注: パスワードは同じ暗号化アルゴリズムとキー暗号化で格納されるため、パスワード エラーは復号化アルゴリズムまたはキー エラーである可能性があります。 パスワードの長さに制限はなく、入力できません。</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>シークレット形式</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>概念: キーは暗号化アルゴリズムに属するパスワードであり、他のキーを入力し、一致する復号化アルゴリズムを使用してファイルを復号化する必要があります。 キーは暗号化アルゴリズムの一部であるため、どの暗号化アルゴリズムを使用して、キーの最大長が決定されます。</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>暗号化されたテキストは、#1A2に似た#的开头で暗号化され、すべてのコピーがコピーされ、1 文字が復号化されていない、およびセキュリティ上の理由から詳細な構築が議論されないようにします。</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>暗号化に関するその他の手順</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1.暗号化できるファイルのサイズは、コンピュータのメモリサイズとアーキテクチャによって異なりますが、32ビットオペレーティングシステムは最大400MBまで暗号化することができ、64ビットオペレーティングシステムは1GB以上を暗号化できます。 各デバイスのパフォーマンスが異なるため、ファイルサイズの制限を設定しませんが、通常は重要な値サイズでファイルを暗号化しないでください(テストマシンのパフォーマンス:インテル(R)Core(TM))I5-5200U CPU 2.20GHz 2.20GHz、RAM 8GB、 Windows 10 (x64) プロ 17763.253</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2. 暗号化するファイルを思い出させる: 暗号化されたファイルサフィックスは .lfjia に変更され、復号化され、通常に戻されます。 ダブルクリック復号化は開発中です</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3.暗号化された情報を記録する:暗号化ファイルは、間違ったアルゴリズムやキーの入力も通常の復号化になりますが、暗号化アルゴリズムとキーを記録しますが、パスワード入力エラーは復号化を中止します。</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4.ソースファイルを削除する:チェック後に削除されたファイルは、ごみ箱に表示されません、有効にする前にもう一度考えてください</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5.デュアル暗号化:この機能は、クエリ(jinファンkingium.outlook.com)に応答しています。 バージョン 1.4.12 は開発者によって広範囲にテストされており、暗号化キーやパスワードを置き換える場合はありません。 この機能の導入は、この可能性を拒否します。</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6.このアプリは、暗号化/復号化Cライブラリを自己調査しているUWP独自のAPIを呼び出します</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>7. 一括暗号化されたファイルは元のフォルダ順序階層で排出されますが、保存されたフォルダはデフォルトで最初のレイヤーとして保存されます。</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>MD5ハッシュアルゴリズムと対照的なテキスト</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>暗号化/復号化キー: 既定のキー暗号化を使用すると、キーを自分で入力する必要がなくなりますが、セキュリティが低下します。 ファイルが他のアプリによって悪意を持って復号化されないように、既定のキーは今度は明示的に表示されなくなります。 以前は、当社の過失により、技術者によるデフォルトのキー攻撃の悪意のある使用を考慮しなかったことを残念に思います。 各暗号化アルゴリズムに必要な桁数が与えられ、一般的に数字を8で割ると、入力する文字の長さ(中国語の結果を保証しません):56ビットは7つの数字または文字(例えば:123F56A)で入力されます(正確にはヘキサデフィマル、 Fは、可能な限り失うことはありません文字の後に)。 特定の数のキーが検出された場合、アプリは背面から切り捨てるか、空の文字を使用してキーを補完します。</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>概念:MD5、メッセージアルゴリズム5(情報要約アルゴリズム5)、完全かつ一貫性のある情報伝達を確保する。 これは、コンピュータの最も広く使用されているアルゴリズムの一つ(および翻訳要約アルゴリズム、ハッシュアルゴリズム)であり、MD5は、主流のプログラミング言語で広く実装されています。 別の固定長値としてのデータ (漢字など) の操作は、MD2、MD3、および MD4 の前に置かれたハイブリッド アルゴリズムの基本原理です。 MD5 アルゴリズムには、次の機能があります。</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1. 圧縮: 任意の長さのデータ、計算された MD5 値の長さが固定されます。</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>2.計算が簡単:元のデータからMD5値を計算するのは簡単です。</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3. アンチ修飾: 元のデータに対する変更は、たとえ 1 バイトであっても、結果として得られる MD5 値が大きく異なります。</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>3. アンチ修飾: 元のデータに対する変更は、たとえ 1 バイトであっても、結果として得られる MD5 値が大きく異なります。 ...</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>MD5 の役割は、大容量の情報を機密形式に圧縮することです (つまり、任意の長さのバイトの文字列を特定の長さのヘキサデシマル文字列に変換する) ハッシュ アルゴリズムは、デジタル署名ソフトウェアで秘密キーに署名する前に、それを歪めました。 時間の制約のためにsha3アルゴリズムを追加しなかったので、ここでは表現する誠実な謝罪です。</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>一般的な説明:多くのダウンロードサイトは、ファイルのsha値を与え、ダウンロードされたファイルのsha値を比較するだけで与えられたものと一致し、ダウンロードプロセス中にファイルが破損しているかどうかを判断することができます</value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>比較ファイル: 使用頻度と時間の問題が原因で、この機能を一時的に削除します。</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>关于旧格式文件</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>マイクロソフトの積極的な更新ポリシーと開発チームの作業が限られているため、1.3.711 コード プロジェクトをコンパイルしたり、1.3.6 ローカル インストール パッケージを実行したりすることはできなくなりました。 しかし、我々はアプリで暗号化/復号化ページの1.3.711バージョンを構築しました: ヘルプセンター - アーカイブ</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>ランダムビルド:システムの乱数APIを使用して秘密キーを生成し、最初にAAを使用する後続の更新を考慮します。</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>暗号化された古いファイルの全てのバージョンをできるだけ早く新しい形式のファイルに変換してください。 1.5.23バージョンオペレーティングシステムとのダウン互換性を持つために、ファイルエンコーディングはデフォルトのコードからUTF-8に変更されましたが、プロンプトファイルの破損を復号化できなかったユーザーはごくわずかですので、1.5.21ベータ版の開発者にお問い合わせください。</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>このアプリについて</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>このアプリはスムーズな設計システムを使用しているため、14399 未満の Windows 10 バージョンを持つユーザーは別のインストール パッケージ 1.3.711 を受け取り、2 つのインストール パッケージのバージョンが一致しなくなります。 6 つの大規模なシステム更新プログラムと、このチームの限られた容量を組み合わせて、できるだけ早くシステムの新しいバージョンに更新してください (17763)</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>现在バージョンは英语、日本语、ドイツ语、フランス语、中国语の繁体语が含まれており、システムに切り替え言语が设置されている</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>对于Windows 10 Mobile用户，目前我们已经成功适配到周年更新版本（14399），请升级到最新系统</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>免責事項</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>私たちは、このアプリケーションが徹底的にテストされていることを保証しますが、アプリケーションが常に正しく機能し、暗号化/復号化の結果が正しいことを保証しません。 問題が発生した後、最初にご連絡ください、私たちは私たちの能力内で修理や補償を行います。 翻訳されたテキストの正確性および完全性を保証するものではありません。</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>注: 同じ暗号化されたテキストまたはファイルの復号化キーと暗号化キーは同じです。 キーを念頭に置いて、現在それを取得する方法はありません!</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>セキュリティ上の理由ではなく、キーを忘れて貴重なファイルを失うことを恐れて、デフォルトのキーをお勧めします!!!</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>暗号化アルゴリズム (対称暗号化)</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>概念: データ暗号化の基本的なプロセスは、何らかのアルゴリズムに従って元のクリアテキストファイルまたはデータを処理し、コードの一部を読み取り不能にし、対応するキーが元のコンテンツを表示できる後にのみ入力できるようにすることです。 プロセスの逆のプロセスは、エンコードされた情報を元のデータに変換する復号化プロセスです。</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>一般的な説明:それは、ファイルを引き出しに入れてロックするようなものですが、対応するキーでのみ開きます(復号化)、暴力的でない限り他の誰もファイルを開けることができない(世界のすべてのキーを取り込んでみて)。</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>ダウンロード管理について</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>この部分はまだ開発中です。機能は非常に単純です。また、テストのユーザーの考え方を使用してください。 来年は磁気リンクとシードファイルのダウンロード機能を更新する予定ですので、この分野に関するガイダンスを入手し、ペースを上げてください。 アプリをネットワークに接続したくない場合は、システム設定でネットワーク権限の適用を拒否できます。ご支援ありがとうございます。</value>
+  </data>
+</root>

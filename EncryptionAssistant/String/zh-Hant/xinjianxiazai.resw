@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fangshi.Header" xml:space="preserve">
+    <value>下載成為:</value>
+  </data>
+  <data name="fangshi_1" xml:space="preserve">
+    <value>Http單線程非中斷點續傳</value>
+  </data>
+  <data name="fangshi_2" xml:space="preserve">
+    <value>Http單線程中斷點續傳</value>
+  </data>
+  <data name="queding.Content" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="quexiao.Content" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>選擇資料夾時發生錯誤&lt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>請選擇下載方式</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>請輸入下載位址</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>請選擇保存到的資料夾</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>此下載方式只能保存到圖片庫</value>
+  </data>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>新建下載任務</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="textbox2.Text" xml:space="preserve">
+    <value>已儲存至</value>
+  </data>
+  <data name="fangshi.PlaceholderText" xml:space="preserve">
+    <value>選擇一個下載方式</value>
+  </data>
+</root>

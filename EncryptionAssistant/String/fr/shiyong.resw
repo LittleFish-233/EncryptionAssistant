@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textblock1.Text" xml:space="preserve">
+    <value>clé</value>
+  </data>
+  <data name="textblock10.Text" xml:space="preserve">
+    <value>DES (Data Standard Encryption): algorithme de symétrie, norme de cryptage des données, plus rapide, adapté pour le cryptage de grandes quantités de données;</value>
+  </data>
+  <data name="textblock11.Text" xml:space="preserve">
+    <value>3DES (Triple DES) : Algorithme symétrique basé sur DES, qui crypte un morceau de données trois fois avec trois touches différentes, avec une intensité plus élevée ;</value>
+  </data>
+  <data name="textblock12.Text" xml:space="preserve">
+    <value>RC2 et RC4: Algorithme de symétrie, qui crypte de grandes quantités de données avec une longue clé, plus rapide que DES;</value>
+  </data>
+  <data name="textblock13.Text" xml:space="preserve">
+    <value>Chiffrement avancé : La norme de chiffrement avancée, algorithme symétrique, est la prochaine génération d'algorithme de cryptage standard, rapide, niveau de sécurité élevé, dans le 21ème siècle AES standard une implémentation est l'algorithme Rijndael;</value>
+  </data>
+  <data name="textblock14.Text" xml:space="preserve">
+    <value>Remarque : Il est recommandé d'utiliser 192 bits AES pour le chiffrement, qui est sûr et efficace. En raison des restrictions techniques sur l'utilisation complète du mode Electronic Cipher Book (ECB), qui peut dégrader les performances de sécurité, des fichiers confidentiels sont utilisés à l'aide du logiciel de cryptage de Win32. Restez à l'écoute pour les mises à jour de suivi.</value>
+  </data>
+  <data name="textblock15.Text" xml:space="preserve">
+    <value>mot de passe</value>
+  </data>
+  <data name="textblock16.Text" xml:space="preserve">
+    <value>Concept: Le mot de passe ici n'affecte pas le chiffrement global du fichier, c'est-à-dire, peu importe ce que le mot de passe est, le fichier crypté est essentiellement le même. Ainsi, le mot de passe est seulement à l'intérieur de cette application en fonction de la vérification d'identité et ne peut pas protéger le fichier, pour protéger le fichier s'il vous plaît modifier la clé。</value>
+  </data>
+  <data name="textblock17.Text" xml:space="preserve">
+    <value>Définir le mot de passe: (1) Entrez le mot de passe (2) cliquez (3) Entrez le mot de passe à nouveau (4) confirmation autonome (5) définir l'erreur de mot de passe après l'erreur de mot de passe rapide peut être ré-entré, invitez trois fois peut réinitialer le mot de passe, prêter attention à observer la boîte d'entrée de mot de passe au-dessus du texte</value>
+  </data>
+  <data name="textblock18.Text" xml:space="preserve">
+    <value>Remarque : Les mots de passe sont stockés avec le même algorithme de cryptage et le même chiffrement de clé, ce qui signifie qu'une erreur de mot de passe peut être un algorithme de décryptage ou une erreur de clé. Il n'y a pas de limite à la longueur du mot de passe, et vous ne pouvez pas l'entrer.</value>
+  </data>
+  <data name="textblock19.Text" xml:space="preserve">
+    <value>Format secret</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>Concept : Une clé est un mot de passe qui appartient à un algorithme de cryptage, et d'autres doivent entrer la clé et utiliser un algorithme de décryptage correspondant pour déchiffrer le fichier. Parce que la clé fait partie de l'algorithme de cryptage, l'algorithme de chiffrement utilisé détermine la longueur maximale de la clé</value>
+  </data>
+  <data name="textblock20.Text" xml:space="preserve">
+    <value>Le texte crypté est crypté avec un #的开头 similaire à la #1A2, en s'assurant que toutes les copies sont copiées, qu'aucun personnage n'est décrypté et que sa construction détaillée n'est pas discutée pour des raisons de sécurité.</value>
+  </data>
+  <data name="textblock21.Text" xml:space="preserve">
+    <value>Autres instructions sur le chiffrement</value>
+  </data>
+  <data name="textblock22.Text" xml:space="preserve">
+    <value>1. La taille des fichiers qui peuvent être cryptés dépend de la taille de votre mémoire d'ordinateur et de l'architecture, le système d'exploitation 32 bits peut être crypté jusqu'à 400 Mo, 64 bits système d'exploitation peut crypter plus de 1 Go; Parce que les performances de chaque appareil est différente, nous ne marquons pas la limite de taille des fichiers, afin de déchiffrer normalement Ne pas chiffrer les fichiers à la taille de la valeur critique (performance de la machine de test: Intel (R)Core (TM)) I5-5200U CPU 2.20GHz 2.20GHz, RAM 8GB, Windows 10 (x64) Pro 17763.253)</value>
+  </data>
+  <data name="textblock23.Text" xml:space="preserve">
+    <value>2. Rappelez au fichier d'être crypté : le suffixe de fichier crypté sera modifié en .lfjia, décrypté et retourné à la normale. Le décryptage en double clic est en cours de développement</value>
+  </data>
+  <data name="textblock24.Text" xml:space="preserve">
+    <value>3. Enregistrer les informations chiffrées: le fichier de chiffrement enregistrera l'algorithme de cryptage et la clé, décryptage bien que l'entrée du mauvais algorithme ou clé, sera également décryptage normal, mais l'erreur d'entrée de mot de passe va interrompre le décryptage.</value>
+  </data>
+  <data name="textblock25.Text" xml:space="preserve">
+    <value>4. Supprimer le fichier source: le fichier supprimé après vérification n'apparaîtra pas dans le bac de recyclage, s'il vous plaît réfléchir à deux fois avant de activer</value>
+  </data>
+  <data name="textblock26.Text" xml:space="preserve">
+    <value>5. Double chiffrement : cette fonctionnalité est en réponse à une requête (Jin Fan kingium.outlook.com). La version 1.4.12 a été largement testée par les développeurs et il n'y a aucun cas pour remplacer une clé de chiffrement ou un mot de passe. L'introduction de cette fonctionnalité rejette maintenant cette possibilité.</value>
+  </data>
+  <data name="textblock27.Text" xml:space="preserve">
+    <value>6. Cette application appelle l'API d'UWP, qui fait des recherches sur la bibliothèque C de cryptage/décryptage</value>
+  </data>
+  <data name="textblock28.Text" xml:space="preserve">
+    <value>7. Les fichiers chiffrés en vrac seront déchargés dans la hiérarchie d'ordre de dossier d'origine, mais le dossier enregistré sera enregistré comme la première couche par défaut</value>
+  </data>
+  <data name="textblock29.Text" xml:space="preserve">
+    <value>Algorithmes MD5 et hachage et texte contrasté</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>Clés de chiffrement/décryptage : l'utilisation du chiffrement de clé par défaut élimine la nécessité d'entrer la clé vous-même, mais réduit une certaine sécurité. Pour éviter que les fichiers ne soient décryptés de manière malveillante par d'autres applications, la clé par défaut n'est plus explicitement affichée cette fois. Auparavant, en raison de notre négligence, nous sommes désolés de ne pas avoir pris en compte l'utilisation malveillante de l'attaque clé par défaut par un technicien. Le nombre de chiffres requis pour chaque algorithme de cryptage est donné, et en général diviser le nombre de chiffres par 8 est la longueur du personnage que vous voulez entrer (nous ne garantissons pas les conséquences du chinois) par exemple: 56 bits seront entrés avec 7 numéros ou lettres (par exemple: 123F56A) (pour être exactement hexadecimal, F après la lettre dans la mesure du possible ne perdez pas). Si plus ou moins d'un nombre donné de touches est détectée, l'application tronque à l'arrière ou utilise des caractères vides pour les compléter.</value>
+  </data>
+  <data name="textblock30.Text" xml:space="preserve">
+    <value>Concept: MD5, message-Algorithme 5 (algorithme de synthèse d'information 5), pour assurer une transmission complète et cohérente de l'information. C'est l'un des algorithmes les plus largement utilisés des ordinateurs (et des algorithmes de résumé de traduction, algorithmes de hachet), et MD5 a été largement mis en œuvre dans les langages de programmation grand public. Le fonctionnement des données (comme les caractères chinois) comme une autre valeur de longueur fixe est le principe de base de l'algorithme hybride, qui a été précédé par MD2, MD3 et MD4. L'algorithme MD5 a les caractéristiques suivantes :</value>
+  </data>
+  <data name="textblock31.Text" xml:space="preserve">
+    <value>1. Compression : toute longueur de données, longueur de valeur MD5 calculée est fixe.</value>
+  </data>
+  <data name="textblock32.Text" xml:space="preserve">
+    <value>2. Facile à calculer : il est facile de calculer la valeur MD5 à partir des données d'origine.</value>
+  </data>
+  <data name="textblock33.Text" xml:space="preserve">
+    <value>3. Anti-modification : toute modification des données d'origine, même si seulement 1 octet, la valeur MD5 résultante est très différente.</value>
+  </data>
+  <data name="textblock34.Text" xml:space="preserve">
+    <value>4. Collision forte : Les données brutes connues et leur valeur MD5, il est très difficile de trouver une donnée ayant la même valeur MD5 (c.-à-d. données falsifiées).</value>
+  </data>
+  <data name="textblock35.Text" xml:space="preserve">
+    <value>Le rôle de MD5 est de faire des informations de grande capacité compressées dans un format confidentiel (c.-à-d., la conversion d'une chaîne d'octets de n'importe quelle longueur dans une certaine longueur de chaîne hexadecimal) algorithme de hachages biaisé, avant de signer une clé privée avec un logiciel de signature numérique. En raison des contraintes de temps n'a pas ajouté l'algorithme sha3, voici des excuses sincères à exprimer.</value>
+  </data>
+  <data name="textblock36.Text" xml:space="preserve">
+    <value>Explication populaire: De nombreux sites de téléchargement donnera la valeur sha du fichier, seulement besoin de comparer la valeur du fichier téléchargé sha est compatible avec le donné, vous pouvez déterminer si le fichier est endommagé pendant le processus de téléchargement</value>
+  </data>
+  <data name="textblock37.Text" xml:space="preserve">
+    <value>Fichiers de comparaison : supprimez temporairement cette fonctionnalité en raison de la faible fréquence d'utilisation et des problèmes de temps</value>
+  </data>
+  <data name="textblock38.Text" xml:space="preserve">
+    <value>À propos des fichiers de format anciens</value>
+  </data>
+  <data name="textblock39.Text" xml:space="preserve">
+    <value>En raison de la politique de mise à jour agressive de Microsoft et de l'effort limité de l'équipe de développement, il n'est plus possible de compiler le projet de code 1.3.711 ou d'exécuter le package d'installation locale 1.3.6. Mais nous avons construit 1.3.711 version de la page de cryptage / décryptage dans l'application Comment y accéder: Centre d'aide - archive</value>
+  </data>
+  <data name="textblock4.Text" xml:space="preserve">
+    <value>Construire aléatoire: Il utilise l'API de nombre aléatoire du système pour générer une clé secrète, en tenant compte des mises à jour ultérieures que nous utilisons AA au début</value>
+  </data>
+  <data name="textblock40.Text" xml:space="preserve">
+    <value>S'il vous plaît convertir toutes les anciennes versions cryptées de fichiers en nouveaux fichiers de format dès que possible, et nous ne pouvons maintenir la prise en charge pour les fichiers plus anciens dans nos capacités. 1.5.23 version Afin d'être down-compatible avec le système d'exploitation, l'encodage de fichier a été changé du code par défaut à UTF-8, très peu d'utilisateurs qui ne pouvaient pas déchiffrer la corruption de fichier rapide, s'il vous plaît contacter le développeur pour 1.5.21 bêta</value>
+  </data>
+  <data name="textblock41.Text" xml:space="preserve">
+    <value>À propos de cette application</value>
+  </data>
+  <data name="textblock42.Text" xml:space="preserve">
+    <value>L'application utilise un système de conception lisse, de sorte que les utilisateurs avec Windows 10 versions ci-dessous 14399 recevoir un autre paquet d'installation 1.3.711, et les versions des deux paquets d'installation ne correspondent plus. En raison de six grandes mises à jour du système, couplé avec la capacité limitée de cette équipe, s'il vous plaît mettre à jour à la nouvelle version du système dès que possible (17763)</value>
+  </data>
+  <data name="textblock43.Text" xml:space="preserve">
+    <value>La version actuelle contient les versions traditionnelles de l’anglais, du japonais, de l’allemand, du français et du chinois</value>
+  </data>
+  <data name="textblock44.Text" xml:space="preserve">
+    <value>Pour Windows 10 utilisateurs mobiles, nous avons maintenant réussi à adapter à la mise à jour anniversaire (14399), s'il vous plaît passer au dernier système</value>
+  </data>
+  <data name="textblock45.Text" xml:space="preserve">
+    <value>Clause d'exclusion de responsabilité</value>
+  </data>
+  <data name="textblock46.Text" xml:space="preserve">
+    <value>Nous nous assurons que cette application est testée à fond, mais ne garantissons pas que l'application fonctionnera correctement en tout temps, ni que les résultats de chiffrement/décryptage sont corrects. S'il vous plaît contactez-nous en premier lieu après tout problème se produisent et nous ferons des réparations et des compensations dans nos capacités. Nous ne justifions pas l'exactitude et l'exhaustivité du texte traduit, c'est-à-dire que nous ne sommes pas responsables de toute perte causée par les instructions en anglais qui vous font mal comprendre et causer des dommages.</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>Remarque : La même clé de décryptage de texte ou de fichier cryptée et la même clé de chiffrement sont les mêmes ! Gardez à l'esprit la clé, il n'y a actuellement aucun moyen de le récupérer!</value>
+  </data>
+  <data name="textblock6.Text" xml:space="preserve">
+    <value>Nous recommandons la clé par défaut non pas pour des raisons de sécurité, mais de peur que vous oubliez la clé et perdre des fichiers précieux!!!</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>Algorithmes de chiffrement (cryptage symétrique)</value>
+  </data>
+  <data name="textblock8.Text" xml:space="preserve">
+    <value>Concept: Le processus de base du cryptage des données est de traiter le fichier ou les données d'origine en texte clair selon un algorithme, ce qui en fait un morceau de code illisible, souvent appelé redaction, de sorte qu'il ne peut être entré qu'après que la clé correspondante peut afficher le contenu original, de manière à protéger les données contre le vol illégal, fins de lecture. Le processus inverse du processus est le processus de décryptage, qui convertit les informations codées en ses données d'origine.</value>
+  </data>
+  <data name="textblock9.Text" xml:space="preserve">
+    <value>Explication populaire: C'est comme mettre votre fichier dans un tiroir et le verrouiller, seulement avec la clé correspondante pour l'ouvrir (décrypté), et personne d'autre ne peut l'ouvrir à moins qu'il ne soit violent (essayez d'installer toutes les clés dans le monde)</value>
+  </data>
+  <data name="textblock47.Text" xml:space="preserve">
+    <value>À propos de la gestion des téléchargements</value>
+  </data>
+  <data name="textblock48.Text" xml:space="preserve">
+    <value>Cette partie est encore en développement, la fonction est très simple, veuillez également utiliser la mentalité de test de l'utilisateur. Nous prévoyons de mettre à jour la fonction de téléchargement des liens magnétiques et des fichiers de semences l’année prochaine.J’espère que vous pourrez obtenir des conseils dans ce domaine et accélérer notre rythme. Si vous ne souhaitez pas que l'application soit mise en réseau, vous pouvez refuser d'appliquer les autorisations réseau dans les paramètres système. Merci de votre soutien.</value>
+  </data>
+</root>

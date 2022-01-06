@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button1.Content" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="button2.Content" xml:space="preserve">
+    <value>解密</value>
+  </data>
+  <data name="combobox.Header" xml:space="preserve">
+    <value>加密/解密模式：</value>
+  </data>
+  <data name="combobox1.Header" xml:space="preserve">
+    <value>加密/解密演算法：</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>應用記憶體不足無法加密大於（390MB）的檔，敬請期待後續更新</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>請前往主頁解密此檔&lt;版本高於1.3.711&gt;</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>嘗試讀取檔版本失敗</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>解密時出現問題，請確保解密密匙，解密模式，解密演算法的正確性，核對後請重試。 如果你看到過這個提示很多次，請在回饋中樞把這個問題報告給我們，謝謝</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>解密成功，點擊下面的圖片保存</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>請點擊上面的圖片選擇要進行解密的檔</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>請點擊上面的圖片選擇要進行解密的檔</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>儲存成功</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>請先進行加密/解密</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>恭喜你，密匙長度已經達到要求的40個字元</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>恭喜你，密匙長度已經達到要求的40個字元</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>密匙長度必須是40，請核對密匙</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>密碼過長，應在0~20字元之間</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>您的密碼不符</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>設置密碼時，請確保兩次輸入的密碼一致，且長度小於60個字元</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>加密時出現問題，請確保加密密匙，加密模式，加密演算法的正確性，核對後請重試。 如果你看到過這個提示很多次，請在回饋中樞把這個問題報告給我們，謝謝</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>加密成功，點擊下面的圖片保存</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>請點擊上面的圖片選擇要進行加密的檔。</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>應用記憶體不足無法解密大於（390MB）的檔，敬請期待後續更新</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>密匙長度必須是40，請核對密匙</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>輸入密碼時，請確保兩次輸入的密碼一致，且長度小於60個字元</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>1.3.711版本 加密/解密</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>需要加密/解密的檔</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>注意：若要給檔添加密碼，請更改加密/解密模式為 普通模式 。 由於密匙是40個0或1組成的，很容易看錯，所以建議使用預設密匙。 且在大部分情況下，加密/解密密匙和演算法錯誤無法檢測到，只有在使用檔時才會被你發現。 部分被解密的檔的末尾存在多個/u008字元，我們大量的測試表明這不會影響使用，請放心。</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>結果在這，點擊保存</value>
+  </data>
+  <data name="textbox2.Header" xml:space="preserve">
+    <value>自訂密匙：</value>
+  </data>
+  <data name="textbox2.PlaceholderText" xml:space="preserve">
+    <value>點擊下面的按鈕輸入密匙</value>
+  </data>
+  <data name="textbox3.Header" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="textbox3.PlaceholderText" xml:space="preserve">
+    <value>設置加密密碼，或輸入解密密碼</value>
+  </data>
+  <data name="textbox4.Header" xml:space="preserve">
+    <value>確認密碼</value>
+  </data>
+  <data name="textbox4.PlaceholderText" xml:space="preserve">
+    <value>再次輸入加密/解密密碼</value>
+  </data>
+  <data name="textmcc.Text" xml:space="preserve">
+    <value>使用預設加密/解密密匙（推薦）</value>
+  </data>
+</root>

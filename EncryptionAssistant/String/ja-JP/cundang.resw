@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button1.Content" xml:space="preserve">
+    <value>暗号化</value>
+  </data>
+  <data name="button2.Content" xml:space="preserve">
+    <value>解読する</value>
+  </data>
+  <data name="combobox.Header" xml:space="preserve">
+    <value>暗号化/復号化モード:</value>
+  </data>
+  <data name="combobox1.Header" xml:space="preserve">
+    <value>暗号化/復号化アルゴリズム:</value>
+  </data>
+  <data name="mccheckbox1.Content" xml:space="preserve">
+    <value>既定の暗号化/復号化キーを使用する (推奨)</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>メモリ不足のアプリケーションは(390MB)より大きいファイルを暗号化することはできません、その後の更新にご期待ください</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>このファイルを復号化するには、ホーム ページに移動してください。&lt;版本高于1.3.711&gt;</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>ファイル のバージョンを読み取りできませんでした</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>復号化に問題がありますので、復号化キー、復号化モード、復号化アルゴリズムの正確性を確認し、もう一度確認してください。 このヒントを何度も見たことがある場合は、フィードバックセンターでこの質問を報告してください。</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>復号化に成功し、下の写真をクリックして保存してください。</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>復号化に成功し、下の写真をクリックして保存してください。 ...</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>結果の保存に問題がありましたので、もう一度やり直してください。 何度も繰り返した後にこのプロンプトがまだ表示される場合は、この問題に戻って私たちを養い、我々はそれを解決するために最善を尽くします、ありがとうございました</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>正常に保存されました</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>最初に暗号化/復号化してください</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>おめでとうございます、キーの長さは必要な40文字に達しました</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>おめでとうございます、キーの長さは必要な40文字に達しました</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>キーの長さは40でなければなりませんので、鍵を確認してください</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>パスワードが長すぎる、0 ~ 20 文字の間にする必要があります</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>パスワードが一致しません</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>パスワードを設定する場合は、2 回入力したパスワードが同じで、60 文字未満であることを確認します。</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>暗号化に問題がある場合は、暗号化キー、暗号化モード、暗号化アルゴリズムが正しいことを確認し、もう一度確認してください。 このヒントを何度も見たことがある場合は、フィードバックセンターでこの質問を報告してください。</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>暗号化に成功しました, 保存するには、下の写真をクリックしてください</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>上の画像をクリックして、暗号化するファイルを選択してください。</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>メモリ不足のアプリケーションは、(390MB)より大きいファイルを復号化することはできません、その後の更新にご期待ください</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>キーの長さは40でなければなりませんので、鍵を確認してください</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>パスワードを入力する場合は、パスワードを 2 回入力し、60 文字未満であることを確認します。</value>
+  </data>
+  <data name="textblock2.Text" xml:space="preserve">
+    <value>1.3.711 バージョン暗号化/復号化</value>
+  </data>
+  <data name="textblock3.Text" xml:space="preserve">
+    <value>1.3.711 バージョン暗号化/復号化 ...</value>
+  </data>
+  <data name="textblock5.Text" xml:space="preserve">
+    <value>注: ファイルにパスワードを追加するには、暗号化/復号化モードを通常モードに変更します。 キーは 40 0 または 1 で構成されているので、読み間違いやすいので、既定のキーをお勧めします。 また、ほとんどの場合、暗号化/復号化キーとアルゴリズム エラーは検出できず、ファイルを使用している場合にのみ検出されます。 復号化されたファイルの末端には複数の /u008 文字があり、広範なテストでは使用に影響を与えないことが示されています。</value>
+  </data>
+  <data name="textblock7.Text" xml:space="preserve">
+    <value>結果はこちらの場合、[保存] をクリックします。</value>
+  </data>
+  <data name="textbox2.Header" xml:space="preserve">
+    <value>カスタム キー：</value>
+  </data>
+  <data name="textbox2.PlaceholderText" xml:space="preserve">
+    <value>下のボタンをクリックしてキーを入力します。</value>
+  </data>
+  <data name="textbox3.Header" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="textbox3.PlaceholderText" xml:space="preserve">
+    <value>暗号化されたパスワードを設定するか、復号化パスワードを入力します。</value>
+  </data>
+  <data name="textbox4.Header" xml:space="preserve">
+    <value>パスワードの再入力</value>
+  </data>
+  <data name="textbox4.PlaceholderText" xml:space="preserve">
+    <value>暗号化/復号化パスワードをもう一度入力します。</value>
+  </data>
+</root>
